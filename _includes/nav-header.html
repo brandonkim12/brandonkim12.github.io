@@ -1,12 +1,16 @@
 {% if site.navigation_header %}
 <nav class="nav  nav--header">
-  <button class="button  button--nav" aria-label="Nav toggle">
-    {% include icon.html id="nav" %}
-  </button>
   <ul class="list  list--nav">
     {% for item in site.navigation_header %}
+
+      {% if item[1] contains '://' %}
+        {% assign url = item[1] %}
+      {% else %}
+        {% assign url = item[1] | relative_url %}
+      {% endif %}
+
       <li class="item  item--nav{% if item[1] == page.url %}  item--current{% endif %}">
-        <a href="{{ item[1] }}" title="Page - {{ item[0] }}">{{ item[0] }}</a>
+        <a href="{{ url }}">{{ item[0] }}</a>
       </li>
     {% endfor %}
   </ul>
@@ -14,7 +18,20 @@
 {% else %}
   {% include nav-default.html %}
 {% endif %}
+
+<template id="buttontoggle">
+  <button class="button  button--nav" aria-label="Menu toggle">
+    {% include icon.html id="nav" title="Menu" %}
+  </button>
+</template>
+
 <script type="text/javascript">
+
+const nav = document.querySelector('.nav')
+const buttonTemplate = document.querySelector('#buttontoggle')
+const button = document.importNode(buttonTemplate.content, true)
+nav.appendChild(button)
+
 const applyToggle = (list, button, breakpoint) => {
   const navList = document.querySelector(list)
   if (document.body.clientWidth < breakpoint) {
@@ -33,4 +50,5 @@ const applyToggle = (list, button, breakpoint) => {
 }
 
 applyToggle('.list--nav', '.button', 640)
+
 </script>
