@@ -42,7 +42,7 @@ social: # jekyll-seo-tag > social overrides
   name: David Darnes # jekyll-seo-tag > real name
   links:  # jekyll-seo-tag > social aliases (sameAs)
     - https://twitter.com/DavidDarnes
-    - https://www.facebook.com/daviddarnes
+    - https://www.facebook.com/brandon.kim.921025
     - https://www.linkedin.com/in/daviddarnes
     - https://plus.google.com/+DavidDarnes
     - https://github.com/daviddarnes
