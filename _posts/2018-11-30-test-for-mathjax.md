@@ -12,7 +12,7 @@ cf) 어떤 면에서 계산하는지에 대한 언급은 딱 한 번만 하겠�
 
 지금부터 하나의 그림을 계속 사용할텐데, 양해 부탁드린다.
 
-1. Grad
+1) Grad
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
 어떤 함수 Φ를 정의할 때, Φ의 Gradient Grad(Φ)는 다음과 같다.
@@ -34,7 +34,7 @@ $$\int_\,d\tau\,\Rightarrow\,dxdydz$$
 이므로, 상기 보였듯 Grad(Φ)는
 $$\nabla\phi\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\phi\,d\sigma}{\int_\,d\tau}$$
 
-2. Div
+2) Div
 
 
 
@@ -53,7 +53,7 @@ $$\int_\,d\tau\,\Rightarrow\,dxdydz$$
 이므로, 상기 보였듯 Div(V)는
 $$\nabla\cdot\,\mathbb{V}\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\mathbb{V}\,\cdot\,d\sigma}{\int_\,d\tau} $$</p>
 
-3. Curl
+3) Curl
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
 어떤 벡터 함수 V를 정의할 때, V의 Curl Curl(V)는 다음과 같다.
@@ -85,7 +85,7 @@ $$[(\frac{\partial V_z}{\partial y}-\frac{\partial V_y}{\partial z})\hat{x}\,+\,
 그러면 Curl(V)는 아래와 같다는 것이 증명되었다.
 $$\nabla\times\,\mathbb{V}\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,d\sigma\,\times\,\mathbb{V}}{\int_\,d\tau} $$
 
-4. Laplacian
+4) Laplacian
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
 어떤 함수 Φ를 정의할 때, Φ의 Laplacian ∇^2_Φ는 다음과 같다.
