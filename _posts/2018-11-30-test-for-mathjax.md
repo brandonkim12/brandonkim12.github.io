@@ -16,7 +16,7 @@ I will use just a picture to explain you Grad, Div, Curl, and Laplacian.
 1) Grad
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
-When a function Φ is defined, The gradient of Φ, Grad(Φ), is like below:
+When a scalar function Φ is defined, The gradient of Φ, Grad(Φ), is like below:
 
 $$\nabla\phi\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\phi\,d\sigma}{\int_\,d\tau}$$
 
@@ -45,10 +45,11 @@ $$\nabla\phi\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\phi\,d\sigma}{\int_\
 
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
-어떤 벡터 함수 V를 정의할 때, V의 Divergence Div(V)는 다음과 같다.\n
+When a vector function V is defined, the divergence of V, Div(V), is like below:
 
  $$\nabla\cdot\,\mathbb{V}\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\mathbb{V}\,\cdot\,d\sigma}{\int_\,d\tau} $$
-원점 O에서 이것을 해석해 보자. Cartesian Coordinate 상에서 각 평면들에 대해서 ∫V·dσ는 다음과 같이 나타난다.
+
+Let us analysis above formula at origin O. ∫V·dσ on Cartesian Coordinate for each plane is expressed like below:
 
 $$\int_\,\mathbb{V}\,\cdot\,d\sigma\,\,= $$
 
@@ -60,26 +61,26 @@ $$-\iint_\,[(V_z-\frac{\partial V_{z}}{\partial z} \frac{dz}{2})\hat{z}\,\cdot\,
 
 $$=\int_\,(\frac{\partial V_{x}}{\partial x}+\,\,\frac{\partial V_{y}}{\partial y}+\,\,\frac{\partial V_{z}}{\partial z})\,d\,\tau$$
 
-적분 기호를 생략하면 다음과 같다.
+If integral symbol is dismissed,
 
 $$=(\frac{\partial V_{x}}{\partial x}+\,\,\frac{\partial V_{y}}{\partial y}+\,\,\frac{\partial V_{z}}{\partial z})\,d\,\tau$$
 
-그리고,
+And then
 
 $$\int_\,d\tau\,\Rightarrow\,dxdydz$$
 
-이므로, 상기 보였듯 Div(V)는
+As we've seen before, Div(V) is
 
 $$\nabla\cdot\,\mathbb{V}\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\mathbb{V}\,\cdot\,d\sigma}{\int_\,d\tau} $$
 
 3) Curl
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
-어떤 벡터 함수 V를 정의할 때, V의 Curl Curl(V)는 다음과 같다.
+When a vector function V is defined, the curl of V, Curl(V), is like below:
 
 $$\nabla\times\,\mathbb{V}\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,d\sigma\,\times\,\mathbb{V}}{\int_\,d\tau} $$
 
-원점 O에서 이것을 해석해 보자. Cartesian Coordinate 상에서 각 평면들에 대해서 ∫dσXV는 다음과 같이 나타난다.
+Let us analysis above formula at origin O. ∫dσXV on Cartesian Coordinate for each plane is expressed like below:
 
 (1)
 
@@ -123,18 +124,18 @@ $$=\,\int_\,(V_x+\frac{\partial V_{x}}{\partial z}\,\frac{dz}{2})\,dxdy\,\hat{y}
 
 $$\therefore,\,\Downarrow+\,\Uparrow\,=\,\frac{\partial V_{x}}{\partial z}\,dxdydz\hat{y}-\,\frac{\partial V_{y}}{\partial z}\,dxdydz\hat{x} $$
 
-dx, dy, dz 방향의 양을 전부 더하면 (1) + (2) + (3)이 된다. 이 때 적분기호를 예와 같이 빼주면 이는
+The addition of amount along the direction dx, dy, dz, this value would be (1) + (2) + (3). If integral symbol is dismissed,
 
 $$[(\frac{\partial V_z}{\partial y}-\frac{\partial V_y}{\partial z})\hat{x}\,+\,(\frac{\partial V_x}{\partial z}-\frac{\partial V_z}{\partial x})\hat{y}\,+\,(\frac{\partial V_y}{\partial x}-\frac{\partial V_x}{\partial y})\hat{z}]dxdydz $$
 
-그러면 Curl(V)는 아래와 같다는 것이 증명되었다.
+So the Curl(V) is proved to be like below:
 
 $$\nabla\times\,\mathbb{V}\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,d\sigma\,\times\,\mathbb{V}}{\int_\,d\tau} $$
 
 4) Laplacian
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
-어떤 함수 Φ를 정의할 때, Φ의 Laplacian ∇^2_Φ는 다음과 같다._
+When a scalar function Φ is defined, the laplacian of Φ, ∇^2_Φ, is like below:
 
 $$\nabla^2 \phi\,=\lim_{\int_\,d\tau \to 0}\frac{\int_\,\nabla\phi\,d\sigma}{\int_\,d\tau} $$
 
@@ -183,19 +184,19 @@ $$d\sigma_y\,=\,dxdy\hat{z} $$
 
 $$\therefore,\,\swarrow+\nearrow\,=\,\frac{\partial^2 \phi}{\partial z^2}dxdydz $$
 
-(1),(2),(3)을 모두 더하면 다음과 같다.
+If (1) + (2) + (3), the result is like:
 
 $$\nabla\,\phi\,d\sigma\,=\,(\frac{\partial^2 \phi}{\partial x^2}\,+\,\frac{\partial^2 \phi}{\partial y^2}\,+\frac{\partial^2 \phi}{\partial z^2})dxdydz $$
 
-적분기호를 제거하고 d(tau)로 나누어주면 아래와 같이 증명이 완료된다.
+If integral symbol is dismissed and divided by d(tau),
 
 $$\nabla^2 \phi\,=\lim_{\int_\,d\tau \to 0}\frac{\int_\,\nabla\phi\,d\sigma}{\int_\,d\tau} $$
 
-이로서 Cartesian Coordinates에서 Grad, Curl, Div, Laplacian에 대한 표현형을 소개했고 그것이 성립한다는 데에 대한 증명을 끝냈다.
+We've introduced the expression of Grad, Curl, Div, and Laplacian for cartesian coordinates and have just finished whether they're actually right.
 
 
 
-* 참고 자료
+* References
 1. Mathematical Methods for Physicists, 1st ed., ARFKEN & WEBER, ch.1, Vector analysis, p. 58<
 2. In the same book, p. 63
 
