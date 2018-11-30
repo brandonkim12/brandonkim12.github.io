@@ -53,7 +53,7 @@ $$\int_\,d\tau\,\Rightarrow\,dxdydz$$
 이므로, 상기 보였듯 Div(V)는
 $$\nabla\cdot\,\mathbb{V}\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\mathbb{V}\,\cdot\,d\sigma}{\int_\,d\tau} $$</p>
 
-    <p>3. Curl
+3. Curl
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
 어떤 벡터 함수 V를 정의할 때, V의 Curl Curl(V)는 다음과 같다.
