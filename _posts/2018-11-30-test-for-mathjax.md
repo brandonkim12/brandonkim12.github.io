@@ -7,19 +7,20 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
-5년 전에 해놨던 것을 그대로 가져온다. 양해 부탁드린다.
-cf) 어떤 면에서 계산하는지에 대한 언급은 딱 한 번만 하겠다. 그 이후로는 모두 동일한 면에 대해서 계산한다. 
+I took the work I'd done 5 yrs ago.
 
-지금부터 하나의 그림을 계속 사용할텐데, 양해 부탁드린다.
+cf) I would inform you the calculation is done in what surface once. 
+
+I will use just a picture to explain you Grad, Div, Curl, and Laplacian. 
 
 1) Grad
 
 <div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s1600/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-wTEihctENx4/WkshkCwlfNI/AAAAAAAAScg/CogdBjEHbswPXYSfpLAHlhOjLI4x9EUKQCLcBGAs/s640/Continuity%2BEquation%2B-%2BControl%2BVolume.jpg" width="640" height="359" data-original-width="590" data-original-height="331" /></a></div>
-어떤 함수 Φ를 정의할 때, Φ의 Gradient Grad(Φ)는 다음과 같다.
+When a function Φ is defined, The gradient of Φ, Grad(Φ), is like below:
 
 $$\nabla\phi\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\phi\,d\sigma}{\int_\,d\tau}$$
 
-원점 O에서 이것을 해석해 보자. Cartesian Coordinate 상에서 각 평면들에 대해서 ∫φdσ는 다음과 같이 나타난다.
+Let us analysis above formula at origin O. ∫φdσ on Cartesian Coordinate for each plane is expressed like below:
 
 $$\int_\,\phi\,d\sigma\,\,= $$
 $$\hat{x}[-\iint_{ABCD}^{}(\phi-\frac{\partial \phi}{\partial x} \frac{dx}{2})dydz\,\,\,+\iint_{EFGH}^{}(\phi+\frac{\partial \phi}{\partial x} \frac{dx}{2})dydz]$$
@@ -27,17 +28,17 @@ $$+\,\hat{y}[-\iint_{CDHG}^{}(\phi-\frac{\partial \phi}{\partial y} \frac{dy}{2}
 $$+\,\hat{z}[-\iint_{ADHE}^{}(\phi-\frac{\partial \phi}{\partial z} \frac{dz}{2})dxdy\,\,\,+\iint_{BCGF}^{}(\phi+\frac{\partial \phi}{\partial z} \frac{dz}{2})dxdy]$$
 $$=\,\hat{x}[\iiint_\,\frac{\partial \phi}{\partial x}dxdydz]\,+\,\hat{y}[\iiint_\,\frac{\partial \phi}{\partial y}dxdydz]+\,\hat{z}[\iiint_\,\frac{\partial \phi}{\partial z}dxdydz]$$
 
-Infinitesimal Space에서 편도함수들의 값 변화가 거의 없기 때문에 위의 편도함수들을 상수라 근사한다. 앞으로 이런 이유에서 적분 기호를 생략하기로 한다. 따라서 아래의 결과가 도출된다.
+We would approximate above partial derivatives as constant, since their change is significantly small in infinitesimal space. For this reason, generally integral symbol can be dismissed, and result is: 
 
 $$\int_\,\phi\,d\sigma\,=\,\hat{x}\frac{\partial \phi}{\partial x}dxdydz\,+\,\hat{y}\frac{\partial \phi}{\partial y}dxdydz+\,\hat{z}\frac{\partial \phi}{\partial z}dxdydz$$
 
-그리고,
+And, the below formula is
 
 $$\int_\,d\tau\,\Rightarrow\,dxdydz$$
 
-이므로, 상기 보였듯 Grad(Φ)는
+, As seen above, Grad(Φ) is
 
-$$\nabla\phi\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\phi\,d\sigma}{\int_\,d\tau}$$
+$$\nabla\phi\,\,=\,\,\lim_{\int_\,d\tau \to 0}\frac{\int_\,\phi\,d\sigma}{\int_\,d\tau}$$.
 
 2) Div
 
