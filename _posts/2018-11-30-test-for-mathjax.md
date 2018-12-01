@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Test For Mathjax
-date:  2018-11-30 01:58:00 +0900
+title: 1) Gradient, Divergence, Curl and Laplacian
+date:  2018-12-02 08:42:00 +0900
 categories:
 - Mathematics
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
