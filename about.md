@@ -15,7 +15,6 @@ aside: true
 - Improvement of Cosmetic Industrial Process
 - Constructing a pattern of engineering design
 - Actual Fabricating according to the fabrication theoretical basis
-- Electrical Power System Design and Control System Design
 - Cosmetic Product Manufacture
 
 
