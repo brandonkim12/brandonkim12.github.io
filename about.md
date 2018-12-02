@@ -24,3 +24,8 @@ aside: true
 - Shell theory.
 - Tensor analysis and calculus.
 - ODE/PDE
+
+### Full CV is in below link.
+
+[]: https://github.com/brandonkim12/brandonkim12.github.io/blob/master/Brandon_Kim_CV.pdf
+
