@@ -3,7 +3,7 @@ title: Brandon Kim
 feature_text: |
   ## Brandon Kim
   Mechanical Engineer who studies the mathematics continously.
-feature_image: "https://4.bp.blogspot.com/-QsqHjxB6I7E/W2lK7UMv38I/AAAAAAAASp4/r0OVEIf26UwdO3FOQDoTKg6h7s6zdi4FgCLcBGAs/s1600/15253_24549_4543.png"
+feature_image: "https://www.google.co.kr/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjH6YftpIHfAhWKzLwKHXSNAL4QjRx6BAgBEAU&url=http%3A%2F%2Fwww.enexse.com%2Fservice-item%2Fmechanical-engineering%2F&psig=AOvVaw1LbMG7au79Fzjr750s0VTs&ust=1543844695098437"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
