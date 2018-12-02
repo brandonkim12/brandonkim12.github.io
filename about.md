@@ -7,9 +7,9 @@ excerpt: "About"
 aside: true
 ---
 
-# Brandon Kim
+## Brandon Kim
 
-## Studied Mechanical Engineering & Electrical Control Engineering.
+### Studied Mechanical Engineering & Electrical Control Engineering.
 
 - Fabricating Simulation
 - Improvement of Cosmetic Industrial Process
@@ -20,7 +20,7 @@ aside: true
 
 
 
-## Interested in Mathematics and Physics
+### Interested in Mathematics and Physics
 
 - Shell theory.
 - Tensor analysis and calculus.
