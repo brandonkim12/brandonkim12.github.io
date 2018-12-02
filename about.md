@@ -26,5 +26,5 @@ aside: true
 
 ### Full CV is in below link.
 
-[CV]: https://github.com/brandonkim12/brandonkim12.github.io/blob/master/Brandon_Kim_CV.pdf
+[CV]: https://github.com/brandonkim12/brandonkim12.github.io/blob/master/Brandon_Kim_CV.pdf	"asdf"
 
