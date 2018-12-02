@@ -9,15 +9,14 @@ aside: true
 
 ## Brandon Kim
 
-### Studied Mechanical Engineering & Electrical Control Engineering.
+### ME & ECE
 
 - Fabricating Simulation
 - Improvement of Cosmetic Industrial Process
 - Constructing a pattern of engineering design
 - Actual Fabricating according to the fabrication theoretical basis
-- Electrical Power System Design for Cosmetic Manufacture Machine
+- Electrical Power System Design and Control System Design
 - Cosmetic Product Manufacture
-
 
 
 ### Interested in Mathematics and Physics
@@ -25,9 +24,3 @@ aside: true
 - Shell theory.
 - Tensor analysis and calculus.
 - ODE/PDE
-
-
-
-
-
-
