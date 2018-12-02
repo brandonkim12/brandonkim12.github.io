@@ -9,7 +9,7 @@ aside: true
 
 ## Brandon Kim
 
-### ME & ECE
+### Majored in ME & ECE
 
 - Fabricating Simulation
 - Improvement of Cosmetic Industrial Process
