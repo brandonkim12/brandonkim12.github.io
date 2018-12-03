@@ -26,4 +26,4 @@ aside: true
 
 ### Full CV is in below link.
 
-<a href="https://github.com/brandonkim12/brandonkim12.github.io/blob/master/Brandon_Kim_CV.pdf">[Full CV]</a>
+<a href="https://brandonkim12.github.io/Brandon_Kim_CV.pdf">[Full CV]</a>
