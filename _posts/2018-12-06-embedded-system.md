@@ -24,17 +24,17 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
 3. Program and Instructions
 - Assembly Language - Features
 
-  1. Easier comprehension than machine Language
+  - Easier comprehension than machine Language
 
-  2. Easier modifying the errors and preserving than machine language
+  - Easier modifying the errors and preserving than machine language
 
-  3. Have to figure out the internal structure of processor and hardware.
+  - Have to figure out the internal structure of processor and hardware.
 
-  4. Each Processor has different assembly language syntax.
+  - Each Processor has different assembly language syntax.
 
-     a. OP Code(Operation Code)
-     b. Operand
-     Ex) SUB A, B, C
+    a. OP Code(Operation Code)
+    b. Operand
+    Ex) SUB A, B, C
 
 
 
