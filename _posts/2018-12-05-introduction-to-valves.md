@@ -17,6 +17,8 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 
 
+2] Classification for the functions
+
 |     On-Off Valves     |    Nonreturn Valves     |    Throttling Valves     |
 | :-------------------: | :---------------------: | :----------------------: |
 |      Gate valve       | All of the check valves |  acts as on-off valves   |
