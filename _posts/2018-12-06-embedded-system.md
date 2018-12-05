@@ -41,9 +41,9 @@ Process -
 
 1. Read the instructions of the main memory device into the processor to conduct the command. PC (Program Counter) has the memory address of instructions to be executed. First, Contents of PC would be transferred to address register to take the instructions in the main memory, which is referred by the PC. By this, the instructions in the main memory would be preserved in the IR (Instruction Register). This Process is said to 'FETCH'.
 
-      2. Control Unit interprets the instructions in IR, and send the appropriate control signal into ALU, Memory, etc. This process is said to 'DECODE'.
+2. Control Unit interprets the instructions in IR, and send the appropriate control signal into ALU, Memory, etc. This process is said to 'DECODE'.
 
-       3. Execute the instructions. In this time, these actions are performed with respect to such instruction - if the instruction is
+3. Execute the instructions. In this time, these actions are performed with respect to such instruction - if the instruction is
 
       ​    ​   1) ALU instruction, AL operation is performed in ALU and save the result into nominated register.
       ​    ​   2) Conditional Branch Instruction, change the contents in PC in condition of satisfied branch condition.
