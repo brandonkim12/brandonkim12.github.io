@@ -38,7 +38,7 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
 
 
 
-Process -
+4. Process -
 
 * Read the instructions of the main memory device into the processor to conduct the command. PC (Program Counter) has the memory address of instructions to be executed. First, Contents of PC would be transferred to address register to take the instructions in the main memory, which is referred by the PC. By this, the instructions in the main memory would be preserved in the IR (Instruction Register). This Process is said to 'FETCH'.
 * Control Unit interprets the instructions in IR, and send the appropriate control signal into ALU, Memory, etc. This process is said to 'DECODE'.
