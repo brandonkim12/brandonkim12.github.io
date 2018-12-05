@@ -3,7 +3,7 @@ layout: post
 title: 1) Gradient, Divergence, Curl and Laplacian
 date:  2018-12-02 08:42:00 +0900
 categories:
-- Tensor Calculus
+- Mathematics - Tensor Calculus
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
