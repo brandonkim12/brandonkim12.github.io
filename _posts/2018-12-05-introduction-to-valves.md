@@ -2,7 +2,8 @@
 layout: post
 title: 1) Introduction to valves (1) definition and classification by function
 date:  2018-12-05 21:34:00 +0900
-categories: Engineering - Valves
+categories: 
+- Engineering - Valves
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
