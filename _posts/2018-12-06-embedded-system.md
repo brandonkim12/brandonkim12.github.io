@@ -22,19 +22,20 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
     e. M68K
 
 3. Program and Instructions
-- Assembly Language - Features
-  - Easier comprehension than machine Language
-  - Easier modifying the errors and preserving than machine language
-  - Have to figure out the internal structure of processor and hardware.
-  - Each Processor has different assembly language syntax.
-    - OP Code(Operation Code)
-    - Operand Ex) SUB A, B, C
 
-4. Process -
+    1. Assembly Language - Features
+        1. Easier comprehension than machine Language
+        2. Easier modifying the errors and preserving than machine language
+        3. Have to figure out the internal structure of processor and hardware.
+        4. Each Processor has different assembly language syntax.
+            1. OP Code(Operation Code)
+            2. Operand Ex) SUB A, B, C
 
-* Read the instructions of the main memory device into the processor to conduct the command. PC (Program Counter) has the memory address of instructions to be executed. First, Contents of PC would be transferred to address register to take the instructions in the main memory, which is referred by the PC. By this, the instructions in the main memory would be preserved in the IR (Instruction Register). This Process is said to 'FETCH'.
-* Control Unit interprets the instructions in IR, and send the appropriate control signal into ALU, Memory, etc. This process is said to 'DECODE'.
-* Execute the instructions. In this time, these actions are performed with respect to such instruction - if the instruction is
+4. Read the instructions of the main memory device into the processor to conduct the command. PC (Program Counter) has the memory address of instructions to be executed. First, Contents of PC would be transferred to address register to take the instructions in the main memory, which is referred by the PC. By this, the instructions in the main memory would be preserved in the IR (Instruction Register). This Process is said to 'FETCH'.
+
+5. Control Unit interprets the instructions in IR, and send the appropriate control signal into ALU, Memory, etc. This process is said to 'DECODE'.
+
+6. Execute the instructions. In this time, these actions are performed with respect to such instruction - if the instruction is
 
 ​    ​   1) ALU instruction, AL operation is performed in ALU and save the result into nominated register.
 
@@ -52,5 +53,6 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
 
 <center>Fig. 1 - Description of Fetching, decoding and executing</center>
 
-* Reference
-  * ARM으로 배우는 임베디드 리눅스 시스템 - 한빛미디어, 개정판, 안효복 지음
+- Reference
+  - ARM으로 배우는 임베디드 리눅스 시스템 - 한빛미디어, 개정판, 안효복 지음
+
