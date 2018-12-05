@@ -3,15 +3,15 @@ layout: post
 title: 1) Gradient, Divergence, Curl and Laplacian
 date:  2018-12-02 08:42:00 +0900
 categories:
-- Mathematics
+- Tensor Calculus
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
 I took the work I'd done 5 yrs ago.
 
-cf) I would inform you the calculation is done in what surface once. 
+cf) I would inform you the calculation is done in what surface once.
 
-I will use just a picture to explain you Grad, Div, Curl, and Laplacian. 
+I will use just a picture to explain you Grad, Div, Curl, and Laplacian.
 
 1) Grad
 
@@ -28,7 +28,7 @@ $$+\,\hat{y}[-\iint_{CDHG}^{}(\phi-\frac{\partial \phi}{\partial y} \frac{dy}{2}
 $$+\,\hat{z}[-\iint_{ADHE}^{}(\phi-\frac{\partial \phi}{\partial z} \frac{dz}{2})dxdy\,\,\,+\iint_{BCGF}^{}(\phi+\frac{\partial \phi}{\partial z} \frac{dz}{2})dxdy]$$
 $$=\,\hat{x}[\iiint_\,\frac{\partial \phi}{\partial x}dxdydz]\,+\,\hat{y}[\iiint_\,\frac{\partial \phi}{\partial y}dxdydz]+\,\hat{z}[\iiint_\,\frac{\partial \phi}{\partial z}dxdydz]$$
 
-We would approximate above partial derivatives as constant, since their change is significantly small in infinitesimal space. For this reason, generally integral symbol can be dismissed, and result is: 
+We would approximate above partial derivatives as constant, since their change is significantly small in infinitesimal space. For this reason, generally integral symbol can be dismissed, and result is:
 
 $$\int_\,\phi\,d\sigma\,=\,\hat{x}\frac{\partial \phi}{\partial x}dxdydz\,+\,\hat{y}\frac{\partial \phi}{\partial y}dxdydz+\,\hat{z}\frac{\partial \phi}{\partial z}dxdydz$$
 
@@ -96,7 +96,7 @@ $$=\,\int_\,(V_y+\frac{\partial V_{y}}{\partial x}\,\frac{dx}{2})\,dydz\,\hat{z}
 
 $$\therefore,\,\Leftarrow+\,\Rightarrow\,=\,\frac{\partial V_{y}}{\partial x}\,dxdydz\hat{z}-\,\frac{\partial V_{z}}{\partial x}\,dxdydz\hat{y} $$
 
-(2) 
+(2)
 
 $$\swarrow\,\,(dz\,\,direction)$$
 
@@ -199,9 +199,3 @@ We've introduced the expression of Grad, Curl, Div, and Laplacian for cartesian 
 * References
 1. Mathematical Methods for Physicists, 1st ed., ARFKEN & WEBER, ch.1, Vector analysis, p. 58<
 2. In the same book, p. 63
-
-
-
-
-
-
