@@ -45,8 +45,11 @@ Process -
 * Execute the instructions. In this time, these actions are performed with respect to such instruction - if the instruction is
 
 ​    ​   1) ALU instruction, AL operation is performed in ALU and save the result into nominated register.
-​    ​   2) Conditional Branch Instruction, change the contents in PC in condition of satisfied branch condition.
+
+​       2) Conditional Branch Instruction, change the contents in PC in condition of satisfied branch condition.
+
 ​       3) Unconditional Branch Instruction, change the contents in PC.
+
 ​       4) Memory Reference Instruction, Send the address of memory which needs to be referenced into the data address register. After that, read the contents of the memory into the data input register to save it the nominated register by the instruction.
 
 - Instructions and structure of processor
