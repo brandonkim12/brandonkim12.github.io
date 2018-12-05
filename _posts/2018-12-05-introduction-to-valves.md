@@ -56,3 +56,11 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
     * Process systems that have varying pressures, which must be kept separate.
 
 * Throttling Valves
+
+  * Used to regulate the flow, temperature, or pressure of the service.
+  * Can move to any position within the stroke of the valve || hold that position
+    * Including the full-open or full-closed positions.
+    * So they can act as on-off valve also. [Superset of On-off valve]
+  * Commonly hand-operated / some are equipped with actuators or actuation systems.
+    * Actuators provide greater thrust and positioning capability, as well as automatic control.
+  * Pressure regulators - vary the valve’s position to maintain constant pressure downstream.
