@@ -26,6 +26,8 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 | Pressure-relief valve |                         |                          |
 |   Tank-bottom valve   |                         |                          |
 
+
+
 <center>[Table 1. Classification for the functions of each valve]</center>
 
  * On-off valve
