@@ -67,7 +67,7 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
   * Used to regulate the flow, temperature, or pressure of the service.
 
-  * Can move to any position within the stroke of the valve || hold that position
+  * Can move to any position within the stroke of the valve or hold that position
 
     * Including the full-open or full-closed positions.
     * So they can act as on-off valve also. [Superset of On-off valve]
