@@ -10,7 +10,7 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
 
 1. Architecture of Processor
 
-    a. Register The Temporal Device of memory that saves the data temporarily in processor- General Purpose Register - Control Register(Program Counter)- Status Register(Expresses the status of processor): Physically structured with the Latches and Flip-Flop
+    a. Register The Temporal Device of memory that saves the data temporarily in processor - General Purpose Register - Control Register(Program Counter)- Status Register(Expresses the status of processor): Physically structured with the Latches and Flip-Flop
     b. ALU(Arithmetic and Logic Unit): Arithmetic, Logic, Compliment, and Shift Operation- Status Register or Flag Register(Expresses the status caused by the result of operation)- It also represents the results of operations (occurrence of a 'carry' and 'overflow')
     c. CU(Control Unit): Controls the data flow between each devices in the processor which is needed to read and execute the command. - Instruction Register (Temporarily memorizes the instructions which was read from the position of main memory devices that is designated by the PC[Program Counter])- Instruction Decoder (Decodes the instructions recorded in the instruction register)- Control Signal Generator (Execute the instructions according to the control signal generated from the instruction decoder)
 
