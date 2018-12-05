@@ -192,7 +192,7 @@ If integral symbol is dismissed and divided by d(tau),
 
 $$\nabla^2 \phi\,=\lim_{\int_\,d\tau \to 0}\frac{\int_\,\nabla\phi\,d\sigma}{\int_\,d\tau} $$
 
-We've introduced the expression of Grad, Curl, Div, and Laplacian for cartesian coordinates and have just finished whether they're actually right.
+We've introduced the expression of Grad, Curl, Div, and Laplacian for cartesian coordinates and have just finished to find out whether they're actually right.
 
 
 
