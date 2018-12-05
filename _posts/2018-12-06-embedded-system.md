@@ -23,13 +23,13 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
 
 3. Program and Instructions
 
-    1. Assembly Language - Features
-        1. Easier comprehension than machine Language
-        2. Easier modifying the errors and preserving than machine language
-        3. Have to figure out the internal structure of processor and hardware.
-        4. Each Processor has different assembly language syntax.
-            1. OP Code(Operation Code)
-            2. Operand Ex) SUB A, B, C
+    - Assembly Language - Features
+      - Easier comprehension than machine Language
+      - Easier modifying the errors and preserving than machine language
+      - Have to figure out the internal structure of processor and hardware.
+      - Each Processor has different assembly language syntax.
+        - OP Code(Operation Code)
+        - Operand Ex) SUB A, B, C
 
 4. Read the instructions of the main memory device into the processor to conduct the command. PC (Program Counter) has the memory address of instructions to be executed. First, Contents of PC would be transferred to address register to take the instructions in the main memory, which is referred by the PC. By this, the instructions in the main memory would be preserved in the IR (Instruction Register). This Process is said to 'FETCH'.
 
