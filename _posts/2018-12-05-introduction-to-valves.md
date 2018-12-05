@@ -31,13 +31,12 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
  * On-off valve
 
    * Used to start or stop the flow of the medium through the process.
-
    * A majority of them are operated by hands. [like Fig. 1.]
 
      * Some of them are automated with the addition of actuator.
-
    * Pressure-relief valve: self-actuated when a preset pressure is surpassed.
-
+     * Direct-loaded pressure relief valves[^2]
+     * Piloted pressure relief valves
      * Relief valve - used for liquid
 
      * Safety valve - used for gas
@@ -47,6 +46,10 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
   * Allow the fluid to flow only in the desired direction.
 
     * All check valves are non-return valves.
+      * Lift check
+      * Swing check
+      * Tilting disc
+      * Diaphragm
 
     ![checkvalve](https://4.imimg.com/data4/VF/JI/FUSIONI-14455473/prod-image-500x500.jpg)
 
@@ -87,3 +90,4 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 [^1]: Valve Handbook, 2nd ed., p.1. 
 
+[^2]: Valve Selection Handbook, 5th ed., p.2
