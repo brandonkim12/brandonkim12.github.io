@@ -33,10 +33,10 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
   - Each Processor has different assembly language syntax.
 
     a. OP Code(Operation Code)
+
     b. Operand
+
     Ex) SUB A, B, C
-
-
 
 4. Process -
 
