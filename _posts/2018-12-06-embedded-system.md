@@ -33,9 +33,10 @@ Processor: CPU - ALU(Arithmetic and Logic Unit), CU(Control Unit), Register and 
       - Easier comprehension than machine Language
       - Easier modifying the errors and preserving than machine language
       - Have to figure out the internal structure of processor and hardware.
-      - Each Processor has different assembly language syntax.
-        - OP Code(Operation Code)
-        - Operand Ex) SUB A, B, C
+
+    - Each Processor has different assembly language syntax.
+      - OP Code(Operation Code)
+      - Operand Ex) SUB A, B, C
 
 4. Process
 
