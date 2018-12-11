@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1) Stress and Strain - What are these?
+title: 1) Stress and Strain - Stress
 date:  2018-12-11 23:00:00 +0900
 categories:
 - Engineering - Mechanics of Materials
@@ -54,3 +54,9 @@ Abstract descriptions are below:
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_2.JPG)
 
 <center>Fig.2 - Force and moments acting on the body</center>
+
+In many cases, we're going to deal with this picture:
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_3.JPG)
+
+<center>Fig.3 - Coplanar force and moment</center>
