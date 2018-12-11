@@ -38,6 +38,8 @@ In statics, support options help us to solve the problem properly, sometimes are
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_1.JPG)
 
+
+
 <center>Fig.1 - Support options</center>
 
 
@@ -53,11 +55,15 @@ Abstract descriptions are below:
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_2.JPG)
 
+
+
 <center>Fig.2 - Force and moments acting on the body</center>
 
 In many cases, we're going to deal with this picture:
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_3.JPG)
+
+
 
 <center>Fig.3 - Coplanar force and moment</center>
 
@@ -65,9 +71,9 @@ In many cases, we're going to deal with this picture:
 
 <center>-4. Stresses - Normal and shear stress</center>
 
-
-
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_4.JPG)
+
+
 
 <center>Fig.4 - Z-direction stresses</center>
 
@@ -82,6 +88,8 @@ So, stresses are generally expressed like below:
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_5.JPG)
 
 <center>Fig.5 - General expressions of stresses</center>
+
+
 
 
 
