@@ -60,3 +60,13 @@ In many cases, we're going to deal with this picture:
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_3.JPG)
 
 <center>Fig.3 - Coplanar force and moment</center>
+
+
+
+<center>-4. Stresses - Normal and shear stress</center>
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_4.JPG)
+
+<center>Fig.4 - Z-direction stresses</center>
+
+* Normal Stress: stress for the normal force to a surface.
