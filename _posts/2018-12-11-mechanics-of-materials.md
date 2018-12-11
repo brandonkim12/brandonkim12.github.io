@@ -48,3 +48,9 @@ In statics, support options help us to solve the problem properly, sometimes are
 * Shear force: Force makes the body to slide over one another.
 * Torsional moment (or torque): The moment makes the body twist according to the perpendicular axis to the surface area.
 * Bending moment: The moment makes the body bended
+
+Abstract descriptions are below:
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_2.JPG)
+
+<center>Fig.2 - Force and moments acting on the body</center>
