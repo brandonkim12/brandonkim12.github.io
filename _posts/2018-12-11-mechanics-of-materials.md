@@ -83,3 +83,9 @@ So, stresses are generally expressed like below:
 
 <center>Fig.5 - General expressions of stresses</center>
 
+
+
+- References
+
+R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.1
+
