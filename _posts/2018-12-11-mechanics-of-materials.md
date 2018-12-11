@@ -16,3 +16,24 @@ Stress means the force acting on the unit area, such as $\sigma\,=\,\frac{F}{A} 
 
 <center>-2. Preliminaries - statics</center>
 
+* Equations of Equilibrium
+
+Firstly, mechanics of materials deal with the static state, so we have two main formulas such that
+
+$$\begin{align}& \sum \mathbb{F}\,=\,0 \\ & \sum \mathbb{M}_O \,=\,0\end{align}$$
+
+In the most simple coordinates, in other words, cartesian coordinates, generally we deal with the xyz, so the above formula are expressed 6 formulas like below:
+
+$$\begin{align} & \sum F_x\,=\,0, \sum F_y\,=\,0, \sum F_z\,=\,0 \\ & \sum M_x\,=\,0, \sum M_y\,=\,0, \sum M_z\,=\,0\end{align}$$
+
+If you're in the two-dimensional situation, above 6 formulas are to be reduced to 3 formulas such as:
+
+$$\begin{align}&\sum F_x\,=\,0 \\& \sum F_y\,=\,0 \\& \sum M_O\,=\,0 \end{align}$$
+
+
+
+* Support Reactions
+
+In statics, support options help us to solve the problem properly, sometimes are critical to define whether the problem could be solved.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_1.PNG))
