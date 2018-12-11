@@ -36,5 +36,15 @@ $$\begin{align}&\sum F_x\,=\,0 \\& \sum F_y\,=\,0 \\& \sum M_O\,=\,0 \end{align}
 
 In statics, support options help us to solve the problem properly, sometimes are critical to define whether the problem could be solved.
 
-![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_1.PNG)
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_1.JPG)
 
+<center>Fig.1 - Support options</center>
+
+
+
+<center>-3. Forces used to analyze the stress and strain</center>
+
+* Normal force: Force acts perpendicular to the area. 
+* Shear force: Force makes the body to slide over one another.
+* Torsional moment (or torque): The moment makes the body twist according to the perpendicular axis to the surface area.
+* Bending moment: The moment makes the body bended
