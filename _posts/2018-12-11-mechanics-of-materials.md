@@ -65,10 +65,21 @@ In many cases, we're going to deal with this picture:
 
 <center>-4. Stresses - Normal and shear stress</center>
 
+
+
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_4.JPG)
 
 <center>Fig.4 - Z-direction stresses</center>
 
-* Normal Stress: stress for the normal force to a surface.
 
-* Shear Stress: stress for the shear force to a surface.
+
+* Normal Stress: stress for the normal force to a surface. For [Fig.4], $\sigma_z\,=\displaystyle{\lim_{\Delta A \to 0}}\frac{\Delta F_z}{\Delta A}$
+
+* Shear Stress: stress for the shear force to a surface. For [Fig. 4], $\tau_{zx}\,=\displaystyle{\lim_{\Delta A \to 0}}\frac{\Delta F_x}{\Delta A}$,  $\tau_{zy}\,=\displaystyle{\lim_{\Delta A \to 0}}\frac{\Delta F_y}{\Delta A}$
+
+So, stresses are generally expressed like below:
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_5.JPG)
+
+<center>Fig.5 - General expressions of stresses</center>
+
