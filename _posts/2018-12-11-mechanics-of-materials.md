@@ -70,3 +70,5 @@ In many cases, we're going to deal with this picture:
 <center>Fig.4 - Z-direction stresses</center>
 
 * Normal Stress: stress for the normal force to a surface.
+
+* Shear Stress: stress for the shear force to a surface.
