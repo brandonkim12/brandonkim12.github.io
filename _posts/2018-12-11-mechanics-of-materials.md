@@ -36,4 +36,5 @@ $$\begin{align}&\sum F_x\,=\,0 \\& \sum F_y\,=\,0 \\& \sum M_O\,=\,0 \end{align}
 
 In statics, support options help us to solve the problem properly, sometimes are critical to define whether the problem could be solved.
 
-![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_1.PNG))
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_1.PNG)
+
