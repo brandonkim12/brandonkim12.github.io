@@ -103,6 +103,11 @@ So, stresses are generally expressed like below:
 
   Note: Anisotropic material:  have different properties in different directions / however it also deform uniformly when subjected to the axial load P.
 
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_8.JPG)
+
+<center>Fig. 6 - Uniform deformation of homogeneous and isotropic material</center>
+
+<center>-6. Average Normal Stress and Shear Stress</center>
 
 
 
