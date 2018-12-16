@@ -10,7 +10,11 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 <center>-1. Stress and Strain</center>
 
-Stress means the force acting on the unit area, such as $\sigma\,=\,\frac{F}{A} [\frac{N}{m}]\,=\,[Pa]$ where $F\,:\,Force,\,A\,=\,Area$, and strain means the difference between the initial length and final length for compared to the initial length, such as $\epsilon\,=\,\frac{L_0\,-\,L_f}{L_0}$. The mechanics of materials are the set of study for the relations between them. 
+Stress means the force acting on the unit area, such as $\sigma\,=\,\frac{F}{A} [\frac{N}{m}]\,=\,[Pa]$ where $F\,:\,Force,\,A\,=\,Area$.  
+
+Strain means the difference between the initial length and final length for compared to the initial length, such as $\epsilon\,=\,\frac{L_0\,-\,L_f}{L_0}$. where $L_0$ is initial length of a specimen of a certain material, and $L_f$ is final length of the specimen. 
+
+The mechanics of materials are the set of study for the relations between them. 
 
 
 
@@ -89,6 +93,15 @@ So, stresses are generally expressed like below:
 
 <center>Fig.5 - General expressions of stresses</center>
 
+
+
+<center>-5. Premise: the condition of material which we're getting to analyze</center>
+
+* Homogeneous: the property of material which has the same physical and mechanical properties throughout its volume
+
+* Isotropic: the property of material which has the same properties in all directions, then when the load P is applied to the bar through the centroid of its cross-sectional area, the bar will deform uniformly throughout the central region of its length.
+
+  Note: Anisotropic material:  have different properties in different directions / however it also deform uniformly when subjected to the axial load P.
 
 
 
