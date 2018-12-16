@@ -111,6 +111,8 @@ So, stresses are generally expressed like below:
 
 
 
+
+
 - References
 
 R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.1
