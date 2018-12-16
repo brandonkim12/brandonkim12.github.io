@@ -109,7 +109,7 @@ So, stresses are generally expressed like below:
 
 <center>-6. Average Normal Stress and Shear Stress</center>
 
-
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_9.JPG)
 
 
 
