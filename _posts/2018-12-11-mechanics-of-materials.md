@@ -109,9 +109,27 @@ So, stresses are generally expressed like below:
 
 <center>-6. Average Normal Stress and Shear Stress</center>
 
+* if a bar is taken and divided into the large number of infinitesimally small specimen, it has been undergone uniform deformation, and it means directly that the cross section be subjected to a constant normal stress distribution just like [Fig. 7.]  
+
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_9.JPG)
 
+<center>Fig. 7 - Infinitesimally small specimen - </center>
 
+* Each small area $\Delta\,A$ on the cross section is subjected to a force $\Delta N\,=\,\sigma\,\Delta\,A$, [Fig. 8.], and the sum of these forces acting over the entire cross-sectional area must be equivalent to the internal resultant force $\mathbb{P}$ at the section. If we let $\Delta N\,\rightarrow\sigma\,dA$ and therefore $\Delta N\,\rightarrow dN $, then, recognizing $\sigma$ is constant, we have
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_10.JPG)
+
+<center>Fig. 8 - Average Normal Stress</center>
+
+$$\begin{align}+\uparrow F_{R_z}\,=\,\sum F_z ; &\,\,\,\,\, \int\,dN\,=\,\int_A \sigma\,dA \\ &N\,=\,\sigma\,A \\ & \sigma\,=\frac{N}{A}\end{align}$$
+
+$\sigma$: average normal stress at any point on the cross-sectional area
+
+$N$: internal resultant normal force
+
+$A$: cross-sectional area of the bar where $\sigma$ is determined
+
+* The stress distribution in Fig. 1–12 indicates that only a normal stress exists on any small volume element of material located at each point on the cross section.
 
 
 
