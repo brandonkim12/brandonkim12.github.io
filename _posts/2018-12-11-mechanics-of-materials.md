@@ -107,7 +107,7 @@ So, stresses are generally expressed like below:
 
 <center>Fig. 6 - Uniform deformation of homogeneous and isotropic material</center>
 
-<center>-6. Average Normal Stress and Shear Stress</center>
+<center>-6. Average Normal Stress</center>
 
 * if a bar is taken and divided into the large number of infinitesimally small specimen, it has been undergone uniform deformation, and it means directly that the cross section be subjected to a constant normal stress distribution just like [Fig. 7.]  
 
@@ -129,7 +129,20 @@ $N$: internal resultant normal force
 
 $A$: cross-sectional area of the bar where $\sigma$ is determined
 
-* The stress distribution in Fig. 1–12 indicates that only a normal stress exists on any small volume element of material located at each point on the cross section.
+* The stress distribution in Fig. 1–12 indicates that only a normal stress exists on any small volume element of material located at each point on the cross section. so we get the formula:
+  $$\begin{align}\sum F_z\,=\,0; & \,\,\,\,\,\,\,\sigma(\Delta A)\,-\,\sigma'(\Delta A)\,=0 \\ & \sigma\,=\,\sigma' \end{align}$$
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_11.JPG)
+
+<center>Fig. 9 - Internal Equilibrium</center>
+
+* It says that the normal stress components on the element must be equal in magnitude but opposite in direction. // this is based on the assumption that the material is subjected to ==uniaxial stress== and by this analysis the component is determined whether is subjected to the tension or compression.
+
+
+
+<center>7. Average Shear Stress</center>
+
+
 
 
 
