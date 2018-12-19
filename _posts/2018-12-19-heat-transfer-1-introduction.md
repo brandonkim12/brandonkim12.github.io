@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 3) Why tensor? (2) Mechanics of materials
-date:  2018-12-12 00:30:00 +0900
+title: 1) Heat Transfer - Introduction
+date:  2018-12-19 23:30:00 +0900
 categories:
 - Mathematics - Tensor Calculus
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
@@ -39,7 +39,7 @@ If $\frac{\sigma_x\,+\,\sigma_y}{2}$is to be $\sigma_{avg}\,=\,\frac{\sigma_x\,+
 
 $$\sigma_{x'}\,=\,\sigma_{avg}\,+\,\frac{\sigma_x\,-\sigma_y}{2}cos2\theta\,+\tau_{xy}sin2\theta\,\,-(4)$$
 
-make above $\theta$ to $\theta_{x'}$, because it is about the stress along with  $x'$ axis. Comparing $(3)$ with $(1)$, when the angle $\theta$ goes to $\theta_{x'}$, we can find that$\tau_{x'y'} = 0$. In other words, <u>when the stress along the $x'$ axis is to be maximized, the stress along the $x'y'$ axis would be $0$.</u> 
+make above $\theta$ to $\theta_{x'}$, because it is about the stress along with  $x'$ axis. Comparing $(3)$ with $(1)$, when the angle $\theta$ goes to $\theta_{x'}$, we can find that$\tau_{x'y'} = 0$. In other words, <u>when the stress along the $x'$ axis is to be maximized, the stress along the $x'y'$ axis would be $0$.</u>
 
 For the $\theta_{x'}$, put $(3)$ to $(1)$, and the result is like below:
 
@@ -53,7 +53,7 @@ $$\begin{align} & \frac{d\tau_{x'y'}}{d\theta}\,=\,-(\sigma_x\,=\,\sigma_y)cos2\
 
 If $2\theta\,=\,\beta\,=\,tan^{-1}(-\frac{\sigma_x\,-\sigma_y}{2\tau_{xy}})$, $2\theta\,=\,n\pi\,+\,\beta\,->\,\theta\,=\,\frac{n\pi}{2}+\frac{\beta}{2}$
 
-make above $\theta$ to $\theta_{x'y'}$, because it is about the stress along with $x'y'$ axis. Comparing $(4)$ with $(1)$, when the angle $\theta$ goes to $\theta_{x'y'}$, we can find that$\sigma_{x'} = \frac{\sigma_x\,+\,\sigma_y}{2}$. In other words, <u>when the stress along the $x'y'$ axis is to be maximized, the stress along the $x'$ axis would be $\frac{\sigma_x+\sigma_y}{2}$.</u> 
+make above $\theta$ to $\theta_{x'y'}$, because it is about the stress along with $x'y'$ axis. Comparing $(4)$ with $(1)$, when the angle $\theta$ goes to $\theta_{x'y'}$, we can find that$\sigma_{x'} = \frac{\sigma_x\,+\,\sigma_y}{2}$. In other words, <u>when the stress along the $x'y'$ axis is to be maximized, the stress along the $x'$ axis would be $\frac{\sigma_x+\sigma_y}{2}$.</u>
 
 For the $\theta_{x'y'}$, put $(6)$ to $(2)$, and the result is like below:
 
@@ -73,7 +73,7 @@ Now the representation of $(8)$ is in Fig.2 below:
 
 <center>Fig. 2 - Mohr's Circle for 2-D analysis</center>
 
-So if $\tau_{xy}$ is below the $\sigma$ axis, the shear stress acts counterclockwise for initial surface diagram in [Fig. 1], otherwise the shear stress acts clockwise. The [Fig. 2] 
+So if $\tau_{xy}$ is below the $\sigma$ axis, the shear stress acts counterclockwise for initial surface diagram in [Fig. 1], otherwise the shear stress acts clockwise. The [Fig. 2]
 
 
 
