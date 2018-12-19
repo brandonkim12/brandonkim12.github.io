@@ -60,6 +60,7 @@ Brief concepts of each the conduction, convection and radiation are below:
 <center>2. Conduction</center>
 
 * Atomic and molecular activity: processes at these levels sustain this mode of heat transfer
+* Caused by the direct contact between the objects containing heat energy
 * Physical mechanism of conduction: most easily explained by considering a gas and
   using ideas (Familiar from thermodynamics background)
 * In the presence of a temperature gradient, energy transfer by conduction must then occur in the direction of decreasing temperature.
@@ -74,4 +75,9 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 <center>Fig. 4. 1-dimensional heat transfer</center>
 
-$q_x''\,=\,-k\frac{dT}{dx}\,\,-(1)$ where $q_x''$ is the heat transfer rate in the $x$-direction per unit area perpendicular to the direction of transfer.
+* The heat flux $q_x''\,=\,-k \frac{dT}{dx}\,\,-(1)$ [Unit: $\frac{W}{m^2}$] where $q_x''$ is the heat transfer rate in the $x$-direction per unit area  perpendicular to the direction of transfer.
+* The heat rate $q_x\,=\,q_x''\,\cdot A$ [W]
+* The steady-state conditions (where the temperature distribution is linear), the temperature gradient may be expressed as $\frac{dT}{dx}\,=\,\frac{T_2\,-\,T_1}{L}$. (note the [Fig. 4.1] the meaning of each symbol)
+  so, heat flux is expressed like $q_x''\,=\,k\frac{T_1\,-\,T_2}{L}\,=\,k\frac{\Delta T}{L}$
+
+<center>3. Convection</center>
