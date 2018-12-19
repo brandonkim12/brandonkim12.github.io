@@ -17,6 +17,8 @@ However, we don't know exactly what concept we need to take the heat and mass tr
 
 More detailed concepts would be found in thermodynamics post, so we just remind the things briefly.
 
+<center>1. Nomenclatures</center>
+
 - System, surroundings and boundary:
 
   - System: The space of $n$-th dimension, which contains all things what we want to analyze.
@@ -31,3 +33,12 @@ More detailed concepts would be found in thermodynamics post, so we just remind 
 
   - Closed system: the system which always contain the same matter - no heat and mass transfer across its boundary.
   - Isolated system: a special type of closed system that does not interact in any way with its surroundings
+
+* Heat transfer (or Heat)
+  * Thermal energy in transit due to a spatial temperature difference.
+  * Surface transfer phenomena
+    There are three types of heat transfer: conduction, convection and radiation
+
+
+
+* 
