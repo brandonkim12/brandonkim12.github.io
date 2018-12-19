@@ -142,9 +142,29 @@ $A$: cross-sectional area of the bar where $\sigma$ is determined
 
 <center>7. Average Shear Stress</center>
 
+$\tau_{avg}\,=\,\frac{V}{A}$ where
 
+$\tau_{avg}\,=\,$average shear stress at the section, which is assumed to be the same at each point on the section
 
+$V\,=\,$internal resultant shear force on the section determined from the equations of equilibrium
 
+$A\,=\,$area of the section
+
+* The analysis starts from this figure:
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_12.JPG)
+
+<center>Fig. 10 - Analysis of shear stress</center>
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_13.JPG)
+
+<center>Fig. 11 - Shear stress flow in the block</center>
+
+$$\sum F_y\,=\,0;\,\,\,\,\,\tau_{zy}(\Delta x \Delta y)\,-\,\tau_{zy}'\Delta x \Delta y\,=\,0 $$
+
+$$\sum M_x\,=\,0;\,\,\,\,\,-\tau_{zy}(\Delta x \Delta y_)\Delta z)\,+\,\tau_{yz}(\Delta x \Delta z)\Delta y\,=\,0$$
+
+and so, all four shear stresses must have equal magnitude and be directed either toward or away from each other at opposite edges of the element,
 
 - References
 
