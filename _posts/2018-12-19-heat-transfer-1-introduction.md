@@ -23,7 +23,8 @@ More detailed concepts would be found in thermodynamics post, so we just remind 
 
   - System: The space of $n$-th dimension, which contains all things what we want to analyze.
   - Surroundings: Everything excluding the system, whose dimension is also $n$-th one.
-  - Boundary: The $(n-1)$-th-dimensioned distinguisher between system and surroundings,
+  - Boundary: The $(n-1)$-th-dimensioned distinguisher between system and surroundings.
+  - Mainly we're involved in $n\,=\,3$
 
   e.g.) Control volume $\rightarrow$ system
   Whole world excluding system $\rightarrow$ surroundings
@@ -52,10 +53,12 @@ More detailed concepts would be found in thermodynamics post, so we just remind 
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_2.JPG)
 
-
+<center>Fig. 2. Topics of transport phenomena</center>
 
 Brief concepts of each the conduction, convection and radiation are below:
 
-
-
 <center>2. Conduction</center>
+
+* Atomic and molecular activity: processes at these levels sustain this mode of heat transfer
+* Physical mechanism of conduction: most easily explained by considering a gas and
+  using ideas (Familiar from thermodynamics background)
