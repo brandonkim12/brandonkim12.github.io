@@ -82,5 +82,5 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 <center>3. Convection</center>
 
+* Due to random molecular motion and (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid.
 * In addition to energy transfer due to random molecular motion (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid.
-
