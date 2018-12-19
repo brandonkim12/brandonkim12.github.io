@@ -39,6 +39,8 @@ More detailed concepts would be found in thermodynamics post, so we just remind 
   * Surface transfer phenomena
     There are three types of heat transfer: conduction, convection and radiation
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_1.JPG)
 
+<center>Fig. 1. How the conduction, convection and radiation occurs - brief diagram</center>
 
 * 
