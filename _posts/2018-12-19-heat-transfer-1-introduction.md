@@ -85,5 +85,15 @@ Brief concepts of each the conduction, convection and radiation are below:
 * Due to random molecular motion and (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid.
   * Convection:  customarily used when referring to this cumulative transport
   * Advection: transport due to bulk fluid motion.
+  * Hydrodynamic Boundary Layer: The development of a region in the fluid through which the velocity varies from zero at the surface to a finite value $u_{\infin}$ associated with the flow, (consequence of the fluid–surface interaction.)
+  * Thermal Boundary Layer: A region of the fluid through which the temperature varies from at to in the outer flow as the surface and flow temperatures differ. 
+    * may be smaller, larger, or the same size as that through which the velocity varies.
+  * Forced convection: The flow is caused by external means. e.g.) a fan, a pump, or atmospheric winds.
+  * Natural convection: For free (or natural) convection, the flow is induced by buoyancy forces, which are due to density differences caused by temperature variations in the fluid.
 * <u>**The most frequent form of heat transfer.**</u>
 * In addition to energy transfer due to random molecular motion (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_5.JPG)
+
+<center>Fig. 5. Boundary layer development in
+convection heat transfer.</center>
