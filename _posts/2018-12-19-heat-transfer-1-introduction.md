@@ -102,7 +102,7 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 * In addition to energy transfer due to random molecular motion (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid. 
 
-* The appropriate rate equation: $q''\,=\,h\begin{vmatrix}T_s\,-\,T_{\infin}\end{vmatrix}$. where $q''$ is the convective heat [$W/m^2$], $T_s$: surface temperature, $T_{\infin}$: fluid temperature
+* The appropriate rate equation: $q''\,=\,h\begin{vmatrix}T_s\,-\,T_{\infty}\end{vmatrix}$. where $q''$ is the convective heat [$W/m^2$], $T_s$: surface temperature, $T_{\infty}$: fluid temperature
 
 <center>4. Radiation</center>
 
