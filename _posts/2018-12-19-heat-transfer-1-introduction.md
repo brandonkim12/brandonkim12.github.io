@@ -45,6 +45,10 @@ More detailed concepts would be found in thermodynamics post, so we just remind 
 
 * Transport Phenomena
   * There are several topics for the transport phenomena:
+  * Three levels at which transport phenomena can be studied
+    * Macroscopic level - the equations for the macroscopic balance(mass, momentum, energy, and angular momentum), no attempt for the detailed stuffs
+    * Microscopic level - the equations of change of above macroscopic values in microscopic region.
+    * Molecular level - we seek a fundamental understanding of the mechanisms of mass, momentum, energy and angular momentum transport in terms of molecular structure and intermolecular forces.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_2.JPG)
 
