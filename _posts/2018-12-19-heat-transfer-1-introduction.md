@@ -75,7 +75,7 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 <center>Fig. 4. 1-dimensional heat transfer</center>
 
-* The heat flux $q_x''\,=\,-k \frac{dT}{dx}\,\,-(1)$ [Unit: $\frac{W}{m^2}$] where $q_x''$ is the heat transfer rate in the $x$-direction per unit area  perpendicular to the direction of transfer.
+* The heat flux $q_x''\,=\,-k \frac{dT}{dx}$ [Unit: $\frac{W}{m^2}$] where $q_x''$ is the heat transfer rate in the $x$-direction per unit area  perpendicular to the direction of transfer.
 * The heat rate $q_x\,=\,q_x''\,\cdot A$ [W]
 * The steady-state conditions (where the temperature distribution is linear), the temperature gradient may be expressed as $\frac{dT}{dx}\,=\,\frac{T_2\,-\,T_1}{L}$. (note the [Fig. 4.1] the meaning of each symbol)
   so, heat flux is expressed like $q_x''\,=\,k\frac{T_1\,-\,T_2}{L}\,=\,k\frac{\Delta T}{L}$
@@ -108,3 +108,5 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 * Energy emitted by matter that is at a nonzero temperature.
 * Regardless of the form of matter, the emission may be attributed to changes in the electron configurations of the constituent atoms or molecules.
+* $q''_{rad}\,=\,\frac{q}{A}\,=\,\epsilon E_b(T_s)\,-\alpha G\,=\,\epsilon\,\sigma(T_s^4\,-\,T_{sur}^4)$
+
