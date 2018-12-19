@@ -7,3 +7,27 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
+Why the mechanical engineer should know how the heat and mass is transferred? for mechanical engineers, it is essential for them to analyze:
+
+* how the reaction between the mechanical components
+* how the individual component or subsystem endures long for the given conditions
+* how much mechanical power transmission occurs by heat and mass transfer
+
+However, we don't know exactly what concept we need to take the heat and mass transfer. So, let us talk together what preliminaries are in need.
+
+More detailed concepts would be found in thermodynamics post, so we just remind the things briefly.
+
+* System, surroundings and boundary:
+
+  * System: The space of $n$-th dimension, which contains all things what we want to analyze.
+  * Surroundings: Everything excluding the system, whose dimension is also $n$-th one. 
+  * Boundary: The $(n-1)$-th-dimensioned distinguisher between system and surroundings,
+
+  e.g.) Control volume $\rightarrow$ system 
+  Whole world excluding system $\rightarrow$ surroundings 
+  Control surface $\rightarrow$ boundary
+
+* Closed and Isolated System
+
+  * Closed system: the system which always contain the same matter - no heat and mass transfer across its boundary.
+  * Isolated system: a special type of closed system that does not interact in any way with its surroundings
