@@ -116,3 +116,9 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 * This property provides a measure of how efficiently a surface emits energy relative to a blackbody.
 
+
+
+- References
+  - Frank P. Incropera, "Fundamentals of Heat and Mass Transfer", 7th ed.
+  - R. Byron Bird, Warren E. Stewart, "Transport Phenomena", 2nd ed.
+  - Yunus A. Cengel, "Thermodynamics - An Engineering Approach", 8th ed.
