@@ -64,7 +64,14 @@ Brief concepts of each the conduction, convection and radiation are below:
   using ideas (Familiar from thermodynamics background)
 * In the presence of a temperature gradient, energy transfer by conduction must then occur in the direction of decreasing temperature.
 * The net transfer of energy by random molecular motion as a diffusion of energy.
+* Heat transfer processes can be quantified in terms of appropriate rate equations.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_3.JPG)
 
 <center>Fig. 3. Association of conduction heat transfer with diffusion of energy (molecular)</center>
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_4.JPG)
+
+<center>Fig. 4. 1-dimensional heat transfer</center>
+
+$q_x''\,=\,-k\frac{dT}{dx}\,\,-(1)$ where $q_x''$ is the heat transfer rate in the $x$-direction per unit area perpendicular to the direction of transfer.
