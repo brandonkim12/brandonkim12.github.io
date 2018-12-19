@@ -109,4 +109,11 @@ Brief concepts of each the conduction, convection and radiation are below:
 * Energy emitted by matter that is at a nonzero temperature.
 * Regardless of the form of matter, the emission may be attributed to changes in the electron configurations of the constituent atoms or molecules.
 * $q''_{rad}\,=\,\frac{q}{A}\,=\,\epsilon E_b(T_s)\,-\alpha G\,=\,\epsilon\,\sigma(T_s^4\,-\,T_{sur}^4)$
+* $G_{abs}\,=\alpha\,G$ where $\alpha\,=\,$absoptity, $0≤\alpha≤1$
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_6.JPG)
+
+<center>Fig. 6. Radiation Exchange </center>
+
+* This property provides a measure of how efficiently a surface emits energy relative to a blackbody.
 
