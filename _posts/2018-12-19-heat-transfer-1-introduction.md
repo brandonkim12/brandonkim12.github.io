@@ -81,21 +81,21 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 <center>3. Convection</center>
 
-* Due to random molecular motion and (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid.
+Due to random molecular motion and (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid.
 
-  * Convection:  customarily used when referring to this cumulative transport
-  * Advection: transport due to bulk fluid motion.
-  * Hydrodynamic Boundary Layer: The development of a region in the fluid through which the velocity varies from zero at the surface to a finite value $u_{\infin}$ associated with the flow, (consequence of the fluid–surface interaction.)
-  * Thermal Boundary Layer: A region of the fluid through which the temperature varies from at to in the outer flow as the surface and flow temperatures differ. 
-    * may be smaller, larger, or the same size as that through which the velocity varies.
+* Convection:  customarily used when referring to this cumulative transport
+* Advection: transport due to bulk fluid motion.
+* Hydrodynamic Boundary Layer: The development of a region in the fluid through which the velocity varies from zero at the surface to a finite value $u_{\infin}$ associated with the flow, (consequence of the fluid–surface interaction.)
+* Thermal Boundary Layer: A region of the fluid through which the temperature varies from at to in the outer flow as the surface and flow temperatures differ. 
+  * may be smaller, larger, or the same size as that through which the velocity varies.
 
-  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_5.JPG)
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_5.JPG)
 
-  <center>Fig. 5. Boundary layer development in
-  convection heat transfer.</center>
+<center>Fig. 5. Boundary layer development in
+convection heat transfer.</center>
 
-  * Forced convection: The flow is caused by external means. e.g.) a fan, a pump, or atmospheric winds.
-  * Natural convection: For free (or natural) convection, the flow is induced by buoyancy forces, which are due to density differences caused by temperature variations in the fluid.
+* Forced convection: The flow is caused by external means. e.g.) a fan, a pump, or atmospheric winds.
+* Natural convection: For free (or natural) convection, the flow is induced by buoyancy forces, which are due to density differences caused by temperature variations in the fluid.
 
 * <u>**The most frequent form of heat transfer.**</u>
 
@@ -105,8 +105,8 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 <center>4. Radiation</center>
 
-* Energy emitted by matter that is at a nonzero temperature.
-* Regardless of the form of matter, the emission may be attributed to changes in the electron configurations of the constituent atoms or molecules.
+Energy emitted by matter that is at a nonzero temperature. Regardless of the form of matter, the emission may be attributed to changes in the electron configurations of the constituent atoms or molecules.
+
 * $$q''_{rad}\,=\,\frac{q}{A}\,=\,\epsilon E_b(T_s)\,-\alpha G\,=\,\epsilon\,\sigma(T_s^4\,-\,T_{sur}^4)$$
 * $G_{abs}\,=\alpha\,G$ where $\alpha\,=\,$absoptity, $0≤\alpha≤1$
 
@@ -114,9 +114,9 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 <center>Fig. 6. Radiation Exchange </center>
 
-* This property provides a measure of how efficiently a surface emits energy relative to a blackbody.
+This property provides a measure of how efficiently a surface emits energy relative to a blackbody.
 
-
+<br></br>
 
 - References
   - Frank P. Incropera, "Fundamentals of Heat and Mass Transfer", 7th ed.
