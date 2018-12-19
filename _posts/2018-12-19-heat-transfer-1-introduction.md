@@ -81,3 +81,6 @@ Brief concepts of each the conduction, convection and radiation are below:
   so, heat flux is expressed like $q_x''\,=\,k\frac{T_1\,-\,T_2}{L}\,=\,k\frac{\Delta T}{L}$
 
 <center>3. Convection</center>
+
+* In addition to energy transfer due to random molecular motion (diffusion), energy is also transferred by the bulk, or macroscopic, motion of the fluid.
+
