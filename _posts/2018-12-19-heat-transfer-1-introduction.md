@@ -61,8 +61,7 @@ Brief concepts of each the conduction, convection and radiation are below:
 
 * Atomic and molecular activity: processes at these levels sustain this mode of heat transfer
 * Caused by the direct contact between the objects containing heat energy
-* Physical mechanism of conduction: most easily explained by considering a gas and
-  using ideas (Familiar from thermodynamics background)
+* Physical mechanism of conduction: most easily explained by considering a gas and using ideas (Familiar from thermodynamics background)
 * In the presence of a temperature gradient, energy transfer by conduction must then occur in the direction of decreasing temperature.
 * The net transfer of energy by random molecular motion as a diffusion of energy.
 * Heat transfer processes can be quantified in terms of appropriate rate equations.
