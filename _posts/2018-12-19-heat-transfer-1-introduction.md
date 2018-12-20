@@ -109,9 +109,9 @@ Energy emitted by matter that is at a nonzero temperature. Regardless of the for
 
 $$q''_{rad}\,=\,\frac{q}{A}\,=\,\underset{radiation}{\underline{\epsilon E_b(T_s)}}\,-\underset{absorption}{\underline{\alpha G\,}}=\,\underset{the\,net\,rate\,of\,heat\,flux}{\underline{\epsilon\,\sigma(T_s^4\,-\,T_{sur}^4)}}$$
 
-where $q''_{rad}$: the rate of radiation, $\epsilon$: emissivity, such $0≤\epsilon≤$1, $\sigma$: Stefan Boltzman Constant $(\sigma\,=\,5.67\,\times\,10^{-8}\,W/m^2\,\cdot\,K)$ 
+where $q''_{rad}$: the rate of radiation, $E_b$: the emissive power of a body $\epsilon$: emissivity of a gray body, such $0≤\epsilon≤$1, $\sigma$: Stefan Boltzman Constant $(\sigma\,=\,5.67\,\times\,10^{-8}\,W/m^2\,\cdot\,K)$, $G_{abs}\,=\alpha\,G$ where $\alpha\,=\,$absoptity, $0≤\alpha≤1$ 
 
-$G_{abs}\,=\alpha\,G$ where $\alpha\,=\,$absoptity, $0≤\alpha≤1$
+
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_6.JPG)
 
