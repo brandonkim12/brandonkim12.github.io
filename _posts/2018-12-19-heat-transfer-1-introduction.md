@@ -109,7 +109,7 @@ Energy emitted by matter that is at a nonzero temperature. Regardless of the for
 
 $$q''_{rad}\,=\,\frac{q}{A}\,=\,\underset{radiation}{\underline{\epsilon E_b(T_s)}}\,-\underset{absorption}{\underline{\alpha G\,}}=\,\underset{the\,net\,rate\,of\,heat\,flux}{\underline{\epsilon\,\sigma(T_s^4\,-\,T_{sur}^4)}}$$
 
-where $q''_{rad}:$​: the rate of radiation, ​$E_b$: the emissive power of a body ​$\epsilon$: emissivity of a gray body, such ​$0≤\epsilon≤$1, ​$\sigma$: Stefan Boltzman Constant ​$(\sigma\,=\,5.67\,\times\,10^{-8}\,W/m^2\,\cdot\,K)$, ​$G_{abs}\,=\alpha\,G$ where ​$\alpha\,=\,$absoptity, ​$0≤\alpha≤1$. Let me explain each single term.
+where $q''_{rad}$$$ the rate of radiation, $E_b$: the emissive power of a body $\epsilon$: emissivity of a gray body, such $0≤\epsilon≤$1, $\sigma$: Stefan Boltzman Constant $(\sigma\,=\,5.67\,\times\,10^{-8}\,W/m^2\,\cdot\,K)$, $G_{abs}\,=\alpha\,G$ where $\alpha\,=\,$absoptity, $0≤\alpha≤1$. Let me explain each single term.
 
 Firstly, the emissive power in 'ideal' case is $E_b\,=\,\sigma\,T_s^4$. This is the consideration of <u>black body</u>, and the real emissive power is that of <u>gray body</u>, which is smaller emissive power than that of black body. To make up this differences, the quantity named of "emissivity" is applied, so this is the change: $E\,=\,\epsilon \sigma T_s^4$.
 
