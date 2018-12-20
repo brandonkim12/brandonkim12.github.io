@@ -103,7 +103,7 @@ convection heat transfer.</center>
 
 * The appropriate rate equation: $q''\,=\,h\begin{vmatrix}T_s\,-\,T_{\infty}\end{vmatrix}$. where $q''$ is the convective heat [$W/m^2$], $T_s$: surface temperature, $T_{\infty}$: fluid temperature
 
-<center>4. Radiation</center>
+<center>4. Radiation</center
 
 Energy emitted by matter that is at a nonzero temperature. Regardless of the form of matter, the emission may be attributed to changes in the electron configurations of the constituent atoms or molecules. The radiation rate equation is below:
 
@@ -113,7 +113,7 @@ where $q\prime\prime_{rad}$: the rate of radiation, $E_b$: the emissive power of
 
 Firstly, the emissive power in 'ideal' case is $E_b\,=\,\sigma\,T_s^4$. This is the consideration of <u>black body</u>, and the real emissive power is that of <u>gray body</u>, which is smaller emissive power than that of black body. To make up this differences, the quantity named of "emissivity" is applied, so this is the change: $E\,=\,\epsilon \sigma T_s^4$.
 
-Secondly, let's talk about the [Fig. 6.] Surface doesn't absorb a whole radiation. it reflects the radiation, so this phenomena is called as "irradiation". A portion of the irradiation may be absorbed by the surface. To find out the **net** rate of the radiation, it must also be considered. the absorbed quantity of irraditation is like: $G_{abs}\,=\,\alpha\,G​$
+Secondly, let's talk about the [Fig. 6.] Surface doesn't absorb a whole radiation. it reflects the radiation, so this phenomena is called as "irradiation". A portion of the irradiation may be absorbed by the surface. To find out the **net** rate of the radiation, it must also be considered. the absorbed quantity of irraditation is like: $G_{abs}\,=\,\alpha\,G$
 
 Combining these two term, the above net rate equation is constructed.
 
@@ -123,7 +123,11 @@ Combining these two term, the above net rate equation is constructed.
 
 <center>Fig. 6. Radiation Exchange </center>
 
-This property provides a measure of how efficiently a surface emits energy relative to a blackbody.
+<br>
+
+From now on, we'll study three forms of heat transfer more deeply. Hope that this material would be help for your journey to the heat and mass transfer.
+
+
 
 <br>
 
