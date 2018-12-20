@@ -113,7 +113,9 @@ where $q''_{rad}$: the rate of radiation, $E_b$: the emissive power of a body $\
 
 Firstly, the emissive power in 'ideal' case is $E_b\,=\,\sigma\,T_s^4$. This is the consideration of <u>black body</u>, and the real emissive power is that of <u>gray body</u>, which is smaller emissive power than that of black body. To make up this differences, the quantity named of "emissivity" is applied, so this is the change: $E\,=\,\epsilon \sigma T_s^4$.
 
-Secondly, let's talk about the [Fig. 6.] a portion of the irradiation may be absorbed by the surface. To find out the **net** rate of the radiation, it must also be considered. the absorbed quantity of irraditation is like: $G_{abs}\,=\,\alpha\,G$
+Secondly, let's talk about the [Fig. 6.] Surface doesn't absorb a whole radiation. it reflects the radiation, so this phenomena is called as "irradiation". A portion of the irradiation may be absorbed by the surface. To find out the **net** rate of the radiation, it must also be considered. the absorbed quantity of irraditation is like: $G_{abs}\,=\,\alpha\,G$
+
+Combining these two term, the above net rate equation is constructed.
 
 
 
@@ -123,7 +125,7 @@ Secondly, let's talk about the [Fig. 6.] a portion of the irradiation may be abs
 
 This property provides a measure of how efficiently a surface emits energy relative to a blackbody.
 
-<br></br>
+<br>
 
 - References
   - Frank P. Incropera, "Fundamentals of Heat and Mass Transfer", 7th ed.
