@@ -15,4 +15,13 @@ When a excessive stress is applied to the body of certain material, the shape of
 
 <center>Fig.1 - The specimen for yielding experiment</center>
 
-But also one can realize that the deformation depends on the orientation of the specimen at the point.
+But also one can realize that the deformation depends on the orientation of the specimen at the point. Looking the [Fig. 2], the vertical line is lengthened, the horizontal line is shortened, and the inclined line changes its length and rotates. 
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_16.JPG)
+
+<center>Fig. 2 - Line representation in process of yielding experiment</center>
+
+
+
+<center>2. Strain and stress</center>
+
