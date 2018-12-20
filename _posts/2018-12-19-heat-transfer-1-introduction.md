@@ -85,7 +85,7 @@ Due to random molecular motion and (diffusion), energy is also transferred by th
 
 * Convection:  customarily used when referring to this cumulative transport
 * Advection: transport due to bulk fluid motion.
-* Hydrodynamic Boundary Layer: The development of a region in the fluid through which the velocity varies from zero at the surface to a finite value $u_{\infin}$ associated with the flow, (consequence of the fluid–surface interaction.)
+* Hydrodynamic Boundary Layer: The development of a region in the fluid through which the velocity varies from zero at the surface to a finite value $u_{\infty}$ associated with the flow, (consequence of the fluid–surface interaction.)
 * Thermal Boundary Layer: A region of the fluid through which the temperature varies from at to in the outer flow as the surface and flow temperatures differ. 
   * may be smaller, larger, or the same size as that through which the velocity varies.
 
@@ -111,7 +111,7 @@ $$q''_{rad}\,=\,\frac{q}{A}\,=\,\underset{radiation}{\underline{\epsilon E_b(T_s
 
 where $q''_{rad}$: the rate of radiation, $\epsilon$: emissivity, such $0≤\epsilon≤$1, $\sigma$: Stefan Boltzman Constant $(\sigma\,=\,5.67\,\times\,10^{-8}\,W/m^2\,\cdot\,K)$ 
 
-$G_{abs}\,=\alpha\,G​$ where $\alpha\,=\,​$absoptity, $0≤\alpha≤1​$
+$G_{abs}\,=\alpha\,G$ where $\alpha\,=\,$absoptity, $0≤\alpha≤1$
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_6.JPG)
 
