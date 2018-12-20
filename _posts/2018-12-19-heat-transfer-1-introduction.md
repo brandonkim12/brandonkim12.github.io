@@ -103,7 +103,8 @@ convection heat transfer.</center>
 
 * The appropriate rate equation: $q''\,=\,h\begin{vmatrix}T_s\,-\,T_{\infty}\end{vmatrix}$. where $q''$ is the convective heat [$W/m^2$], $T_s$: surface temperature, $T_{\infty}$: fluid temperature
 
-<center>4. Radiation</center
+<center>4. Radiation</center>
+
 
 Energy emitted by matter that is at a nonzero temperature. Regardless of the form of matter, the emission may be attributed to changes in the electron configurations of the constituent atoms or molecules. The radiation rate equation is below:
 
