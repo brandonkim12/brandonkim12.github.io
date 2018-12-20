@@ -117,6 +117,8 @@ Secondly, let's talk about the [Fig. 6.] Surface doesn't absorb a whole radiatio
 
 Combining these two term, the above net rate equation is constructed.
 
+
+
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/thermodynamics_and_heat_transfer/fig_6.JPG)
 
 <center>Fig. 6. Radiation Exchange </center>
