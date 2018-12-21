@@ -72,17 +72,34 @@ where $E$ is the constant of proportionality, which is called the ***modulus of 
 
 One can easily find that the elongation is proportional to the $P$ and $L$, and reciprocal to the $A$.  Although these materials have all the same $E$ - it means that all of the specimen is composed of the same material -, in the composited material case one can see that the elongation is also reciprocal to $E$.
 
-However, this *linear* elongation is not always seen. Before studying about why it is not always seen for any stress, let's see the **ductile** material and **brittle** material.
+However, this *linear* elongation is not always seen. Before studying about why it is not always seen for any stress, let's see the *stress-strain diagram*.
 
 <br>
 
-<center>4. Ductility and brittleness</center>
-
-
+<center>4. Stress-strain diagram</center>
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_21.JPG)
 
 <center>Fig. 7. Stress-strain diagram of ductile material</center>
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_22.JPG)
+
+<center>Fig. 8. Stress-strain diagram of brittle material</center>
+
+
+
+In ***Elastic Region***,  ductile material is elongated *linearly*, and it can be *reversed* - if the force is relieved in this region, the strain goes back. For [Fig. 7], in elastic region the slope is $E$ (Young's Modulus). 
+
+In ***Yielding Region***, the elongation occurs without increasing the stress. The stress that causes yielding is called the yield stress or yield point, $\sigma_Y$, and the deformation that occurs is called plastic
+deformation. 
+
+In ***Strain Hardening Region***, any load causing an increase in stress will be supported by the specimen, resulting in a curve that rises continuously but becomes flatter until it reaches a maximum stress referred to as the ultimate stress, $\sigma_u$. 
+
+In ***Necking Region***, its cross-sectional area will decrease in a fairly uniform manner over the specimen’s entire gage length. However, just after reaching the ultimate stress, the cross-sectional area will then begin to decrease in a localized region of the specimen, and so it is here where the stress begins to increase.
+
+
+
+Until now, the relationship between the stress and the strain has been shown. Next, the ductility and brittleness will be 
 
 
 
