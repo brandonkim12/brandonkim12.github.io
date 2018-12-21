@@ -53,6 +53,12 @@ which makes a *change in the shape of the element.*
 
 
 
+<center>3. Relations between the stress and the strain</center>
+
+
+
+
+
 * References
-  * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.2
+  * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.2 and ch.3
   * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.2
