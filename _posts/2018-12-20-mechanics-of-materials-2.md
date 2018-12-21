@@ -1,5 +1,6 @@
 ---
-layout: post
+
+ layout: post
 title: 2) Stress and Strain - Strain
 date:  2018-12-20 23:30:00 +0900
 categories:
@@ -55,7 +56,33 @@ which makes a *change in the shape of the element.*
 
 <center>3. Relations between the stress and the strain</center>
 
+Then, what makes the stress and strain be bonded together? **Hooke's law** is expressed mathematically by:
 
+$$\sigma\,=\,E\,\epsilon$$
+
+where $E$ is the constant of proportionality, which is called the ***modulus of elasticity*** or ***young's modulus***. Recall that $\epsilon\,=\,\frac{L_0 - L_f}{L_0}$. the **Elongated Length** or **Gauge length** of the specimen is $\delta$, and $\delta\,=\,\epsilon \times L_0$ so, $\sigma\,=\,E \epsilon\,=\,E\frac{\delta}{L_0}$, and it is converted into $\delta\,=\,\frac{P}{A}\times\,\frac{L_0}{E}$, means that *elongated length of specimen is proportional to the **Stress** and **Initial length***. Let's see the downward figures:
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_19.JPG)
+
+<center>Fig. 5. Elongated length for 2A and 2P</center>
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_20.JPG)
+
+<center>Fig. 6. Elongated length for A and 2P</center>
+
+One can easily find that the elongation is proportional to the $P$ and $L$, and reciprocal to the $A$.  Although these materials have all the same $E$ - it means that all of the specimen is composed of the same material -, in the composited material case one can see that the elongation is also reciprocal to $E$.
+
+However, this *linear* elongation is not always seen. Before studying about why it is not always seen for any stress, let's see the **ductile** material and **brittle** material.
+
+<br>
+
+<center>4. Ductility and brittleness</center>
+
+
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_21.JPG)
+
+<center>Fig. 7. Stress-strain diagram of ductile material</center>
 
 
 
