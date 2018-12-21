@@ -25,4 +25,17 @@ But also one can realize that the deformation depends on the orientation of the 
 
 <center>2. Strain and stress</center>
 
-Strain is measured along the **Normal direction** and **Transverse direction**. Firstly, **Normal Strain** $\epsilon$ is expressed as $\epsilon\,=\,\frac{L_0\,-\,L_f}{L_0}$, which $L_0$: Initial length of the specimen, $L_f$: final length of the specimen. In a practical experiment like [Fig. 2], 
+Strain is measured along the **Normal direction**, Normal force for the reference surface, and **Transverse direction**, Transverse force for the reference surface. 
+
+Firstly, **Normal Strain** $\epsilon$ is expressed as $\epsilon\,=\,\frac{L_0\,-\,L_f}{L_0}$, which $L_0$: Initial length of the specimen, $L_f$: final length of the specimen. 
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_17.JPG)
+
+<center>Fig. 3. - The abstract diagram of actual tension experiment</center>
+
+In a practical experiment like [Fig. 2] and [Fig.3], $\Delta s$ would be changed into $\Delta s'$ if the force P exerted on the body of specimen. In this case, the strain is expressed like $\epsilon\,=\,\underset{\Delta s \rightarrow 0}{\lim}\frac{\Delta s'\,=\,\Delta s}{\Delta s}$. Since the unit of numerator and denominator is the same, **The strain is the non-dimensional value.** Although the strain has no dimension, the unit of the strain is often expressed as [$\mu m/\mu m$]for convenience. 
+
+
+
+Secondly, **Shear strain** $\gamma$ is expressed as $\gamma \,=\,\frac{\pi}{2}-\theta$
+
