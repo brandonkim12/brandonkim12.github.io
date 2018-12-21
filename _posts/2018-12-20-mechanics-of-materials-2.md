@@ -1,6 +1,5 @@
 ---
-
- layout: post
+layout: post
 title: 2) Stress and Strain - Strain
 date:  2018-12-20 23:30:00 +0900
 categories:
