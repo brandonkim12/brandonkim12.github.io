@@ -21,7 +21,7 @@ But also one can realize that the deformation depends on the orientation of the 
 
 <center>Fig. 2 - Line representation in process of yielding experiment</center>
 
-
+<br>
 
 <center>2. The Normal Strain and Shear Strain</center>
 
@@ -51,7 +51,7 @@ $$\begin{matrix}\frac{\pi}{2}-\gamma_{xy} & \frac{\pi}{2}-\gamma_{yz} & \frac{\p
 
 which makes a *change in the shape of the element.*
 
-
+<br>
 
 <center>3. Relations between the stress and the strain</center>
 
