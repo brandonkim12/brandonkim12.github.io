@@ -93,10 +93,6 @@ where $\nu$ is called the ***Poisson's ratio*** of certain material.
 
 <center>Fig. 7. Stress-strain diagram of ductile material</center>
 
-![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_22.JPG)
-
-<center>Fig. 8. Stress-strain diagram of brittle material</center>
-
 
 
 In ***Elastic Region***,  ductile material is elongated *linearly*, and it can be *reversed* - if the force is relieved in this region, the strain goes back. For [Fig. 7], in elastic region the slope is $E$ (Young's Modulus). 
