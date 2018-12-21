@@ -23,7 +23,7 @@ But also one can realize that the deformation depends on the orientation of the 
 
 
 
-<center>2. Strain and stress</center>
+<center>2. The Normal Strain and Shear Strain</center>
 
 Strain is measured along the **Normal direction**, Normal force for the reference surface, and **Transverse direction**, Transverse force for the reference surface. 
 
@@ -35,7 +35,19 @@ Firstly, **Normal Strain** $\epsilon$ is expressed as $\epsilon\,=\,\frac{L_0\,-
 
 In a practical experiment like [Fig. 2] and [Fig.3], $\Delta s$ would be changed into $\Delta s'$ if the force P exerted on the body of specimen. In this case, the strain is expressed like $\epsilon\,=\,\underset{\Delta s \rightarrow 0}{\lim}\frac{\Delta s'\,=\,\Delta s}{\Delta s}$. Since the unit of numerator and denominator is the same, **The strain is the non-dimensional value.** Although the strain has no dimension, the unit of the strain is often expressed as [$\mu m/\mu m$]for convenience. 
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_18.JPG)
 
+<center>Fig. 4. - Deformed element</center>
 
-Secondly, **Shear strain** $\gamma$ is expressed as $\gamma \,=\,\frac{\pi}{2}-\theta$
+Secondly, **Shear strain** $\gamma$ is expressed as $\gamma \,=\,\frac{\pi}{2}-\theta$ for [Fig. 4].
+
+What one can see in [Fig. 4] is, the **normal strain** is changed into
+
+$$\begin{matrix}(1+\epsilon_x)\Delta x & (1+\epsilon_y)\Delta y & (1+\epsilon_x)\Delta z \end{matrix}$$
+
+which makes *a change of volume of the element.* and the **Shear strain** is changed into
+
+$$\begin{matrix}\frac{\pi}{2}-\gamma_{xy} & \frac{\pi}{2}-\gamma_{yz} & \frac{\pi}{2}-\gamma_{xz} \end{matrix}$$
+
+which makes a *change in the shape of the element.*
 
