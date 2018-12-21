@@ -111,7 +111,7 @@ In ***Necking Region***, its cross-sectional area will decrease in a fairly unif
 
 
 
-Until now, the relationship between the stress and the strain has been shown. Next, the ductility and brittleness will be shown, and by this we can 
+Until now, the relationship between the stress and the strain has been shown. Next, the ductility and brittleness will be shown, and by this we can obtain the knowledge about several forms of failures.
 
 
 
