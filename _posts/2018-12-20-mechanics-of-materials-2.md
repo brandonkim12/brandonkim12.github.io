@@ -74,6 +74,18 @@ One can easily find that the elongation is proportional to the $P$ and $L$, and 
 
 However, this *linear* elongation is not always seen. Before studying about why it is not always seen for any stress, let's see the *stress-strain diagram*.
 
+Likewise, the shear strain and stress have relation:
+
+$$\tau\,=\,G\gamma$$
+
+where $G$ is called the ***Shear modulus of elasticity*** or ***the modulus of rigidity***. $E$ and $G$ has also relation like:
+
+$$G\,=\,\frac{E}{2(1+\nu)}$$
+
+where $\nu$ is called the ***Poisson's ratio*** of certain material.
+
+
+
 <br>
 
 <center>4. Stress-strain diagram</center>
@@ -99,7 +111,7 @@ In ***Necking Region***, its cross-sectional area will decrease in a fairly unif
 
 
 
-Until now, the relationship between the stress and the strain has been shown. Next, the ductility and brittleness will be 
+Until now, the relationship between the stress and the strain has been shown. Next, the ductility and brittleness will be shown, and by this we can 
 
 
 
