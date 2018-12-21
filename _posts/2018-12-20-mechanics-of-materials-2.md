@@ -25,3 +25,4 @@ But also one can realize that the deformation depends on the orientation of the 
 
 <center>2. Strain and stress</center>
 
+Strain is measured along the **Normal direction** and **Transverse direction**. Firstly, **Normal Strain** $\epsilon$ is expressed as $\epsilon\,=\,\frac{L_0\,-\,L_f}{L_0}$, which $L_0$: Initial length of the specimen, $L_f$: final length of the specimen. In a practical experiment like [Fig. 2], 
