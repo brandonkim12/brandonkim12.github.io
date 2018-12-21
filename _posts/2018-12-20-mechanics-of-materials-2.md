@@ -51,3 +51,8 @@ $$\begin{matrix}\frac{\pi}{2}-\gamma_{xy} & \frac{\pi}{2}-\gamma_{yz} & \frac{\p
 
 which makes a *change in the shape of the element.*
 
+
+
+* References
+  * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.2
+  * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.2
