@@ -7,6 +7,10 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
+Tensor is a **expansion of vector**. 
+
+
+
 
 
 
@@ -14,4 +18,5 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 1. Itskov M., Tensor Algebra and Tensor Analysis for Engineers
 2. Renteln P. - Manifolds, Tensors, and Forms_ An Introduction for Mathematicians and Physicists
-3.Pavel Grinfeld, Tensor analysis
+  3.Pavel Grinfeld, Tensor analysis
+3. Pavel Grinfeld, Tensor analysis
