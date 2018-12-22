@@ -18,5 +18,4 @@ Tensor is a **expansion of vector**.
 
 1. Itskov M., Tensor Algebra and Tensor Analysis for Engineers
 2. Renteln P. - Manifolds, Tensors, and Forms_ An Introduction for Mathematicians and Physicists
-  3.Pavel Grinfeld, Tensor analysis
 3. Pavel Grinfeld, Tensor analysis
