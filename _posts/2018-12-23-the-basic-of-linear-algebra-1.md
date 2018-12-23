@@ -64,7 +64,7 @@ By subtracting this from 2nd column, we can get [Fig. 1. (b).] Getting through t
 
 * Eigenvalues and eigenvectors
 
-  Since now, we have briefly seen about how the solution of *system of linear equations* have been changed, from simple subtraction to more general method, using *inverse matrix*. We would just talk about more improved method to find the solution with **Eigenvalues** and their pair, **Eigenvectors**. Although it is the more complicated job to find the eigenvalues and eigenvectors rather than just find the inverse matrix, it has many advantages for engineering and science problem. we'll see.
+  Since now, we have briefly seen about how the solution of *system of linear equations* have been changed, from simple subtraction to more general method, using *inverse matrix*. We would just talk about more improved method to find the solution with **Eigenvalues** and their pair, **Eigenvectors**. Simply speaking, the eigenvalue is the equivalent value for a matrix, and eigenvector is the vector which satisfies the equation. Although it is the more complicated job to find the eigenvalues and eigenvectors rather than just find the inverse matrix, it has many advantages for engineering and science problem. we'll see.
 
 <br>
 
