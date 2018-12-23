@@ -24,7 +24,11 @@ The brief information for this problem is that the paddy is grain, and the dou i
 
 <center>Fig. 1. Solution for the first problem in ch.8 of Nine Chapters of the Mathematical Art</center>
 
+Let's solve this along the solution expressed above. 
 
+$$\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$$
+
+Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a column vector $\begin{bmatrix}1 \\ -1 \\0 \\ 5 \end{bmatrix}$. By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through the process like this, we can get [Fig. 1. (c)]. Surprisingly, these processes assemble with *Gauss elimination*.
 
 
 
