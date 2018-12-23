@@ -28,7 +28,11 @@ Let's solve this along the solution expressed above.
 
 $$\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$$
 
-Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a column vector $\begin{bmatrix}1 \\ -1 \\ 0 \\ 5 \end{bmatrix}$. By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through the process like this, we can get [Fig. 1. (c)]. Surprisingly, these processes assemble with *Gauss elimination*.
+Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a column vector 
+
+$$\begin{bmatrix}1 \\ -1 \\ 0 \\ 5 \end{bmatrix}$$
+
+By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through the process like this, we can get [Fig. 1. (c)]. Surprisingly, these processes assemble with *Gauss elimination*.
 
 
 
@@ -36,7 +40,11 @@ Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a c
 
 * Matrices and gauss elimination
 
-  Like we've seen above, linear algebra starts from this kind of simple iteration to solve the systems of linear equation. The iteration is called to *Gauss elimination*. To make this calculations regularly expressed, we use something - matrix. Don't know? It is $\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$. Yes, we saw it above already.
+  Like we've seen above, linear algebra starts from this kind of simple iteration to solve the systems of linear equation. The iteration is called to *Gauss elimination*, which is the method that  To make this calculations regularly expressed, we use something - matrix. Don't know? It is 
+
+  $$\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$$ 
+
+  Yes, we saw it above already.
 
 * Systems of Linear Equations, Vectors and Vector Spaces
 
