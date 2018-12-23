@@ -28,11 +28,11 @@ Let's solve this along the solution expressed above.
 
 $$\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$$
 
-Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a column vector 
+Seeing [Fig. 1. (a)]. When 3rd column is subtracted from 2nd column, we get a column vector 
 
 $$\begin{bmatrix}1 \\ -1 \\ 0 \\ 5 \end{bmatrix}$$
 
-By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through the process like this, we can get [Fig. 1. (c)]. Surprisingly, these processes assemble with *Gauss elimination*.
+By subtracting this from 2nd column, we can get [Fig. 1. (b).] Getting through the process like this, we can get [Fig. 1. (c)]. Surprisingly, these processes assemble with *Gauss elimination*.
 
 
 
@@ -60,19 +60,11 @@ By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through 
 
 * Determinants
 
-  Firstly, generalized systems of equations, we get solution of it by the inverse matrix. If the systems of equation is represented like $\mathbb{A} \mathbb{x}\,=\,\mathbb{b}$, then $\mathbb{x}$ is found by $\mathbb{x}\,=\,\mathbb{A}^{-1}\mathbb{b}$.  to find $\mathbb{A}^{-1}$, **Determinant** is used. 
-
-  Secondly, it can be considered in the sense of *Linear Transformations*. The determinant of a matrix is thought of *the volume of parallelepiped composed by the matrix*. Combined with the calculus, the determinant of jacobi matrix,
+  Generalized systems of equations, we get solution of it by the inverse matrix. If the systems of equation is represented like $\mathbb{A} \mathbb{x}\,=\,\mathbb{b}$, then $\mathbb{x}$ is found by $\mathbb{x}\,=\,\mathbb{A}^{-1}\mathbb{b}$.  to find $\mathbb{A}^{-1}$, **Determinant** is used.  The determinant is used to find out what the solution $\mathbb{x}$ is, and its applications are all around the engineering and science.
 
 * Eigenvalues and eigenvectors
 
-
-
-
-
-
-
-
+  Since now, we have briefly seen about how the solution of *system of linear equations* have been changed, from simple subtraction to more general method, using *inverse matrix*. We would just talk about more improved method to find the solution with **Eigenvalues** and their pair, **Eigenvectors**. Although it is the more complicated job to find the eigenvalues and eigenvectors rather than just find the inverse matrix, it has many advantages for engineering and science problem. we'll see.
 
 
 
@@ -82,3 +74,4 @@ By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through 
 
 1. Christine Andrews-Larson, Roots of Linear Algebra: An Historical Exploration of Linear Systems
 2. Robert A. Beezer, A First Course In Linear Algebra
+3. Gilbert Strang, 3th ed., Linear Algebra and Its Applications
