@@ -18,6 +18,12 @@ There is the historical fact that in china, the equivalent procedure for the *ga
 > [and] 3 bundles of low grade paddy, yield 26 dou. Tell: how much paddy does
 > one bundle of each grade yield. [21, p. 399]
 
+The brief information for this problem is that the paddy is grain, and the dou is a unit used for measuring volume. Interpreting this into more easier things, it is expressed like: “A combination of 3 bundles of high-quality grain, 2 bundles of medium-quality grain, and 1 bundle of low-quality grain will yield 39 barrels of flour.” The solution is like below: 
+
+![useful image](I:\blog\brandonkim12.github.io\assets\mathematics/fig_1.JPG)
+
+<center>Fig. 1. Solution for the first problem in ch.8 of Nine Chapters of the Mathematical Art</center>
+
 
 
 
