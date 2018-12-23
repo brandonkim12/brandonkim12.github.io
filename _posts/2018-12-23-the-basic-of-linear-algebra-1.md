@@ -9,7 +9,7 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 <center>1. Origin of the linear algebra</center>
 
-There is the historical fact that in china, the equivalent procedure for the *gauss elimination* is used as early as 200 BC. The main use of the linear algebra is to solve the **simultaneous equation system**. 
+There is the historical fact that in china, the equivalent procedure for the *gauss elimination* is used as early as 200 BC. The main use of the linear algebra is to solve the **simultaneous equation system**. In *Nine Chapters of the Mathematical Art* (九章算術), whose early version of this book was burnt by the emperor Ch’in Shih Huang. In Chapter 8, there are 18 problems, all of which correspond to linear systems with between two and six unknown quantities. With one exception, all of the problems have a unique solution with the number of constraints (equations) equaling the number of unknown quantities.
 
 
 
