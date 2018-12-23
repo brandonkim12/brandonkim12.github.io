@@ -40,19 +40,27 @@ By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through 
 
 * Matrices and gauss elimination
 
-  Like we've seen above, linear algebra starts from this kind of simple iteration to solve the systems of linear equation. The iteration is called to *Gauss elimination*, which is the method that  To make this calculations regularly expressed, we use something - matrix. Don't know? It is 
+  Like we've seen above, linear algebra starts from this kind of simple iteration to solve the systems of linear equation. The iteration is called to **Gauss elimination**, which is the method that  To make this calculations regularly expressed, we use something - matrix. Don't know? It is 
 
   $$\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$$ 
 
-  Yes, we saw it above already.
+  Yes, we saw it above already. This is **matrix**.
 
 * Systems of Linear Equations, Vectors and Vector Spaces
 
-  In section 1, 
+  In section 1, we solved a bunch of equations with elimination method. this *a bunch of linear equation* is the **System of linear equations.** **Vector** is a part of the matrix in row or column sense: 
+
+  $$\begin{bmatrix}1 \\ -1 \\ 0 \\ 5 \end{bmatrix}$$
+
+  is the column vector. To be involved with general cases, such as representations with a bunch of variables in $\mathbb{R}$, a set of real numbers, or $\mathbb{C}$, a set of complex numbers.  **Vector space** is for this generalization. 
 
 * Orthogonality
 
+  The vector space is represented with independent vectors each other, then how can we define this independency? **Orthogonality** Works for the definition of independency. For example, from the coordinates system - The most common case : $xy$-coordinates -, x, y is *orthogonal*. 
+
 * Determinants
+
+  Generalized systems of equations, we get solution of it by the inverse matrix. If the systems of equation is represented like $\mathbb{A} \mathbb{x}\,=\,\mathbb{b}$, then $\mathbb{x}$ is found by $\mathbb{x}\,=\,\mathbb{A}^{-1}\mathbb{b}$. 
 
 * Eigenvalues and eigenvectors
 
