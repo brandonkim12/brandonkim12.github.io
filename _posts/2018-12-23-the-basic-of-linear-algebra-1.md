@@ -9,7 +9,14 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 <center>1. Origin of the linear algebra</center>
 
-There is the historical fact that in china, the equivalent procedure for the *gauss elimination* is used as early as 200 BC. The main use of the linear algebra is to solve the **simultaneous equation system**. In *Nine Chapters of the Mathematical Art* (九章算術), whose early version of this book was burnt by the emperor Ch’in Shih Huang. In Chapter 8, there are 18 problems, all of which correspond to linear systems with between two and six unknown quantities. With one exception, all of the problems have a unique solution with the number of constraints (equations) equaling the number of unknown quantities.
+There is the historical fact that in china, the equivalent procedure for the *gauss elimination* is used as early as 200 BC. The main use of the linear algebra is to solve the **simultaneous equation system**. In *Nine Chapters of the Mathematical Art* (九章算術), whose early version of this book was burnt by the emperor Ch’in Shih Huang. In Chapter 8, there are 18 problems, all of which correspond to linear systems with between two and six unknown quantities. With one exception, all of the problems have a unique solution with the number of constraints (equations) equaling the number of unknown quantities. The first problem is:
+
+> Now given 3 bundles of top grade paddy, 2 bundles of medium grade paddy,
+> [and] 1 bundle of low grade paddy. Yield: 39 dou of grain. 2 bundles of top grade
+> paddy, 3 bundles of medium grade paddy, [and] 1 bundle of low grade paddy,
+> yield 34 dou. 1 bundle of top grade paddy, 2 bundles of medium grade paddy,
+> [and] 3 bundles of low grade paddy, yield 26 dou. Tell: how much paddy does
+> one bundle of each grade yield. [21, p. 399]
 
 
 
