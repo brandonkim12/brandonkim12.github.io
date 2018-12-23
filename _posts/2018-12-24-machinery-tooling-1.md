@@ -38,7 +38,7 @@ Hundreds of grades of carbides are available and attempts to classify these grad
 
 
 
-[^1]: 1 [Rockwell Hardness]((https://en.wikipedia.org/wiki/Rockwell_scale))
+[^1]:  [Rockwell Hardness](https://en.wikipedia.org/wiki/Rockwell_scale)
 
 
 
