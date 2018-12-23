@@ -9,7 +9,7 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 Tensor is, simply speaking, the **expansion of vector**. 
 
-
+> This is not the completed documents.
 
 
 

@@ -32,6 +32,12 @@ Cemented carbides retain a very high degree of hardness at temperatures up to 14
 
 Hundreds of grades of carbides are available and attempts to classify these grades by area of application have not been entirely successful. There are four distinct types of carbides: 1) straight tungsten carbides; 2) crater-resistant carbides; 3) titanium carbides; and 4) coated carbides.
 
+
+
+> This is not the completed documents.
+
+
+
 - References
 
  Erik oberg, 28th ed., Machinery’s Handbook 
