@@ -28,7 +28,35 @@ Let's solve this along the solution expressed above.
 
 $$\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$$
 
-Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a column vector $\begin{bmatrix}1 \\ -1 \\0 \\ 5 \end{bmatrix}$. By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through the process like this, we can get [Fig. 1. (c)]. Surprisingly, these processes assemble with *Gauss elimination*.
+Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a column vector $\begin{bmatrix}1 \\ -1 \\ 0 \\ 5 \end{bmatrix}$. By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through the process like this, we can get [Fig. 1. (c)]. Surprisingly, these processes assemble with *Gauss elimination*.
+
+
+
+<center>2. What would we study in linear algebra?</center>
+
+* Matrices and gauss elimination
+
+  Like we've seen above, linear algebra starts from this kind of simple iteration to solve the systems of linear equation. The iteration is called to *Gauss elimination*. To make this calculations regularly expressed, we use something - matrix. Don't know? It is $\begin{bmatrix}1 & 2 & 3 \\ 2 & 3 & 2 \\ 3 & 1 & 1 \\ 26 & 34 & 39 \end{bmatrix}$. Yes, we saw it above already.
+
+* Systems of Linear Equations, Vectors and Vector Spaces
+
+  In section 1, 
+
+* Orthogonality
+
+* Determinants
+
+* Eigenvalues and eigenvectors
+
+* Linear Transformations
+
+
+
+
+
+
+
+
 
 
 
@@ -36,3 +64,4 @@ Seeing [Fig. 1. (a)]. When 3rd column is substracted from 2nd column, we get a c
 * References
 
 1. Christine Andrews-Larson, Roots of Linear Algebra: An Historical Exploration of Linear Systems
+2. Robert A. Beezer, A First Course In Linear Algebra
