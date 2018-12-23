@@ -60,11 +60,12 @@ By substracting this from 2nd column, we can get [Fig. 1. (b).] Getting through 
 
 * Determinants
 
-  Generalized systems of equations, we get solution of it by the inverse matrix. If the systems of equation is represented like $\mathbb{A} \mathbb{x}\,=\,\mathbb{b}$, then $\mathbb{x}$ is found by $\mathbb{x}\,=\,\mathbb{A}^{-1}\mathbb{b}$. 
+  Firstly, generalized systems of equations, we get solution of it by the inverse matrix. If the systems of equation is represented like $\mathbb{A} \mathbb{x}\,=\,\mathbb{b}$, then $\mathbb{x}$ is found by $\mathbb{x}\,=\,\mathbb{A}^{-1}\mathbb{b}$.  to find $\mathbb{A}^{-1}$, **Determinant** is used. 
+
+  Secondly, it can be considered in the sense of *Linear Transformations*. The determinant of a matrix is thought of *the volume of parallelepiped composed by the matrix*. Combined with the calculus, the determinant of jacobi matrix,
 
 * Eigenvalues and eigenvectors
 
-* Linear Transformations
 
 
 
