@@ -21,9 +21,7 @@ Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking
 
 * Definition 1.2 A set of vectors $\mathbb{x_1,\,\,x_2,\,\cdots\,x_n}$ is called *linearly independent if there exists a set of corresponding scalars* ${\alpha}_1,\,{\alpha}_2,\,\cdots,\,{\alpha}_n\,\in\,\mathbb{R}$, not all zero, such that
 
-$$\begin{equation} \sum_{i=1}^{n}\alpha_i\,\mathbb{x}_i\,=\,0\end{equation}$$
-
-
+$$\sum_{i=1}^{n}\alpha_i\,\mathbb{x}_i\,=\,0 \tag{4.1}$$
 
 
 
