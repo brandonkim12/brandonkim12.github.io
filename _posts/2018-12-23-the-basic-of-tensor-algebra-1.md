@@ -33,7 +33,7 @@ Otherwise, $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ are called linearly independent.
 
 **Definition 4.3.** The vector
 
-$\mathbb{x}\,=\,\sum_{i=1}^n \alpha_i\mathbb{x}_i\tag{4.2}$
+$\mathbb{x}\,=\,\sum_{i=1}^{n} \alpha_i\mathbb{x}_i\tag{4.2}$
 
 is called linear combination of the vectors $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ where $\alpha_i\in\mathbb{R}\, (i\,=1,2,\cdots,n)$
 
