@@ -33,7 +33,7 @@ $$\sum_{i=1}^{n}\alpha_i\,\mathbb{x}_i\,=\,0 \tag{4.1}$$
 
 ***Theorem 4.1.*** The set of n non-zero vectors $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ is linearly dependent iff some vector $\mathbb{x}_k\,(2≤k≤n)$ is a linear combination of the preceding ones $\mathbb{x}_j\,(j\,=1,2,\cdots,k-1)$.
 
-*proof*. if the vectors $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ are linearly independent, then $\sum_{i=1} ^n \alpha_i\mathbb{x}_i=0$  where not all $\alpha_i=0\,(i=k+1,\cdots,n)$. Then,
+*proof*. if the vectors $$\mathbb{x}_i\,(i\,=1,2,\cdots,n)$$ are linearly independent, then $\sum_{i=1} ^n \alpha_i\mathbb{x}_i=0$  where not all $\alpha_i=0\,(i=k+1,\cdots,n)$. Then,
 
 $$\sum_{i=1}^k \alpha_i \mathbb{x}_i\,=\,\mathbb{0}\,\Rightarrow\,\mathbb{x}_k=\sum_{i=1}^{k-1}\frac{-\alpha_i}{\alpha_k}\mathbb{x}_i$$
 
