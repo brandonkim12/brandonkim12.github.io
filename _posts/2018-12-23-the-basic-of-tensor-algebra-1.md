@@ -52,13 +52,21 @@ In Engineering and physics, infinite basis doesn't express the actual situation.
 ***Theorem 4.2.*** All the bases of a finite-dimensional vector space $\mathbb{V}$ contain the same number of vectors.
 
 *Proof*. Let $$\mathbb{G} = \begin{Bmatrix}g_1, g_2,\cdots, g_n \end{Bmatrix}$$ and $$\mathbb{F} = \begin{Bmatrix}f_1, f_2, \cdots , f_m\end{Bmatrix}$$ be two arbitrary bases of $\mathbb{V}$ with different numbers of elements, say $m >n$. Then, every vector in $\mathbb{V}$ is a linear combination of the following vectors:
+
 $$\begin{Bmatrix}f_1, g_1, g_2, \cdots , g_n. \end{Bmatrix}\tag{4.3}$$
+
 These vectors are non-zero and linearly dependent. Thus, according to Theorem 4.1 we can find such a vector $g_k$, which is a linear combination of the preceding ones. Excluding this vector we obtain the set $\mathbb{G}'$ by
+
 $$\begin{Bmatrix}f_1, g_1, g_2, \cdots , g_{k−1}, g_{k+1}, . . . , g_n\end{Bmatrix}$$
+
 again with the property that every vector in $\mathbb{V}$ is a linear combination of the elements of $\mathbb{G}'$. Now, we consider the following vectors
+
 $\begin{Bmatrix}f_1, f_2, g_1, g_2, \cdots , g_{k−1}, g_{k+1}, . . . , g_n\end{Bmatrix}$
+
 and repeat the excluding procedure just as before. We see that none of the vectors fi can be eliminated in this way because they are linearly independent. As soon as all $g_i (i = 1, 2, . . ., n)$ are exhausted we conclude that the vectors
+
 $\begin{Bmatrix}f_1, f_2, . . . , f_{n+1}\end{Bmatrix}$
+
 are linearly dependent. This contradicts, however, the previous assumption that they belong to the basis $\mathbb{F}$.
 
 
