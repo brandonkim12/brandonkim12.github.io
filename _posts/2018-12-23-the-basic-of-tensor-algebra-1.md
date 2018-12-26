@@ -21,7 +21,7 @@ Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking
 | $\mathbb{x+(-x)}\,=\mathbb{x-x}\,=\mathbb{0}$  ($-\mathbb{x}$: reciprocal element) | $(\alpha+\beta)x\,=\,\alpha\mathbb{x}+\beta\mathbb{x}$ (distributive for vector addition) |
 | where $\mathbb{x}$,  $\mathbb{y}$ $\in$ $\mathbb{V}$         | $\forall \alpha,\,\beta\,\in\,\mathbb{R},\,\forall \mathbb{x},\,\mathbb{y}\,\in\,\mathbb{V}$ |
 
- 2.Basis and Dimension of the Vector Space
+ 2. Basis and Dimension of the Vector Space
 
 **Definition 4.2.** A set of vectors $\mathbb{x_1,\,\,x_2,\,\cdots\,x_n}$ is called *linearly independent if there exists a set of corresponding scalars* ${\alpha}_1,\,{\alpha}_2,\,\cdots,\,{\alpha}_n\,\in\,\mathbb{R}$, not all zero, such that
 
