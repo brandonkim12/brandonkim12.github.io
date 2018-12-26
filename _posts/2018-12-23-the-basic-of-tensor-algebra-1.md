@@ -7,7 +7,7 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
-Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking, **The tensor inherits the property of the vector**, because the tensor is *the superordinate concept of the vector*, Once we took the subject of this article as 'vector revisited', let us start from the notion of the vector space.
+Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking, **The tensor inherits the property of the vector**, because the tensor is *the superordinate concept of the vector*. Once we took the subject of this article as 'vector revisited', let us start from the notion of the vector space.
 
  1.Notion of the vector space
 
@@ -22,6 +22,8 @@ Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking
 | where $\mathbb{x}$,  $\mathbb{y}$ $\in$ $\mathbb{V}$         | $\forall \alpha,\,\beta\,\in\,\mathbb{R},\,\forall \mathbb{x},\,\mathbb{y}\,\in\,\mathbb{V}$ |
 
  2.Basis and Dimension of the Vector Space
+
+Based on the arithmetic of the vector, we can set another properties of vectors: basis and dimension.
 
 **Definition 4.2.** A set of vectors $\mathbb{x_1,\,\,x_2,\,\cdots\,x_n}$ is called *linearly independent if there exists a set of corresponding scalars* ${\alpha}_1,\,{\alpha}_2,\,\cdots,\,{\alpha}_n\,\in\,\mathbb{R}$, not all zero, such that
 
