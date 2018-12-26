@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1) Machining operations - cutting speed and feeds (1)
+title: 1) Machining operations - cutting tool materials (1)
 date:  2018-12-24 23:00:00 +0900
 categories:
 - Engineering - Machinery
@@ -12,6 +12,14 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 <center>1. Cutting tool materials</center>
 
 The recommended cutting feeds and speeds in the accompanying tables are given for **high-speed steel**, **coated and uncoated carbides**, **ceramics**, **cermets**, and **polycrystalline diamonds**. More data are available for HSS and carbides because these materials are the most commonly used. Other materials that are used to make cutting tools are cemented oxides or ceramics, cermets, cast nonferrous alloys (Stellite), singlecrystal diamonds, polycrystalline diamonds, and cubic boron nitride.
+
+| Carbon Tool Steel                                            |      |      |      |      |      |
+| ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- |
+| make the less expensive drills, taps, and reamers            |      |      |      |      |      |
+| seldom used to make single-point cutting tools               |      |      |      |      |      |
+| some have a small amount of vanadium and chromium added to improve their hardening quality |      |      |      |      |      |
+| The cutting speed to use for plain carbon tool steel should be approximately one-half of the recommended speed for high-speed steel |      |      |      |      |      |
+|                                                              |      |      |      |      |      |
 
 1) *Carbon Tool Steel*: It is used primarily to make the less expensive drills, taps, and reamers. It is seldom used to make single-point cutting tools. Hardening in carbon steels is very shallow, although some have a small amount of vanadium and chromium added to improve their hardening quality. The cutting speed to use for plain carbon tool steel should be approximately one-half of the recommended speed for high-speed steel.
 
@@ -30,7 +38,11 @@ grind ability when compared with similar grades made by the customary process. T
 
 Cemented carbides retain a very high degree of hardness at temperatures up to 1400°F and even higher; therefore, very fast cutting speeds can be used. When used at fast cutting speeds, they produce good surface finishes on the workpiece. Carbides are more brittle than high-speed steel and, therefore, must be used with more care.
 
-Hundreds of grades of carbides are available and attempts to classify these grades by area of application have not been entirely successful. There are four distinct types of carbides: 1) straight tungsten carbides; 2) crater-resistant carbides; 3) titanium carbides; and 4) coated carbides.
+Hundreds of grades of carbides are available and attempts to classify these grades by area of application have not been entirely successful. 
+
+There are four distinct types of carbides: 1) straight tungsten carbides; 2) crater-resistant carbides; 3) titanium carbides; and 4) coated carbides.
+
+
 
 
 
@@ -38,7 +50,7 @@ Hundreds of grades of carbides are available and attempts to classify these grad
 
 
 
-[^1]:  [Rockwell Hardness](https://en.wikipedia.org/wiki/Rockwell_scale)
+[^1]: [Rockwell Hardness](https://en.wikipedia.org/wiki/Rockwell_scale)
 
 
 
