@@ -29,7 +29,13 @@ Based on the arithmetic of the vector, we can set another properties of vectors:
 
 $$\sum_{i=1}^{n}\alpha_i\,\mathbb{x}_i\,=\,0 \tag{4.1}$$
 
-​	Otherwise, $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ are called linearly independent.
+Otherwise, $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ are called linearly independent.
+
+**Definition 4.3.** The vector
+
+$\mathbb{x}\,=\,\sum_{i=1}^n \alpha_i\mathbb{x}_i\tag{4.2}$
+
+is called linear combination of the vectors $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ where $\alpha_i\in\mathbb{R}\, (i\,=1,2,\cdots,n)$
 
 ***Theorem 4.1.*** The set of n non-zero vectors $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ is linearly dependent if and only if some vector $\mathbb{x}_k\,(2≤k≤n)$ is a linear combination of the preceding ones $\mathbb{x}_j\,(j\,=1,2,\cdots,k-1)$.
 
@@ -38,6 +44,8 @@ $$\sum_{i=1}^{n}\alpha_i\,\mathbb{x}_i\,=\,0 \tag{4.1}$$
 $$\sum_{i=1}^k \alpha_i \mathbb{x}_i\,=\,\mathbb{0}\,\Rightarrow\,\mathbb{x}_k=\sum_{i=1}^{k-1}\frac{-\alpha_i}{\alpha_k}\mathbb{x}_i$$
 
 By this, the case $k=1\,\Rightarrow \alpha_1 \mathbb{x}_1=\mathbb{0} \Rightarrow \mathbb{x}_1=\mathbb{0}$. Thus, the sufficiency is proved, while the necessity is evident.
+
+
 
 
 
