@@ -25,7 +25,7 @@ Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking
 
 Based on the arithmetic of the vector, we can set another properties of vectors: basis and dimension.
 
-**Definition 4.2.** A set of vectors $\mathbb{x_1,\,\,x_2,\,\cdots\,x_n}$ is called *linearly independent if there exists a set of corresponding scalars* ${\alpha}_1,\,{\alpha}_2,\,\cdots,\,{\alpha}_n\,\in\,\mathbb{R}$, not all zero, such that
+**Definition 4.2.** A set of vectors $\mathbb{x_1,\,\,x_2,\,\cdots\,x_n}​$ is called *linearly independent if there exists a set of corresponding scalars* ${\alpha}_1,\,{\alpha}_2,\,\cdots,\,{\alpha}_n\,\in\,\mathbb{R}​$, not all zero, such that
 
 $$\sum_{i=1}^{n}\alpha_i\,\mathbb{x}_i\,=\,0 \tag{4.1}$$
 
@@ -45,7 +45,21 @@ $$\sum_{i=1}^k \alpha_i \mathbb{x}_i\,=\,\mathbb{0}\,\Rightarrow\,\mathbb{x}_k=\
 
 By this, the case $k=1\,\Rightarrow \alpha_1 \mathbb{x}_1=\mathbb{0} \Rightarrow \mathbb{x}_1=\mathbb{0}$. Thus, the sufficiency is proved, while the necessity is evident.
 
+**Definition 4.4.**  A basis of a vector space $\mathbb{V}$ is a set $\mathbb{G}$ of linearly independent vectors such that every vector in $\mathbb{V}$ is a linear combination of elements of $\mathbb{G}$. A vector space $\mathbb{V}$ is finite-dimensional if it has a finite basis.
 
+In Engineering and physics, infinite basis doesn't express the actual situation. For this reason, we only take the finite basis for $\mathbb{V}$. 
+
+***Theorem 4.2.*** All the bases of a finite-dimensional vector space $\mathbb{V}$ contain the same number of vectors.
+
+*Proof*. Let $$\mathbb{G} = \begin{Bmatrix}g_1, g_2,\cdots, g_n \end{Bmatrix}$$ and $$\mathbb{F} = \begin{Bmatrix}f_1, f_2, \cdots , f_m\end{Bmatrix}$$ be two arbitrary bases of $\mathbb{V}$ with different numbers of elements, say $m >n$. Then, every vector in $\mathbb{V}$ is a linear combination of the following vectors:
+$$\begin{Bmatrix}f_1, g_1, g_2, \cdots , g_n. \end{Bmatrix}\tag{4.3}$$
+These vectors are non-zero and linearly dependent. Thus, according to Theorem 4.1 we can find such a vector $g_k$, which is a linear combination of the preceding ones. Excluding this vector we obtain the set $\mathbb{G}'$ by
+$$\begin{Bmatrix}f_1, g_1, g_2, \cdots , g_{k−1}, g_{k+1}, . . . , g_n\end{Bmatrix}$$
+again with the property that every vector in $\mathbb{V}$ is a linear combination of the elements of $\mathbb{G}'$. Now, we consider the following vectors
+$\begin{Bmatrix}f_1, f_2, g_1, g_2, \cdots , g_{k−1}, g_{k+1}, . . . , g_n\end{Bmatrix}$
+and repeat the excluding procedure just as before. We see that none of the vectors fi can be eliminated in this way because they are linearly independent. As soon as all $g_i (i = 1, 2, . . ., n)$ are exhausted we conclude that the vectors
+$\begin{Bmatrix}f_1, f_2, . . . , f_{n+1}\end{Bmatrix}$
+are linearly dependent. This contradicts, however, the previous assumption that they belong to the basis $\mathbb{F}$.
 
 
 
