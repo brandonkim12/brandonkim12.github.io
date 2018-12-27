@@ -7,7 +7,13 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
-Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking, **The tensor inherits the property of the vector**, because the tensor is *the superordinate concept of the vector*. Once we took the subject of this article as 'vector revisited', let us start from the notion of the vector space.
+Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking, **The tensor inherits the property of the vector**, because the tensor is *the superordinate concept of the vector*. Once we took the subject of this article as 'vector revisited', let us start from the notion of the vector space. Wait, ***What is the vector***, then?
+
+> Vector is the quantity which has the direction and magnitude.
+
+Normally, many of us got the concept of the vector like above, and when you want to calculate the addition or subtraction, we often use both graphical method or arithmetic method.
+
+
 
  1.Notion of the vector space
 
