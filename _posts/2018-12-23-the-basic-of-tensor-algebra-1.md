@@ -15,10 +15,10 @@ Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking
 
 | Axiom of addition                                            | Axiom of multiplication                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| $\mathbb{(x+y)+z}\,=\,\mathbb{x+(y+z)}$ (associative)        | $\alpha(\beta \mathbb{x})\,=\,(\alpha \beta)\mathbb{x}$ (multiplication of scalar) |
+| $\mathbb{(x+y)+z}\,=\,\mathbb{x+(y+z)}$ (associative)        | $\alpha(\beta \mathbb{x})\,=\,(\alpha \beta)\mathbb{x}$      |
 | $\mathbb{x} + \mathbb{y}\,=\,\mathbb{y} + \mathbb{x}$ (commutative) | $\mathbb{1 x}\,=\,\mathbb{x}$                                |
-| $\mathbb{0+x}\,=\mathbb{x+0}\,=\mathbb{x}$, $\forall \mathbb{x} \in \mathbb{V}$ ($\mathbb{0}$: identity element) | $\alpha(\mathbb{x+y})\,=\alpha\mathbb{x}\,+\alpha\mathbb{y}$ (distributive for scalar addition) |
-| $\mathbb{x+(-x)}\,=\mathbb{x-x}\,=\mathbb{0}$  ($-\mathbb{x}$: reciprocal element) | $(\alpha+\beta)x\,=\,\alpha\mathbb{x}+\beta\mathbb{x}$ (distributive for vector addition) |
+| $\mathbb{0+x}\,=\mathbb{x+0}\,=\mathbb{x}$, $\forall \mathbb{x} \in \mathbb{V}$ ($\mathbb{0}$: identity element) | $\alpha(\mathbb{x+y})\,=\alpha\mathbb{x}\,+\alpha\mathbb{y}$ |
+| $\mathbb{x+(-x)}\,=\mathbb{x-x}\,=\mathbb{0}$  ($-\mathbb{x}$: reciprocal element) | $(\alpha+\beta)x\,=\,\alpha\mathbb{x}+\beta\mathbb{x}$       |
 | where $\mathbb{x}$,  $\mathbb{y}$ $\in$ $\mathbb{V}$         | $\forall \alpha,\,\beta\,\in\,\mathbb{R},\,\forall \mathbb{x},\,\mathbb{y}\,\in\,\mathbb{V}$ |
 
  2.Basis and Dimension of the Vector Space
