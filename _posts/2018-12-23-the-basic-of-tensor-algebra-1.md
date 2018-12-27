@@ -11,9 +11,13 @@ Tensor is, simply speaking, the **expansion of vector**.  More strictly speaking
 
 > Vector is the quantity which has the direction and magnitude.
 
-Normally, many of us got the concept of the vector like above, and when you want to calculate the addition or subtraction, we often use both graphical method or arithmetic method.
+Normally, many of us got the concept of the vector like above, and when you want to calculate the addition or subtraction, we often use both graphical method or arithmetic method. Firstly, the graphical method is stated below:
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mathematics/fig_2.JPG)
 
+<center>Fig. 1 - Graphical method for vector calculation</center>
+
+We may think that there are some axiomatic statements to make this valid. Yes, here they are. Now we look at the axioms, definitions, and theorems for vector arithmetics.
 
  1.Notion of the vector space
 
@@ -49,7 +53,7 @@ is called linear combination of the vectors $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ w
 
 $$\sum_{i=1}^k \alpha_i \mathbb{x}_i\,=\,\mathbb{0}\,\Rightarrow\,\mathbb{x}_k=\sum_{i=1}^{k-1}\frac{-\alpha_i}{\alpha_k}\mathbb{x}_i$$
 
-By this, the case $k=1\,\Rightarrow \alpha_1 \mathbb{x}_1=\mathbb{0} \Rightarrow \mathbb{x}_1=\mathbb{0}$. Thus, the sufficiency is proved, while the necessity is evident.
+By this, the case m$k=1\,\Rightarrow \alpha_1 \mathbb{x}_1=\mathbb{0} \Rightarrow \mathbb{x}_1=\mathbb{0}$. Thus, the sufficiency is proved, while the necessity is evident.
 
 **Definition 4.4.**  A basis of a vector space $\mathbb{V}$ is a set $\mathbb{G}$ of linearly independent vectors such that every vector in $\mathbb{V}$ is a linear combination of elements of $\mathbb{G}$. A vector space $\mathbb{V}$ is finite-dimensional if it has a finite basis.
 
@@ -75,7 +79,11 @@ $$\begin{Bmatrix}f_1, f_2, . . . , f_{n+1}\end{Bmatrix}$$
 
 are linearly dependent. This contradicts, however, the previous assumption that they belong to the basis $\mathbb{F}$.
 
+**Definition 4.5.** The dimension of a finite-dimensional vector space $\mathbb{V}$ is the number of elements in a basis of $\mathbb{V}$.
 
+***Theorem 4.3.*** Every set $\mathbb{F} = \begin{Bmatrix}f_1, f_2, . . . , f_n\end{Bmatrix}$ of linearly independent vectors in an n-dimensional vectors space $\mathbb{V}$ forms a basis of $\mathbb{V}$. Every set of more than n vectors is linearly dependent.
+
+*proof*. 
 
 > This is not the completed documents.
 
