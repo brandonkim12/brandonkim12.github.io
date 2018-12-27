@@ -81,11 +81,17 @@ are linearly dependent. This contradicts, however, the previous assumption that 
 
 **Definition 4.5.** The dimension of a finite-dimensional vector space $\mathbb{V}$ is the number of elements in a basis of $\mathbb{V}$.
 
-***Theorem 4.3.*** Every set $\mathbb{F} = \begin{Bmatrix}f_1, f_2, . . . , f_n\end{Bmatrix}$ of linearly independent vectors in an n-dimensional vectors space $\mathbb{V}$ forms a basis of $\mathbb{V}$. Every set of more than n vectors is linearly dependent.
+***Theorem 4.3.*** Every set $\mathbb{F} = \begin{Bmatrix}f_1, f_2, \cdots , f_n\end{Bmatrix}$ of linearly independent vectors in an n-dimensional vectors space $\mathbb{V}$ forms a basis of $\mathbb{V}$. Every set of more than n vectors is linearly dependent.
 
-*proof*. 
+*proof*. The process is just same to that of ***Theorem 4.2.***, so the process can be skipped.
 
-> This is not the completed documents.
+***Theorem 4.4.*** Every set $\mathbb{F} = \begin{Bmatrix}f_1, f_2, \cdots , f_m\end{Bmatrix}$ of linearly independent vectors in an n-dimensional vector space V can be extended to a basis.
+
+*Proof.* If $m = n$, then $\mathbb{F}$ is already a basis according to ***Theorem 4.3.*** If $m < n$, then we try to find $n − m$ vectors $f_{m+1}, f_{m+2}, \cdots , f_n$, such that all the vectors $f_i$, that is, $f_1, f_2, . . . , f_m, f_{m+1}, . . . , f_n$ are linearly independent and consequently form a basis. Let us assume, on the contrary, that only $k < n− m$ such vectors can be found. In this case, for all $x \in \mathbb{V}$ there exist scalars $\alpha, \alpha_1, \alpha_2, . . ., \alpha_{m+k}$, not all zero, such that
+
+$$\alpha_x + \alpha_1f_1 + \alpha_2f_2 + . . . + \alpha_{m+k}f_{m+k} = 0,$$
+
+where $α \neq 0$ since otherwise the vectors $f_i (i = 1, 2, . . .,m + k)$ would be linearly dependent. Thus, all the vectors x of V are linear combinations of $f_i (i = 1, 2, . . .,m + k).$ Then, the dimension of $\mathbb{V}$ is $m +k < n,$ which contradicts the assumption of this theorem.
 
 
 
