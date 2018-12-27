@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 1) Introduction to valves (1) definition and classification by function
+title: 1) definition and classification by function
 date:  2018-12-05 21:34:00 +0900
-categories: 
+categories:
 - Engineering - Valves
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
@@ -91,6 +91,6 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 
 
-[^1]: Valve Handbook, 2nd ed., p.1. 
+[^1]: Valve Handbook, 2nd ed., p.1.
 
 [^2]: Valve Selection Handbook, 5th ed., p.2
