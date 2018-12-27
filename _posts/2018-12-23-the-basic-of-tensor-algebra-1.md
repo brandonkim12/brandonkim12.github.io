@@ -53,7 +53,7 @@ is called linear combination of the vectors $\mathbb{x}_i\,(i\,=1,2,\cdots,n)$ w
 
 $$\sum_{i=1}^k \alpha_i \mathbb{x}_i\,=\,\mathbb{0}\,\Rightarrow\,\mathbb{x}_k=\sum_{i=1}^{k-1}\frac{-\alpha_i}{\alpha_k}\mathbb{x}_i$$
 
-By this, the case m$k=1\,\Rightarrow \alpha_1 \mathbb{x}_1=\mathbb{0} \Rightarrow \mathbb{x}_1=\mathbb{0}$. Thus, the sufficiency is proved, while the necessity is evident.
+By this, the case $k=1\,\Rightarrow \alpha_1 \mathbb{x}_1=\mathbb{0} \Rightarrow \mathbb{x}_1=\mathbb{0}$. Thus, the sufficiency is proved, while the necessity is evident.
 
 **Definition 4.4.**  A basis of a vector space $\mathbb{V}$ is a set $\mathbb{G}$ of linearly independent vectors such that every vector in $\mathbb{V}$ is a linear combination of elements of $\mathbb{G}$. A vector space $\mathbb{V}$ is finite-dimensional if it has a finite basis.
 
