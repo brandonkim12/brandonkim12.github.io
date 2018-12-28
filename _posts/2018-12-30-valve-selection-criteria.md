@@ -19,7 +19,7 @@ where $\int dP$ is the pressure drop within the measurement time scope. Above te
 
 Valve coefficients are to evaluate the performance of the valve according to the pressure drop.
 
-$$C_v\,=Q \sqrt{\frac{S_g}{\Delta P}}$$
+$$C_v\,=Q \sqrt{\frac{S_g}{\Delta P}} \tag{2.2}$$
 
 where $C_v\,=\,$ required flow coefficient for the valve
 
