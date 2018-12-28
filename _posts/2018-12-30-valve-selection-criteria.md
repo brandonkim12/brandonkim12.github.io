@@ -21,6 +21,16 @@ Valve coefficients are to evaluate the performance of the valve according to the
 
 $$C_v\,=Q \sqrt{\frac{S_g}{\Delta P}}$$
 
+where $C_v\,=\,$ required flow coefficient for the valve
 
+​              $Q\,=$ flow rate [gal/min]
+
+​             $S_g\,=$ specific gravity of the fluid
+
+​           $\Delta P\,=$ pressure drop [psi]
+
+when you design the pneumatic or hydraulic system, you would often design with the  Imperial units, so we should be used to take the imperial units system.
+
+[Following contents would be the effect of inlet or outlet - fluid mechanics or the main book]
 
 > This is the incomplete article. 
