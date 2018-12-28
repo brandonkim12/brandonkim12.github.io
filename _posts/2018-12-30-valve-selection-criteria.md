@@ -15,7 +15,11 @@ When you design the pneumatic or hydraulic system, according to the Bernoulli's 
 
 $$gh + \frac{1}{2}v^2 + \frac{\int dP}{\rho}=const. \tag{2.1}$$ 
 
-where $\int dP$ is the pressure drop within the measurement time scope. Above term is the mechanical energy of the fluid per unit mass. In many occasion, we can approximate the $\int dP$ into $\Delta P$. As we can see in $(2.1)​$,  the pressure drop is very important when you design the pneumatic or hydraulic system, because velocity of the fluid varies with the pressure drop by the valve structure, regardless of whether the height difference could be ignored (height can be measured easily).
+where $\int dP$ is the pressure drop within the measurement time scope. Above term is the mechanical energy of the fluid per unit mass. In many occasion, we can approximate the $\int dP$ into $\Delta P$. As we can see in $(2.1)$,  the pressure drop is very important when you design the pneumatic or hydraulic system, because velocity of the fluid varies with the pressure drop by the valve structure*(installed flow characteristic)*, regardless of whether the height difference could be ignored (height can be measured easily). 
+
+Valve coefficients are to evaluate the performance of the valve according to the pressure drop.
+
+$$C_v\,=Q \sqrt{\frac{S_g}{\Delta P}}$$
 
 
 
