@@ -52,9 +52,11 @@ in this case, HGL is the $\frac{P}{\rho g}+h$(Pressure Head and Elevation Head),
 
 * For **stationary bodies** such as reservoirs or lakes, the EGL and HGL coincide with the free surface of the liquid. The elevation of the free surface z in such cases represents both the EGL and the HGL since the velocity is zero and the static (gage) pressure is zero.
 * The EGL is always a distance $V^2/2g$ above the HGL. These two curves approach each other as the velocity decreases, and they diverge as the velocity increases. The height of the HGL decreases as the velocity increases, and vice versa.
-* In an **idealized Bernoulli-type flow**, EGL is horizontal and its height remains constant. This would also be the case for HGL when the flow velocity is constant.
+* In an **idealized Bernoulli-type flow**, EGL is horizontal and its height remains constant. This would also be the case for HGL when the flow velocity is constant.  [Fig. 2.1].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_1.JPG)
+
+<center>Fig. 2.1. EGL and HGL Diagram</center>
 
 * For **open-channel flow**, the HGL coincides with the free surface of the liquid, and the EGL is a distance V2/2g above the free surface.
 * At a **pipe exit**, the pressure head is zero (atmospheric pressure) and thus the HGL coincides with the pipe outlet (location 3 on Fig. 5–35).
