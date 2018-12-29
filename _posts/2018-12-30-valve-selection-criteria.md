@@ -59,9 +59,17 @@ in this case, HGL is the $\frac{P}{\rho g}+h$(Pressure Head and Elevation Head),
 <center>Fig. 2.1. EGL and HGL Diagram</center>
 
 * For **open-channel flow**, the HGL coincides with the free surface of the liquid, and the EGL is a distance V2/2g above the free surface.
-* At a **pipe exit**, the pressure head is zero (atmospheric pressure) and thus the HGL coincides with the pipe outlet (location 3 on Fig. 5–35).
+* At a **pipe exit**, the pressure head is zero (atmospheric pressure) and thus the HGL coincides with the pipe outlet [location 3 on Fig. 2.2.]
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_2.JPG)
+
+<center>Fig. 2.2. EGL and HGL for free discharge through a diffuser.</center>
+
 * The **mechanical energy loss** due to frictional effects (conversion to thermal energy) causes the EGL and HGL to slope downward in the direction of flow. The slope is a measure of the head loss in the pipe. A component that generates significant frictional effects such as a valve causes a sudden drop in both EGL and HGL at that location.
-* A **steep jump** occurs in EGL and HGL whenever mechanical energy is added to the fluid (by a pump, for example). Likewise, a **steep drop** occurs in EGL and HGL whenever mechanical energy is removed from the fluid (by a turbine, for example).
+* A **steep jump** occurs in EGL and HGL whenever mechanical energy is added to the fluid (by a pump, for example). Likewise, a **steep drop** occurs in EGL and HGL whenever mechanical energy is removed from the fluid (by a turbine, for example), as shown in [Fig. 2.3.].
+
+
+
 * The gage pressure of a fluid is zero at locations where the HGL intersects the fluid. The pressure in a flow section that lies above the HGL is negative, and the pressure in a section that lies below the HGL is positive. Therefore, an accurate drawing of a piping system overlaid with the HGL can be used to determine the regions where the gage pressure in the pipe is negative (below atmospheric pressure).
 
 
