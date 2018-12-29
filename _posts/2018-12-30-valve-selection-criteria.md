@@ -68,7 +68,9 @@ in this case, HGL is the $\frac{P}{\rho g}+h$(Pressure Head and Elevation Head),
 * The **mechanical energy loss** due to frictional effects (conversion to thermal energy) causes the EGL and HGL to slope downward in the direction of flow. The slope is a measure of the head loss in the pipe. A component that generates significant frictional effects such as a valve causes a sudden drop in both EGL and HGL at that location.
 * A **steep jump** occurs in EGL and HGL whenever mechanical energy is added to the fluid (by a pump, for example). Likewise, a **steep drop** occurs in EGL and HGL whenever mechanical energy is removed from the fluid (by a turbine, for example), as shown in [Fig. 2.3.].
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_3.JPG)
 
+<center>Fig. 2.3. the place where the steep jump and steep drop occur.</center>
 
 * The gage pressure of a fluid is zero at locations where the HGL intersects the fluid. The pressure in a flow section that lies above the HGL is negative, and the pressure in a section that lies below the HGL is positive. Therefore, an accurate drawing of a piping system overlaid with the HGL can be used to determine the regions where the gage pressure in the pipe is negative (below atmospheric pressure).
 
