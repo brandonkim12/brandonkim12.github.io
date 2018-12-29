@@ -45,12 +45,12 @@ in this case, HGL is the $\frac{P}{\rho g}+h$, and EGL is HGL + $\frac{V^2}{2g}$
 
 * For **stationary bodies** such as reservoirs or lakes, the EGL and HGL coincide with the free surface of the liquid. The elevation of the free surface z in such cases represents both the EGL and the HGL since the velocity is zero and the static (gage) pressure is zero.
 * The EGL is always a distance V2/2g above the HGL. These two curves approach each other as the velocity decreases, and they diverge as the velocity increases. The height of the HGL decreases as the velocity increases, and vice versa.
-* In an idealized Bernoulli-type flow, EGL is horizontal and its height remains constant. This would also be the case for HGL when the flow velocity is constant (Fig. 5–36).
-* For open-channel flow, the HGL coincides with the free surface of the liquid, and the EGL is a distance V2/2g above the free surface.
-* At a pipe exit, the pressure head is zero (atmospheric pressure) and thus the HGL coincides with the pipe outlet (location 3 on Fig. 5–35).
-* The mechanical energy loss due to frictional effects (conversion to thermal energy) causes the EGL and HGL to slope downward in the direction of flow. The slope is a measure of the head loss in the pipe (discussed in detail in Chap. 8). A component that generates significant frictional effects such as a valve causes a sudden drop in both EGL and HGL at that location.
-* A steep jump occurs in EGL and HGL whenever mechanical energy is added to the fluid (by a pump, for example). Likewise, a steep drop occurs in EGL and HGL whenever mechanical energy is removed from the fluid (by a turbine, for example), as shown in Fig. 5–37.
-* The gage pressure of a fluid is zero at locations where the HGL intersects the fluid. The pressure in a flow section that lies above the HGL is negative, and the pressure in a section that lies below the HGL is positive (Fig. 5–38). Therefore, an accurate drawing of a piping system overlaid with the HGL can be used to determine the regions where the gage pressure in the pipe is negative (below atmospheric pressure).
+* In an **idealized Bernoulli-type flow**, EGL is horizontal and its height remains constant. This would also be the case for HGL when the flow velocity is constant.
+* For **open-channel flow**, the HGL coincides with the free surface of the liquid, and the EGL is a distance V2/2g above the free surface.
+* At a **pipe exit**, the pressure head is zero (atmospheric pressure) and thus the HGL coincides with the pipe outlet (location 3 on Fig. 5–35).
+* The **mechanical energy loss** due to frictional effects (conversion to thermal energy) causes the EGL and HGL to slope downward in the direction of flow. The slope is a measure of the head loss in the pipe. A component that generates significant frictional effects such as a valve causes a sudden drop in both EGL and HGL at that location.
+* A **steep jump** occurs in EGL and HGL whenever mechanical energy is added to the fluid (by a pump, for example). Likewise, a **steep drop** occurs in EGL and HGL whenever mechanical energy is removed from the fluid (by a turbine, for example).
+* The gage pressure of a fluid is zero at locations where the HGL intersects the fluid. The pressure in a flow section that lies above the HGL is negative, and the pressure in a section that lies below the HGL is positive. Therefore, an accurate drawing of a piping system overlaid with the HGL can be used to determine the regions where the gage pressure in the pipe is negative (below atmospheric pressure).
 
 
 
@@ -67,3 +67,4 @@ in this case, HGL is the $\frac{P}{\rho g}+h$, and EGL is HGL + $\frac{V^2}{2g}$
 1. Valve Handbook, 2nd ed., p.1.
 2. Renteln P. - Manifolds, Tensors, and Forms_ An Introduction for Mathematicians and Physicists
 3. Pavel Grinfeld, Tensor analysis
+4. Yunus A. Cengel, 4th Ed., Fluid Mechanics - Fundamentals and Applications 
