@@ -37,9 +37,9 @@ when you design the pneumatic or hydraulic system, you would often design with t
 
 <center>2. Theoretical Background</center>
 
-Let use the HGL(Hydraulic Grade Line) and EGL(Energy Grade Line) to visualize the Bernoulli's equation much easier to understand $(2.2)$. To do this, Divide $(2.1)$ by $g$. Then we can evaluate
+Let use the HGL(Hydraulic Grade Line) and EGL(Energy Grade Line) to visualize the Bernoulli's equation much easier to understand $(2.2)​$. To do this, Divide $(2.1)​$ by $g​$. Then we can evaluate
 
-$$\underset{along\,a\,streamline}{\underline{\underset{Pressure\,Head}{\underline{\frac{P}{\rho g}}}+\underset{Velocity\,Head}{\underline{\frac{V^2}{2g}}}+\underset{Elevation\,Head}{\underline{h}}=\underset{Total\,Head}{\underline{H}}}} \tag{2.3}$$ 
+$$\underset{Pressure\,Head,\,Velocity\,Head,\,Elevation\,Head,\,and\,Total\,Head\,along\,a\,streamline}{\frac{P}{\rho g}+{\frac{V^2}{2g}+h=H}} \tag{2.3}$$ 
 
 in this case, HGL is the $\frac{P}{\rho g}+h$, and EGL is HGL + $\frac{V^2}{2g}$, so $(2.3)$ is the formula of EGL. Let me show you some of explanation:
 
