@@ -51,7 +51,7 @@ $$\underset{Pressure\,Head,\,Velocity\,Head,\,Elevation\,Head,\,and\,Total\,Head
 in this case, HGL is the $\frac{P}{\rho g}+h$(Pressure Head and Elevation Head), and EGL is HGL + $\frac{V^2}{2g}$, so $(2.3)$ is the formula of EGL. Let me show you some of explanation:
 
 * For **stationary bodies** such as reservoirs or lakes, the EGL and HGL coincide with the free surface of the liquid. The elevation of the free surface z in such cases represents both the EGL and the HGL since the velocity is zero and the static (gage) pressure is zero.
-* The EGL is always a distance V2/2g above the HGL. These two curves approach each other as the velocity decreases, and they diverge as the velocity increases. The height of the HGL decreases as the velocity increases, and vice versa.
+* The EGL is always a distance $V^2/2g$ above the HGL. These two curves approach each other as the velocity decreases, and they diverge as the velocity increases. The height of the HGL decreases as the velocity increases, and vice versa.
 * In an **idealized Bernoulli-type flow**, EGL is horizontal and its height remains constant. This would also be the case for HGL when the flow velocity is constant.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_1.JPG)
