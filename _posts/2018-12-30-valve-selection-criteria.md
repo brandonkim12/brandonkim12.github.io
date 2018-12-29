@@ -15,9 +15,16 @@ When you design the pneumatic or hydraulic system, according to the Bernoulli's 
 
 $$gh + \frac{1}{2}v^2 + \frac{\int dP}{\rho}=const. \tag{2.1}$$ 
 
-where $g​$ is the gravity acceleration constant, $h​$ is the height of the fluid line from the reference point, $\rho​$ is the density property of fluid being analyzed, and $\int dP​$ is the pressure drop within the measurement time scope. Above term is the mechanical energy of the fluid per unit mass. 
+where $g$ is the gravity acceleration constant, $h$ is the height of the fluid line from the reference point, $\rho$ is the density property of fluid being analyzed, and $\int dP$ is the pressure drop within the measurement time scope. Above term is the mechanical energy of the fluid per unit mass. There are the constraints to use the Bernoulli's equations, which are:
 
-Usually the closure element, such as a plug or a disk, is located just off the seat, which leads to the possibility of creating a high pressure drop and faster velocities—causing cavitation, flashing, or erosion of the trim parts. In addition, if the closure element is closure to the seat and the operator is not strong enough to hold that position, it may be sucked into the seat. This problem is appropriately called *the bathtub stopper effect*. That's why we have to focus in the $\int dP$. 
+* Steady Flow
+* Negligible Viscous Effects
+* No Shaft Work
+* Incompressible Flow
+* Negligible Heat Transfer
+* Flow along a streamline
+
+These things are considered deeply in Fluid Mechanics sections, so these are skipped in this time. Usually the closure element, such as a plug or a disk, is located just off the seat, which leads to the possibility of creating a high pressure drop and faster velocities—causing cavitation, flashing, or erosion of the trim parts. In addition, if the closure element is closure to the seat and the operator is not strong enough to hold that position, it may be sucked into the seat. This problem is appropriately called *the bathtub stopper effect*. That's why we have to focus in the $\int dP$. 
 
 In many occasion, we can approximate the $\int dP$ into $\Delta P$. As we can see in $(2.1)$,  the pressure drop is very important when you design the pneumatic or hydraulic system, because velocity of the fluid varies with the pressure drop by the valve structure*(installed flow characteristic)*, regardless of whether the height difference could be ignored (height can be measured easily). Considering that, the valve coefficients are to evaluate the performance of the valve according to the pressure drop.
 
@@ -37,11 +44,11 @@ when you design the pneumatic or hydraulic system, you would often design with t
 
 <center>2. Theoretical Background</center>
 
-Let use the HGL(Hydraulic Grade Line) and EGL(Energy Grade Line) to visualize the Bernoulli's equation much easier to understand $(2.2)​$. To do this, Divide $(2.1)​$ by $g​$. Then we can evaluate
+Let use the HGL(Hydraulic Grade Line) and EGL(Energy Grade Line) to visualize the Bernoulli's equation much easier to understand $(2.2)$. To do this, Divide $(2.1)$ by $g$. Then we can evaluate
 
 $$\underset{Pressure\,Head,\,Velocity\,Head,\,Elevation\,Head,\,and\,Total\,Head\,along\,a\,streamline}{\underline{\frac{P}{\rho g}+{\frac{V^2}{2g}+h=H}}} \tag{2.3}$$ 
 
-in this case, HGL is the $\frac{P}{\rho g}+h$, and EGL is HGL + $\frac{V^2}{2g}$, so $(2.3)$ is the formula of EGL. Let me show you some of explanation:
+in this case, HGL is the $\frac{P}{\rho g}+h$(Pressure Head and Elevation Head), and EGL is HGL + $\frac{V^2}{2g}$, so $(2.3)$ is the formula of EGL. Let me show you some of explanation:
 
 * For **stationary bodies** such as reservoirs or lakes, the EGL and HGL coincide with the free surface of the liquid. The elevation of the free surface z in such cases represents both the EGL and the HGL since the velocity is zero and the static (gage) pressure is zero.
 * The EGL is always a distance V2/2g above the HGL. These two curves approach each other as the velocity decreases, and they diverge as the velocity increases. The height of the HGL decreases as the velocity increases, and vice versa.
