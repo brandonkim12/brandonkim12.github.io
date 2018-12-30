@@ -40,7 +40,7 @@ where $C_v\,=\,$ required flow coefficient for the valve
 
 when you design the pneumatic or hydraulic system, you would often design with the  Imperial units, so we should be used to take the imperial units system. 
 
-
+<br>
 
 <center>2. Theoretical Background</center>
 
@@ -74,9 +74,25 @@ in this case, HGL is the $\frac{P}{\rho g}+h$(Pressure Head and Elevation Head),
 
 * The gage pressure of a fluid is zero at locations where the HGL intersects the fluid. The pressure in a flow section that lies above the HGL is negative, and the pressure in a section that lies below the HGL is positive. Therefore, an accurate drawing of a piping system overlaid with the HGL can be used to determine the regions where the gage pressure in the pipe is negative (below atmospheric pressure).
 
+By these statements and explanations for EGL and HGL, we find the velocity out approximately. Basically this kind of measurement is to find out what the pressure difference is. In industrial situation(in case that the working fluid is hydraulic fluid), generally flow is steady **[Steady Flow]**, and density change can be negligible **[Incompressible Flow]**. Other conditions can be different, but in fundamental viewpoint, individual valve and piping subsystem can satisfy above six condition often, so simple analysis with the Bernoulli's equation can work.
+
+<br>
+
+<center>3. Flow characteristics</center>
+
+* Equal-Percentage Flow Characteristic
+
+  With an equal-percentage characteristic, the change in flow per unit of valve stroke is directly proportional to the flow occurring just before the change is made. In formula,
+
+  $\frac{dQ}{dL}=nQ,\, Q=Q_0 e^{nL}$
+
+  where $Q$: Flow rate, $L$: Valve travel, $e$: $\underset{n \rightarrow \infty}{\lim}{(1+\frac{1}{n})}^n=2.718$, $Q_0$: minimum controllable flow, $n$: constatnt
+
+* Linear Flow Characteristic
+
+* Quick-Open Flow Characteristic
 
 
-[Following contents would be the effect of inlet or outlet - fluid mechanics or the main book]
 
 > This is the incomplete article. 
 
