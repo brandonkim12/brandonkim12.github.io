@@ -145,6 +145,4 @@ We didn't see much about the *inherent flow characteristics* and *installed flow
 - References
 
 1. Valve Handbook, 2nd ed., p.1.
-2. Renteln P. - Manifolds, Tensors, and Forms_ An Introduction for Mathematicians and Physicists
-3. Pavel Grinfeld, Tensor analysis
-4. Yunus A. Cengel, 4th Ed., Fluid Mechanics - Fundamentals and Applications 
+2. Yunus A. Cengel, 4th Ed., Fluid Mechanics - Fundamentals and Applications 
