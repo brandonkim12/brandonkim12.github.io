@@ -136,7 +136,7 @@ The characteristic cage and linear plugs are below:
 
 We've studied the concepts and fundamentals of the valve coefficients, and the principal three types of valve flowing. Valve coefficients are to define the performance of valve system according to the pressure drop. Three types of the flow characteristics are *Equal-Percentage Flow Characteristic*, *Linear Flow Characteristic*, and *Quick-Open Flow Characteristic*, and the plot of flow percentage according to the valve stroke percentage is [Fig. 2.4.].
 
-We didn't see about the *inherent flow characteristics* and *installed flow characteristics*, so in the next article, we'll see about that.
+We didn't see much about the *inherent flow characteristics* and *installed flow characteristics*, so in the next article, we'll see about that.
 
 
 
