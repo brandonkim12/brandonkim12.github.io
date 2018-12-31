@@ -86,7 +86,7 @@ By these statements and explanations for EGL and HGL, we find the velocity out a
 
   $\frac{dQ}{dL}=nQ,\, Q=Q_0 e^{nL}$
 
-  where $Q$: Flow rate, $L$: Valve travel, $e$: $\underset{n \rightarrow \infty}{\lim}{(1+\frac{1}{n})}^n=2.718$, $Q_0$: minimum controllable flow, $n$: constatnt
+  where $Q$: Flow rate, $L$: Valve travel, $e$: $\underset{n \rightarrow \infty}{\lim}{(1+\frac{1}{n})}^n=2.718$, $Q_0$: minimum controllable flow, $n$: constant
 
 * Linear Flow Characteristic
 
