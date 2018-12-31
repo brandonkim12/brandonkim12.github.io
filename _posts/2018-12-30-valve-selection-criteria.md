@@ -126,6 +126,10 @@ The characteristic cage and linear plugs are below:
 
   The quick-open characteristic is used almost exclusively for on–off applications, where maximum flow is produced immediately as the valve begins to open. Because of the extreme nature of the quick-open characteristic, the inherent and installed characteristics are similar.
 
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_9.JPG)
+
+  <center>Fig. 2.9. Typical inherent and installed quick-open characteristics.</center>
+
 
 
 > This is the incomplete article. 
