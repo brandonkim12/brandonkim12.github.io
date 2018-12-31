@@ -80,9 +80,9 @@ By these statements and explanations for EGL and HGL, we find the velocity out a
 
 <center>3. Flow characteristics</center>
 
-**inherent flow characteristic**: The characteristics when a valve is operating with a constant pressure drop without taking into account the effects of piping. 
+**Inherent flow characteristic**: The characteristics when a valve is operating with a constant pressure drop without taking into account the effects of piping. 
 
-**installed flow characteristic**: The characteristics when both the valve and piping effects are taken into account. In this time, the flow characteristic changes from the ideal curve.
+**Installed flow characteristic**: The characteristics when both the valve and piping effects are taken into account. In this time, the flow characteristic changes from the ideal curve.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_4.JPG)
 
