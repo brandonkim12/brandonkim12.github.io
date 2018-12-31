@@ -80,15 +80,29 @@ By these statements and explanations for EGL and HGL, we find the velocity out a
 
 <center>3. Flow characteristics</center>
 
+**inherent flow characteristic**: The characteristics when a valve is operating with a constant pressure drop without taking into account the effects of piping. 
+
+**installed flow characteristic**: The characteristics when both the valve and piping effects are taken into account. In this time, the flow characteristic changes from the ideal curve.
+
+
+
 * Equal-Percentage Flow Characteristic
 
   With an equal-percentage characteristic, the change in flow per unit of valve stroke is directly proportional to the flow occurring just before the change is made. In formula,
 
   $\frac{dQ}{dL}=nQ,\, Q=Q_0 e^{nL}$
 
-  where $Q$: Flow rate, $L$: Valve travel, $e$: $\underset{n \rightarrow \infty}{\lim}{(1+\frac{1}{n})}^n=2.718$, $Q_0$: minimum controllable flow, $n$: constant
+  where $Q$: Flow rate, $L$: Valve travel, $e$: $\underset{k \rightarrow \infty}{\lim}{(1+\frac{1}{k})}^k≒2.7181$, $Q_0$: minimum controllable flow, $n$: constant.
+
+  This characteristic curve will be shaped of exponential curve.
 
 * Linear Flow Characteristic
+
+  The *inherent linear flow characteristic* produces equal changes in flow per unit of valve stroke, regardless of the position of the valve. For the most part, linear flow characteristics provide better flow capacity throughout the entire stroke, as opposed to equal-percentage characteristics. In formula,
+
+  $\frac{dQ}{dL}=k,\, Q=kL$
+
+  Where $k$: constant of proportionality.
 
 * Quick-Open Flow Characteristic
 
