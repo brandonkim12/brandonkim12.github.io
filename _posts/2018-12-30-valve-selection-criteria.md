@@ -84,7 +84,19 @@ By these statements and explanations for EGL and HGL, we find the velocity out a
 
 **installed flow characteristic**: The characteristics when both the valve and piping effects are taken into account. In this time, the flow characteristic changes from the ideal curve.
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_4.JPG)
 
+<center>Fig. 2.4. Typical inherent flow characteristics. (Courtesy of Valtek International)</center>
+
+The characteristic cage and linear plugs are below:
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_5.JPG)
+
+<center>Fig. 2.5. Characterizable cages.</center>
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_6.JPG)
+
+<center>Fig. 2.6. Characterizable linear plugs.</center>
 
 * Equal-Percentage Flow Characteristic
 
@@ -94,7 +106,9 @@ By these statements and explanations for EGL and HGL, we find the velocity out a
 
   where $Q$: Flow rate, $L$: Valve travel, $e$: $\underset{k \rightarrow \infty}{\lim}{(1+\frac{1}{k})}^k≒2.7181$, $Q_0$: minimum controllable flow, $n$: constant.
 
-  This characteristic curve will be shaped of exponential curve.
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_7.JPG)
+
+  <center>Fig. 2.7. Typical inherent and installed equal-percentage flow characteristics.</center>
 
 * Linear Flow Characteristic
 
@@ -104,7 +118,13 @@ By these statements and explanations for EGL and HGL, we find the velocity out a
 
   Where $k$: constant of proportionality.
 
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/fluid_mechanics/fig_8.JPG)
+
+<center>Fig. 2.8. Typical inherent and installed linear flow characteristics.</center>
+
 * Quick-Open Flow Characteristic
+
+  The quick-open characteristic is used almost exclusively for on–off applications, where maximum flow is produced immediately as the valve begins to open. Because of the extreme nature of the quick-open characteristic, the inherent and installed characteristics are similar.
 
 
 
