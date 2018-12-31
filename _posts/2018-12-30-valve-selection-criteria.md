@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2) Valve Selection Criteria - (1) Valve coefficients and three principal types of flow type
+title: 2) Valve Selection Criteria - (1) Valve Coefficients and Three Principal Types of Flow Type
 date:  2018-12-30 23:00:00 +0900
 categories:
 - Engineering - Valves
