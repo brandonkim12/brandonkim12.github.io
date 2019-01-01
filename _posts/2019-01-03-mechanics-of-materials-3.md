@@ -7,6 +7,9 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
+
+
+
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.2 and ch.3
   * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.2
