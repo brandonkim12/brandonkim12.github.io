@@ -23,7 +23,7 @@ $$\text{where}\begin{cases} \rho: & \text{The linear density of spring} \\ g: & 
 
 Then, $c^2=\frac{kgl^2}{W}$, so (1) becomes
 
-$$\frac{{\partial}^2 u}{\partial x^2}=\frac{W}{kgl^2}\frac{{\partial}^2 u}{\partial t^2}\tag{2}$$
+$$\frac{\partial ^2 u}{\partial x^2}=\frac{W}{kgl^2}\frac{\partial ^2 u}{\partial t^2}\tag{2}$$
 
 By the separation of the variable, we get from the equation
 
