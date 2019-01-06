@@ -33,7 +33,7 @@ where $\lambda_n$ means that X and T are the periodic functions. By the normal S
 
 $$u(x,t)\,=\,\sum_{n=1}^{\infty}\sin \frac{n\pi x}{l}[A_n \cos \frac{n\pi ct}{l} + B_n\sin \frac{n \pi ct}{l}] \tag{3} $$
 
-We call the natural frequency $w_n=\frac{n\pi c}{l}$, so replace $c$ with $\sqrt{\frac{kgl^2}{W}}$ we get $w_n=\frac{n\pi}{l}\sqrt{\frac{kgl^2}{W}}=n\pi \sqrt{\frac{kg}{W}}$.
+We call the natural frequency $w_n=\frac{n\pi c}{l}$, so replace $c$ with $\sqrt{\frac{kgl^2}{W}}$ we get $w_n=\frac{n\pi}{l}\sqrt{\frac{kgl^2}{W}}=n\pi \sqrt{\frac{kg}{W}} \text{ (where }n\in \mathbb{N}) $.
 
 
 
