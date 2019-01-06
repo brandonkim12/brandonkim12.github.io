@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The critical frequency of the helical spring
-date:  2019-01-06 22:30:00 +0900
+date:  2019-01-06 20:30:00 +0900
 categories:
 - Engineering - Miscellaneous
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
