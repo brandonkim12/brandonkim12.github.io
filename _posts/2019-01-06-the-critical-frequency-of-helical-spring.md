@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The critical frequency of the helical spring - using the wave equations and the normal strum-Liouville problem
+title: The critical frequency of the helical spring
 date:  2019-01-06 23:30:00 +0900
 categories:
 - Engineering - Miscellaneous
