@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The critical frequency of the helical spring
-date:  2019-01-06 20:30:00 +0900
+date:  2019-01-06 22:30:00 +0900
 categories:
 - Engineering - Mechanical Design
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
@@ -11,7 +11,7 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 The governing equation for the translational vibration of the spring placed between two flat and parallel plates is
 
-$$\frac{{\partial}^2 u}{\partial x^2}=\frac{1}{c^2}\frac{{\partial}^2 u}{\partial t^2}\tag{1}$$
+$$\frac{\partial ^2 u}{\partial x^2}=\frac{1}{c^2}\frac{\partial ^2 u}{\partial t^2}\tag{1}$$
 
 $$\text{where}\begin{cases} c: & \frac{T_0}{\rho (x)} \\ T_0: & \text{The initial tension acting on the spring}\\ u: & \text{Motion of any particle at distance x}\end{cases}$$
 
