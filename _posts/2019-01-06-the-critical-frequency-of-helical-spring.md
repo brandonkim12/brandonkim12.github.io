@@ -40,3 +40,5 @@ We call the natural frequency $w_n=\frac{n\pi c}{l}$, so replace $c$ with $\sqrt
 * References
   * A First Course in Partial Differential Equations with complex variables and transform methods - H. Wein, ch.1
   * Shigley's Mechanical Engineering Design, 8th ed.
+  * The lecture note of David Skinner (Associate Professor in Theoretical Physics - The University of Cambridge) (http://www.damtp.cam.ac.uk/user/dbs26/1BMethods/Wave.pdf)
+  * Peter_V O'Neil, Advanced_Engineering_Mathematics, 7th Ed.
