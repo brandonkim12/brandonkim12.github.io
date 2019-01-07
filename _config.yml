@@ -44,6 +44,7 @@ social: # jekyll-seo-tag > social overrides
     - https://twitter.com/DavidDarnes
     - https://www.facebook.com/brandon.kim.921025
     - https://www.linkedin.com/in/daviddarnes
+    - https://plus.google.com/u/0/116026367212636023882?tab=wX
     - https://github.com/brandonkim12
 
 # 4. Jekyll settings
@@ -101,6 +102,7 @@ navigation_footer:
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes
   LinkedIn: https://www.linkedin.com/in/daviddarnes
+  Google+: https://plus.google.com/u/0/116026367212636023882?tab=wX
   GitHub: https://github.com/brandonkim12
   link: https://darn.es
   RSS: /feed.xml
@@ -108,6 +110,7 @@ social_links: # Appears in sidebar. Set the urls then uncomment and comment out 
 sharing_links: # Appear at the bottom of single blog posts, uncomment and comment out as desired. Colours set the button colour
   Twitter: "#0d94e7"
   facebook: "#3B5998"
+  Google+: "#DC4E41"
   # Pinterest: "#BD081C"
   # LinkedIn: "#0077B5"
   # tumblr: "#36465D"
