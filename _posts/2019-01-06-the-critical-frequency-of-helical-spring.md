@@ -29,7 +29,7 @@ By the separation of the variable, we get from the equation
 
 $$\begin{aligned}u(x,t)=X(x)T(t) \\ \frac{X''}{X}= \frac{T''}{c^2 T}=-\lambda_n \end{aligned}$$
 
-where $\lambda_n$ means that X and T are the periodic functions. By the normal Strum-Liouville problem, we get the $\lambda_n = \frac{n^2 \pi^2}{l^2}$, So $u(x,t)$ with $X(x)$ and $T(t)$ is represented to
+where $\lambda_n$ means that X and T are the periodic functions. By the normal Strum-Liouville problem, we get the $\lambda_n = \frac{n^2 \pi^2}{l^2}$, So $u(x,t)$ with $X(x)$ and $T(t)$ is represented by the initial and boundary condition
 
 $$u(x,t)\,=\,\sum_{n=1}^{\infty}\sin \frac{n\pi x}{l}[A_n \cos \frac{n\pi ct}{l} + B_n\sin \frac{n \pi ct}{l}] \tag{3} $$
 
