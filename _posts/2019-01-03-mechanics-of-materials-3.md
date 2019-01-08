@@ -32,13 +32,15 @@ curve AB in [Fig. 3.2.]
 
  <center>FIg. 3.2. The Diagram of Gray Cast Iron - Brittle Material</center>
 
-***Brittle Material doesn't undergo the yielding, and it goes to the fracture directly.*** Since the appearance of initial cracks in a specimen is quite random, ***brittle materials do not have a well-defined tensile fracture stress.*** Instead the average fracture stress from a set of observed tests is generally reported. A typical tensile and compression failure is stated on [Fig. 3.3] and [Fig. 3.4.] below.
+***Brittle Material doesn't undergo the yielding, and it goes to the fracture directly.*** Since the appearance of initial cracks in a specimen is quite random, ***brittle materials do not have a well-defined tensile fracture stress.*** Instead the average fracture stress from a set of observed tests is generally reported. A typical tensile and compressive failure is stated on [Fig. 3.3] and [Fig. 3.4.] below.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_25.JPG)
 
 <center>FIg. 3.3. Typical Tensile Failure of the Brittle Material</center>
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_26.JPG)
 
+<center>FIg. 3.4. Typical Compressive Failure of the Brittle Material</center>
 
 
 
