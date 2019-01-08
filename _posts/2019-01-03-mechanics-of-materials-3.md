@@ -70,6 +70,10 @@ In abstract, in stress-strain diagram, if the stress acting on a material is bel
 
 
 
+
+
+
+
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.3
   * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.2

@@ -81,9 +81,7 @@ where $G$ is called the ***Shear modulus of elasticity*** or ***the modulus of r
 
 $$G\,=\,\frac{E}{2(1+\nu)}$$
 
-where $\nu$ is called the ***Poisson's ratio*** of certain material.
-
-
+where $\nu$ is called the ***Poisson's ratio*** of certain material, such that $\nu = -\frac{\epsilon _{\text{lat}}}{\epsilon _{\text{long}}}$ where $\epsilon_{\text{lat}}$: lateral elongation and $\epsilon _{\text{long}}$: radial strain(normally contraction).
 
 <br>
 
