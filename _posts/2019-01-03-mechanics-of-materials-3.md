@@ -25,6 +25,11 @@ An exception would be natural rubber, which in fact does not even have a proport
 
 
 
+**Brittle Materials**: Materials that exhibit little or no yielding before failure are referred to as brittle materials. Gray cast iron is an example, having a stress–strain diagram in tension as shown by the
+curve AB in [Fig. 3.2.]
+
+
+
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.3
