@@ -44,6 +44,12 @@ curve AB in [Fig. 3.2.]
 
 
 
+<center>2. Elastic and Plastic Behavior of a Material</center>
+
+
+
+
+
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.3
