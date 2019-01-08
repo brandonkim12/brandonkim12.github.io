@@ -46,7 +46,26 @@ curve AB in [Fig. 3.2.]
 
 <center>2. Elastic and Plastic Behavior of a Material</center>
 
+If the material has a well-defined yield point as in [Fig. 3.5], the elastic limit, the proportional limit, and the yield point are essentially equal. In other words, *<u>the material behaves elastically and linearly as long as the stress is kept below the yield point.</u>*
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_30.JPG)
+
+<center>FIg. 3.5. The Stress-Strain Diagram of Mild Steel - Well-Defined Yield Point</center>
+
+However, if the yield point is reached,  The plastic strain remains, and as a result the material will be subjected to a permanent set. It is a kind of a hysteresis,  which means that **the system is not independent to the process path.**  When the load is removed, the stress and strain decrease in a linear fashion along a line CD parallel to the straight-line portion AB of the loading curve [Fig. 3.6]. We says this process as ***strain hardening***.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_27.JPG)
+
+<center>FIg. 3.6. Stress-strain response of ductile material loaded beyond yield and unloaded.</center>
+
+If, after being loaded and unloaded [Fig. 3.7.], the test specimen is loaded again, the new loading curve will follow the earlier unloading curve until it almost reaches point C. Then it will bend to the right and connect with the curved portion of the original stress-strain diagram. Then it will bend to the right and connect with the curved portion of the original stress-strain diagram.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_28.JPG)
+
+<center>FIg. 3.7. Stress-strain response of ductile material
+reloaded after prior yielding and unloading.</center>
+
+In abstract, in stress-strain diagram, if the stress acting on a material is below yielding stress, the material behaves elastically and linearly when the exerted stress is below the yielding stress. Exceeding the yielding stress, elastic region starts from D in [Fig. 3.7] Elastic behavior represents which the material is getting recovered below the yielding stress region. If not, it is the plastic behavior.
 
 
 
