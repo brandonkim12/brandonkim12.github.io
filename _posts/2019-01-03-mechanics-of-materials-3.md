@@ -20,6 +20,8 @@ Recalling the stress-strain diagram, $\sigma _Y \text{(Yielding Stress)}$ can be
 
 
 
+
+
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.3
   * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.3
