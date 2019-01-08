@@ -15,7 +15,7 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_21.JPG)
 
-Recalling the stress-strain diagram, $\sigma _Y \text{(Yielding Stress)}$ can be found at [elastic limit yield stress] in above figure. The meaning of the $\sigma _Y$ is that *the starting point of plastic deformation.* ***Ductile Material*** passes this point certainly. Through this point and when the ductile material is about to be *necking*, $\sigma _u \text{(Ultimate Stress)}$ the upper limit of the conventional stress-strain diagram.
+Recalling the stress-strain diagram, $\sigma _Y \text{(Yielding Stress)}$ can be found at [elastic limit yield stress] in above figure. The meaning of the $\sigma _Y$ is that *the starting point of plastic deformation.* ***Ductile Material passes this point certainly.*** Through this point and when the ductile material is about to be *necking*, $\sigma _u \text{(Ultimate Stress)}$ the upper limit of the conventional stress-strain diagram.
 
 
 
