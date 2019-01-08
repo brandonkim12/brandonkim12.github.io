@@ -53,4 +53,4 @@ curve AB in [Fig. 3.2.]
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.3
-  * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.3
+  * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.2
