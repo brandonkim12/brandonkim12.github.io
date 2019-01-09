@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: 4) Mechanical Properties of Materials - Axial Load
+title: 4) Axial Load
 date:  2019-01-09 15:00:00 +0900
 categories:
 - Engineering - Mechanics of Materials
