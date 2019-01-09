@@ -21,7 +21,7 @@ If the material remains elastic, then the strains caused by this deformation are
 
 <center>Fig. 4.2. Description of stress-behaviors at each section</center>
 
-By comparison, the stress tends to reach *a uniform value* at **section c–c**, which is sufficiently removed from the end since the localized deformation caused by P vanishes. *The minimum distance from the bar’s end where this occurs can be determined using a mathematical analysis based on the theory of elasticity.* It has been found that this distance should at least be equal to the largest dimension of the loaded cross section. (It would be stated in the theory of elasticity in detail.) Hence, **section c–c should be located at a distance at least equal to the width (not the thickness) of the bar, and our interests are almost in this region, c-c.** This fact is *The Saint-Venant's Principle.*
+By comparison, the stress tends to reach *a uniform value* at **section c–c**, which is sufficiently removed from the end since the localized deformation caused by P vanishes. *The minimum distance from the bar’s end where this occurs can be determined using a mathematical analysis based on the theory of elasticity.* It has been found that this distance should at least be equal to the largest dimension of the loaded cross section. (It would be stated in the theory of elasticity in detail.) Hence, **section c–c should be located at a distance at least equal to the width (not the thickness) of the bar, and our interests are almost in this region, c-c.** This fact is *Te Saint-Venant's Principle.*
 
 <br>
 
@@ -39,11 +39,17 @@ In constant load and cross-sectional area situation, which is the 'Engineering S
 
 $$\delta\,=\,\sum\frac{NL}{EA} \tag{4.2.}$$
 
-When the material is elongated, sign is (+), otherwise (-). This is *the sign convention about the axial deformation.* As we assumed that *we analyze the deformation in c-c region, which means that the deformation is linear when the material is not in the plastic deformation region,* we can apply the principle of superposition.
+When the material is elongated, sign is (+), otherwise (-). This is *the sign convention about the axial deformation.* As we assumed that *we analyze the deformation in c-c region, which means that the deformation is linear when the material is not in the plastic deformation region,* we can apply the principle of superposition. The following two conditions must be satisfied if the principle of superposition is to be applied.
+
+1. The loading $N$ must be linearly related to the stress $\sigma$ or displacement $\delta$ that is to be determined. For example, the equations $\sigma = \frac{N}{A}$ and $\delta = \frac{NL}{AE}$ involve a linear relationship between $\sigma$ and $N$, and $\delta$ and $N$.
+
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_35.JPG)
+
+  <center>Fig. 4.3. The condition which the principle of superposition is not applied</center>
+
+2. The loading must not significantly change the original geometry or configuration of the member. If significant changes do occur, the direction and location of the applied forces and their moment arms will change. For example, consider the slender rod shown in [Fig. 4.3.], which is subjected to the load P. In [Fig. 4.3.], P is replaced by two of its components, P = P1 + P2. If P causes the rod to deflect a large amount, as shown, the moment of this load about its support, Pd, will not equal the sum of the moments of its component loads, Pd  P1d1 + P2d2, because d1  d2  d.
 
 
-
-![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_35.JPG)
 
 
 
