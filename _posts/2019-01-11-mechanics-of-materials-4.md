@@ -47,11 +47,17 @@ When the material is elongated, sign is (+), otherwise (-). This is *the sign co
 
   <center>Fig. 4.3. The condition which the principle of superposition is not applied</center>
 
-2. The loading must not significantly change the original geometry or configuration of the member. If significant changes do occur, the direction and location of the applied forces and their moment arms will change. For example, consider the slender rod shown in [Fig. 4.3.], which is subjected to the load P. In [Fig. 4.3.], P is replaced by two of its components, P = P1 + P2. If P causes the rod to deflect a large amount, as shown, the moment of this load about its support, Pd, will not equal the sum of the moments of its component loads, Pd  P1d1 + P2d2, because d1  d2  d.
+2. The loading must not significantly change the original geometry or configuration of the member. If significant changes do occur, the direction and location of the applied forces and their moment arms will change. For example, consider the slender rod shown in [Fig. 4.3.], which is subjected to the load $\mathbf{P}$. In [Fig. 4.3.], $\mathbf{P}$ is replaced by two of its components, $\mathbf{P} = \mathbf{P_1} + \mathbf{P_2}$. If $\mathbf{P}$ causes the rod to deflect a large amount, as shown, the moment of this load about its support, $Pd$, will not equal the sum of the moments of its component loads, $Pd \neq P_1d_1 + P_2d_2$, because $d_1 \neq d_2 \neq d$.
+
+<br>
+
+<center>3. Statically Indeterminate Axially Loaded Members</center>
 
 
 
 
+
+<br>
 
 > This is not a complete article, so please take this in your mind.
 >
