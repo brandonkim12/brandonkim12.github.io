@@ -95,6 +95,8 @@ For nonferrous metals, such as aluminum and copper, a typical $\sigma - n$ curve
 
 For now, we discovered the ductility and brittleness, elastic and non-elastic behavior, and the creep and the fatigue. These are the basic knowledge for preceding several analysis - The most important part of the mechanics of materials -. The several methods how to determine the creep strength and fatigue strength is not for today. In the material science, these are to be dig deeply.
 
+<br>
+
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.3
