@@ -43,6 +43,8 @@ When the material is elongated, sign is (+), otherwise (-). This is *the sign co
 
 
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_35.JPG)
+
 
 
 > This is not a complete article, so please take this in your mind.
