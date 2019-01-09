@@ -155,8 +155,9 @@ Using this table, we get the upper limit for the engineering design for each cas
 
 <br>
 
-> This is not a complete article, so please take this in your mind.
->
+Now we've seen how to solve the problem when the axial load alone is exerted on the member. We have to see the 'Torsion', 'Bending', 'Transverse Shear' more, and finally we have to combine them all. Although there are a lot of things to have to be studied, applying the old saying: 'divide and conquer', and we can get this all out.
+
+
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.4
