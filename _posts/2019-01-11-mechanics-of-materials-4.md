@@ -75,7 +75,7 @@ How to find the force acting on A and B when 500N is acting on C downward? We ta
 
 $$\frac{F_A (2\text{m})}{AE}-\frac{F_B (\text{3m})}{AE}= 0$$
 
-By this, we can get $F_A = 300N\text{ and }F_B = 200N$.
+By this, we can get $F_A = 300N\text{ and }F_B = 200N$.text
 
 This method of solution, which can make us solve statically indeterminate problems by writing the compatibility equation using the principle of superposition, is often referred to as the ***flexibility*** or ***force method of analysis***. The procedure for the analysis includes these kind of steps:
 
@@ -93,7 +93,15 @@ This method of solution, which can make us solve statically indeterminate proble
 
 <br>
 
-<center>4. Stress Concentrations</center>
+<center>4. Thermal Stress, Stress Concentrations, Inelastic Deformation, and Residual Stress</center>
+
+* Thermal Stress: A change in temperature can cause a body to change its dimensions. Generally, *if the temperature increases, the body will expand, whereas if the temperature decreases, it will contract.* **(1) If this is the case, (2) and the material is homogeneous and isotropic,** it has been found from experiment that the displacement of the end of a member having a length L can be calculated using the formula
+
+$$\delta _T\,=\,\alpha \Delta TL \tag{4.2}$$
+
+$$\text{Where }\begin{cases} \alpha: & \text{a property of the material,} \\ &  \text{referred to as the linear coefficient} \\ & \text{of thermal expansion.} \\ \Delta T: &  \text{the algebraic change in} \\ & \text{temperature of the member} \\ L: & \text{the original length of the member} \\ \delta_T: & \text{the algebraic change in the length of the member} \end{cases}$$ 
+
+* Stress Concentrations: 
 
 <br>
 
