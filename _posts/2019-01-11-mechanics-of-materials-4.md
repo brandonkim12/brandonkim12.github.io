@@ -1,4 +1,5 @@
 ---
+
 layout: post
 title: 4) Mechanical Properties of Materials - Axial Load
 date:  2019-01-11 23:30:00 +0900
@@ -122,7 +123,19 @@ In both of these cases, force equilibrium requires the magnitude of the resultan
 
 $$N = \int_A \sigma dA \tag{4.3}$$
 
-In engineering practice, we have the graph for the stress concentration factor $K$ such that $K = \frac{\sigma_{\text{max}}}{\sigma_{\text{avg}}}$the actual stress distributions in [Fig. 4.7.b] and [Fig. 4.8.b] do not have to be determined. Instead, for the purpose of design, only the maximum stress at these sections must be known. 
+In engineering practice, above integral is hard to be defined and calculated. Instead, we have the set of the values and graph of the stress concentration factor $K$ such that $K = \frac{\sigma_{\text{max}}}{\sigma_{\text{avg}}}$.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_41.JPG)
+
+<center>4.9. The Graph of Stress Concentration Factor K - Reduced Bar</center>
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_42.JPG)
+
+<center>4.10. The Graph of Stress Concentration Factor K - Normal Bar</center>
+
+Using this table, we get the upper limit for the engineering design for each cases, $\sigma_{\text{max}}=K \sigma_{\text{avg}}​$. 
+
+* Inelastic Axial Deformation: 
 
 <br>
 
