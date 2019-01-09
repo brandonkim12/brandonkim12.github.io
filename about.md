@@ -17,7 +17,6 @@ aside: true
 - Actual Fabricating according to the fabrication theoretical basis
 - Cosmetic Product Manufacture
 
-
 ### Interested in Mathematics and Physics
 
 - Shell theory.
