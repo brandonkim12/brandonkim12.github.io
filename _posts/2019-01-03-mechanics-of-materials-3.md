@@ -75,7 +75,7 @@ Before stating the above subjects, we need to know that there are several kinds 
 
 **Creep**: *When a material has to support a load for a very long period of time,* it may continue to deform until a sudden fracture occurs or its usefulness is impaired. This time-dependent permanent deformation is known as *creep*. This is due to the **long-period static loading**, and normally(except the polymers and composite materials - in this case, temperature is not an important factor)**including thermal loading** as the support of some structure. 
 
-For practical purposes, when creep becomes important, a member is usually designed to resist a specified creep strain for a given period of time. An important mechanical property that is used in this regard is called the *creep strength*. This value represents the highest stress the material can withstand during a specified time without exceeding an allowable creep strain. The creep strength will vary with temperature, and for design, a temperature, duration of loading, and allowable creep strain must all be specified. For example, a creep strain of 0.1% per year has been suggested for steel used for bolts and piping. The several methods how to determine the creep strength is not for today. In the material science, these are to be dig deeply.
+For practical purposes, when creep becomes important, a member is usually designed to resist a specified creep strain for a given period of time. An important mechanical property that is used in this regard is called the *creep strength*. This value represents the highest stress the material can withstand during a specified time without exceeding an allowable creep strain. The creep strength will vary with temperature, and for design, a temperature, duration of loading, and allowable creep strain must all be specified. For example, a creep strain of 0.1% per year has been suggested for steel used for bolts and piping. 
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_31.JPG)
 
@@ -83,17 +83,17 @@ For practical purposes, when creep becomes important, a member is usually design
 
 **Fatigue**: When an cyclic loading is exerted onto the material, internal structure of material goes to get broken down, and it leads to the fracture. This phenomena is called to *fatigue*, and this phenomena is shown many time in connecting rods and crankshafts of engines; steam or gas turbine blades; connections or supports for bridges, railroad wheels, and axles; and other parts subjected to cyclic loading, as the components or structures undergo the dynamic loading. In all these cases, **fracture will occur at a stress that is less than the material’s yield stress.**
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_32.JPG)
 
+<center>Fig. 3.9. Typical σ-n curve</center>
 
-A typical $\sigma - n\text{(cycle number)}$ curve for steel is shown in [Fig. 3.9.] If the applied maximum stress is high, relatively few cycles are required to cause rupture.
-As the magnitude of the maximum stress is reduced, the number of
-cycles required to cause rupture increases, until the endurance limit is
-reached. The endurance limit is the stress for which failure does not occur,
-even for an indefinitely large number of loading cycles. For a low-carbon
-steel, such as structural steel, the endurance limit is about one-half of the
-ultimate strength of the steel.
+A typical $\sigma - n\text{(cycle number)}$ curve for steel is shown in [Fig. 3.9.] If the applied maximum stress is high, relatively few cycles are required to cause rupture. As the magnitude of the maximum stress is reduced, the number of cycles required to cause rupture increases, until the endurance limit is reached. The endurance limit is the stress for which failure does not occur, even for an indefinitely large number of loading cycles. For a low-carbon steel, such as structural steel, the endurance limit is about one-half of the ultimate strength of the steel.
 
+For nonferrous metals, such as aluminum and copper, a typical $\sigma - n$ curve [Fig. 3.9] shows that the stress at failure continues to decrease as the number of loading cycles is increased. For such metals, *the fatigue limit* is the stress corresponding to failure after a specified number of loading cycles.
 
+<br>
+
+For now, we discovered the ductility and brittleness, elastic and non-elastic behavior, and the creep and the fatigue. These are the basic knowledge for preceding several analysis - The most important part of the mechanics of materials -. The several methods how to determine the creep strength and fatigue strength is not for today. In the material science, these are to be dig deeply.
 
 
 * References
