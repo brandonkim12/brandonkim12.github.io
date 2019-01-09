@@ -41,6 +41,10 @@ $$\delta\,=\,\sum\frac{NL}{EA} \tag{4.2.}$$
 
 When the material is elongated, sign is (+), otherwise (-). This is *the sign convention about the axial deformation.* As we assumed that *we analyze the deformation in c-c region, which means that the deformation is linear,* we can apply the principle of superposition.
 
+
+
+
+
 > This is not a complete article, so please take this in your mind.
 >
 
