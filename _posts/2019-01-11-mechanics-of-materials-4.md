@@ -44,7 +44,7 @@ $$\sigma=\frac{N(x)}{A(x)} \text{ and }\epsilon=\frac{d\delta}{dx}$$
 
 When the stress doesn't exceed the elastic limit, we can apply the Hooke's law: $\sigma = E(x) \epsilon$, and by this we can obtain
 
-$$\begin{matrix}\frac{N(x)}{A(x)}\,=\,E(x)\frac{d\delta}{dx} \\ d\delta\,=\,\frac{N(x)dx}{A(x)E(x)}\\ \delta\,=\,\int_0^L\frac{N(x)dx}{A(x)E(x)}\end{matrix} \tag{4.1.}$$
+$$\begin{matrix}\underset{\text{stress}}{\underline{\frac{N(x)}{A(x)}}}\,=\,\underset{\text{hooke's law}}{\underline{E(x)\frac{d\delta}{dx}}} \\ d\delta\,=\,\frac{N(x)dx}{A(x)E(x)}\\ \delta\,=\,\int_0^L\frac{N(x)dx}{A(x)E(x)}\end{matrix} \tag{4.1.}$$
 
 $$\text{where}\begin{cases}\delta =& \text{displacement of one point} \\ & \text{on the bar relative to the other point} \\ L = & \text{original length of bar} \\ N(x) = & \text{internal axial force at the section,} \\ & \text{located a distance x from one end} \\ A(x) = & \text{cross-sectional area of the bar} \\ & \text{expressed as a function of x} \\ E(x)= & \text{modulus of elasticity for the material} \\ & \text{expressed as a function of x} \end{cases}$$
 
@@ -137,7 +137,7 @@ Using this table, we get the upper limit for the engineering design for each cas
 
 * Inelastic Axial Deformation: If the loading on a bar made of ductile material
   causes the material to yield, then the stress distribution that is produced can be determined from the strain distribution and the stress–strain diagram. **Assuming the material is perfectly plastic,** *yielding will cause the stress distribution at the cross section of a hole or transition to even out and become uniform.* At the complete plastic deformation phase, the *plastic load* $N_p$ is
-  $$N_p = \int_A \sigma_Y dA = \sigma_Y A$$
+  $$N_p = \int_A \sigma_Y dA = \sigma_Y A$$.
   ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_43.JPG)
 
   <center>4.11. The Time when The Plastic Deformation Occurs</center>
