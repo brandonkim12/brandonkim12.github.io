@@ -42,7 +42,7 @@ curve AB in [Fig. 3.2.]
 
 <center>FIg. 3.4. Typical Compressive Failure of the Brittle Material</center>
 
-
+<br>
 
 <center>2. Elastic and Plastic Behavior of a Material</center>
 
@@ -67,7 +67,7 @@ reloaded after prior yielding and unloading.</center>
 
 In abstract, in stress-strain diagram, if the stress acting on a material is below yielding stress, the material behaves elastically and linearly when the exerted stress is below the yielding stress. Exceeding the yielding stress, elastic region starts from D in [Fig. 3.7] Elastic behavior represents which the material is getting recovered below the yielding stress region. If not, it is the plastic behavior.
 
-
+<br>
 
 <center>3. Creep and Fatigue</center>
 
