@@ -8,9 +8,13 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
-<center>1. Saint-Venant's Principle - The First Sssumptions from The Theory of Elasticity</center>
+<center>1. Torsional Deformation of a Circular Shaft</center>
+
+$$\int \rho dF = T \\ \int \rho (\tau dA) = T \\ \tau=\frac{\rho}{c}\tau_{\text{max}} \\ \int \rho(\frac{\rho}{c} \tau_{\text{max}} dA) = T \\ \underset{\text{polar moment of inertia}}{\frac{\tau_{\text{max}}}{c}\underline{\int \rho^2 dA}} = T$$
 
 
+
+$$\tau = G\gamma \\ \gamma = \frac{\rho}{c}\gamma_{\text{max}}$$
 
 
 
