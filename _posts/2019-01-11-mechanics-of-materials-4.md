@@ -153,7 +153,7 @@ Using this table, we get the upper limit for the engineering design for each cas
 
   **Under these circumstances the member will be permanently deformed so that the permanent set or strain in the member is** $PO'$. *If the member is statically indeterminate*, however, **removal of the external load will cause the support forces to respond to the elastic recovery CD.** Since these forces will constrain the member from full recovery, they will induce residual stresses in the member. 
 
-  The Strategy to solve this kind of problems, the complete cycle of loading and then unloading of the member can be considered as the superposition of a positive load (loading) on a negative load (unloading).
+  To solve this kind of problems, the complete cycle of loading and then unloading of the member can be considered as the superposition of a positive load (loading) on a negative load (unloading).
 
 <br>
 
