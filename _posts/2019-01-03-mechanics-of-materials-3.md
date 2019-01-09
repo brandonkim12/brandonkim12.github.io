@@ -69,9 +69,13 @@ In abstract, in stress-strain diagram, if the stress acting on a material is bel
 
 
 
+<center>3. Creep, Repeated Loading and Fatigue</center>
 
+Before stating the above subjects, we need to know that there are several kinds of loading: Axial loading, radial loading, thermal loading, and other corrosive processing that can make some changes for the material itself. To prevent the aging of the component and structure which composed of several materials, many kinds of surface engineering is applied to the processing, <u>but even if they're done, the permanent damage cannot be undone.</u>
 
+**Creep**: *When a material has to support a load for a very long period of time,* it may continue to deform until a sudden fracture occurs or its usefulness is impaired. This time-dependent permanent deformation is known as creep. This is due to the **long-period static loading**, and normally(except the polymers and composite materials - in this case, temperature is not an important factor)**including thermal loading** as the support of some structure. 
 
+For practical purposes, when creep becomes important, a member is usually designed to resist a specified creep strain for a given period of time. An important mechanical property that is used in this regard is called the **creep strength**. This value represents the highest stress the material can withstand during a specified time without exceeding an allowable creep strain. The creep strength will vary with temperature, and for design, a temperature, duration of loading, and allowable creep strain must all be specified. For example, a creep strain of 0.1% per year has been suggested for steel used for bolts and piping.
 
 
 * References
