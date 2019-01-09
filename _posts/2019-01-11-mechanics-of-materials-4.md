@@ -7,6 +7,14 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
+<center>1. Saint-Venant's Principle - The First Sssumptions from The Theory of Elasticity</center>
+
+We have shown that the mathematical relationship between stress and strain depends on the type of material from which the body is made. In particular, if the material behaves in a linear elastic manner, then Hooke’s law applies, and there is a proportional relationship between stress and strain. Using this idea, consider the manner in which a rectangular bar will deform elastically when the bar is subjected to the force P applied along its centroidal axis, [Fig. 4.1].
+
+
+
+
+
 
 
 > This is not a complete article, so please take this in your mind.
@@ -15,4 +23,3 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.4
   * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.3
-
