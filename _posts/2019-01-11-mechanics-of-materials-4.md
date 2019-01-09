@@ -110,7 +110,19 @@ $$\text{Where }\begin{cases} \alpha: & \text{a property of the material,} \\ &  
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_39.JPG)
 
-<center>4.7. The Diagram for The Stress Concentration </center>
+<center>4.7. The Diagram for The Stress Concentration: Normal Bar </center>
+
+If instead the bar has a reduction in its cross section, using shoulder fillets as in [Fig. 4.8.a], then at the smallest cross-sectional area, section a–a, the stress distribution will look like that shown in [Fig. 4.8.b].
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_40.JPG)
+
+<center>4.8. The Diagram for The Stress Concentration: Reduced Bar</center>
+
+In both of these cases, force equilibrium requires the magnitude of the resultant force developed by the stress distribution at section a–a to be equal to $N$. In other words,
+
+$$N = \int_A \sigma dA \tag{4.3}$$
+
+In engineering practice, we have the graph for the stress concentration factor $K$ such that $K = \frac{\sigma_{\text{max}}}{\sigma_{\text{avg}}}$the actual stress distributions in [Fig. 4.7.b] and [Fig. 4.8.b] do not have to be determined. Instead, for the purpose of design, only the maximum stress at these sections must be known. 
 
 <br>
 
