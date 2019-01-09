@@ -148,9 +148,8 @@ Using this table, we get the upper limit for the engineering design for each cas
 
   <center>4.12. The Stress-Strain Diagram when The Material Undergoes The Residual Stress</center>
 
-  If an axial load produces a stress $\sigma_Y$ in the material and a corresponding strain $\epsilon_C$, then when the load is removed, the material will respond elastically and follow the line $CD$ in order to recover some of the strain. A recovery to zero stress at point $O'$ will be possible if the member is statically determinate, since then the support reactions for the member will be zero when the load is removed. 
-  **Under these circumstances the member will be permanently deformed so that the permanent set or strain in the member is ** $PO'$.
-  *If the member is statically indeterminate*, however, **removal of the external load will cause the support forces to respond to the elastic recovery CD.** Since these forces will constrain the member from full recovery, they will induce residual stresses in the member. 
+  If an axial load produces a stress $\sigma_Y​$ in the material and a corresponding strain $\epsilon_C​$, then when the load is removed, the material will respond elastically and follow the line $CD​$ in order to recover some of the strain. A recovery to zero stress at point $O'​$ will be possible if the member is statically determinate, since then the support reactions for the member will be zero when the load is removed. 
+  **Under these circumstances the member will be permanently deformed so that the permanent set or strain in the member is** $PO'​$. *If the member is statically indeterminate*, however, **removal of the external load will cause the support forces to respond to the elastic recovery CD.** Since these forces will constrain the member from full recovery, they will induce residual stresses in the member. 
   The Strategy to solve this kind of problems, the complete cycle of loading and then unloading of the member can be considered as the superposition of a positive load (loading) on a negative load (unloading).
 
 <br>
