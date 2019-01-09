@@ -67,7 +67,33 @@ When the material is elongated, sign is (+), otherwise (-). This is *the sign co
 
 Remember the statics class? At that time, we took the redundant force off to find out the force acting on the certain support. Now we have to take advantage of the redundant forces to find out what the deformation of the material actually is *when the equations of equilibrium are not sufficient to determine all the reactions on a member.* In this time, commonly **the compatibility conditions specify the displacement constraints that occur at the supports or other points on a member.** Consider a example to explain the case we have to apply the compatibility to statically indeterminate problem.
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_38.JPG)
 
+<center>4.6. Statically Indeterminate Problem - Example</center>
+
+How to find the force acting on A and B when 500N is acting on C downward? We take the information from picture that $\delta _{A/B} = 0$ and $F_A + F_B = 500[N]$, so let's get start with this. using a load–displacement relationship, which depends on the material behavior, we can find out the internal force in segment $AC$ is $+F_A$, and in segment $CB$ it is $-F_B$. Again, $\delta_{A/B} = 0$, which means that
+
+$$\frac{F_A (2\text{m})}{AE}-\frac{F_B (\text{3m})}{AE}= 0$$
+
+By this, we can get $F_A = 300N\text{ and }F_B = 200N$.
+
+This method of solution, which can make us solve statically indeterminate problems by writing the compatibility equation using the principle of superposition, is often referred to as the ***flexibility*** or ***force method of analysis***. The procedure for the analysis includes these kind of steps:
+
+**Compatibility.**
+
+* Choose one of the supports as redundant and write the equation of compatibility. To do this, the known displacement at the redundant support, which is usually zero, is equated to the displacement at the support caused only by the external loads acting on the member plus (vectorially) the displacement at this support caused only by the redundant reaction acting on the member
+
+**Load–Displacement.**
+• Express the external load and redundant displacements in terms of the loadings by using a load–displacement relationship, such as $\delta = \frac{NL}{AE}$. 
+
+• Once established, the compatibility equation can then be solved for the magnitude of the redundant force. 
+
+**Equilibrium.**
+• Draw a free-body diagram and write the appropriate equations of equilibrium for the member using the calculated result for the redundant. Solve these equations for the other reactions.
+
+<br>
+
+<center>4. Stress Concentrations</center>
 
 <br>
 
