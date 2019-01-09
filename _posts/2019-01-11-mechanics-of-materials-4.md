@@ -11,9 +11,9 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 We have shown that the mathematical relationship between stress and strain depends on the type of material from which the body is made. In particular, if the material behaves in a linear elastic manner, then Hooke’s law applies, and there is a proportional relationship between stress and strain. Using this idea, consider the manner in which a rectangular bar will deform elastically when the bar is subjected to the force P applied along its centroidal axis, [Fig. 4.1].
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_33.JPG)
 
-
-
+<center>Fig. 4.1. Figure to state the saint-venant's principle</center>
 
 
 
