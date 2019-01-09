@@ -105,12 +105,13 @@ $$\delta _T\,=\,\alpha \Delta TL \tag{4.2}$$
 $$\text{Where }\begin{cases} \alpha: & \text{a property of the material,} \\ &  \text{referred to as the linear coefficient} \\ & \text{of thermal expansion.} \\ \Delta T: &  \text{the algebraic change in} \\ & \text{temperature of the member} \\ L: & \text{the original length of the member} \\ \delta_T: & \text{the algebraic change in the length of the member} \end{cases}$$ 
 
 * Stress Concentrations: As we've seen on the [Fig. 4.1.], [Fig. 4.7.] states the concentration effect for the local region such as hole, crack, etc.. Consider, for example, the bar in [Fig. 4.7.a], which is subjected to an axial force N. 
+
   Here the once horizontal and vertical grid lines deflect into an irregular pattern around the hole centered in the bar. The maximum normal stress in the bar occurs on section a–a, since it is located at the bar’s smallest cross-sectional area. 
   Provided the material behaves in a linear elastic manner, the stress distribution acting on this section can be determined either from a mathematical analysis, using the theory of elasticity, or experimentally by measuring the strain normal to section a–a and then calculating the stress using Hooke’s law, $$\sigma = E\epsilon$$. 
 
   ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_39.JPG)
 
-<center>4.7. The Diagram for The Stress Concentration: Normal Bar </center>If instead the bar has a reduction in its cross section, using shoulder fillets as in [Fig. 4.8.a], then at the smallest cross-sectional area, section a–a, the stress distribution will look like that shown in [Fig. 4.8.b].
+<center>4.7. The Diagram for The Stress Concentration: Normal Bar </center>
 
 If instead the bar has a reduction in its cross section, using shoulder fillets as in [Fig. 4.8.a], then at the smallest cross-sectional area, section a–a, the stress distribution will look like that shown in [Fig. 4.8.b].
 
