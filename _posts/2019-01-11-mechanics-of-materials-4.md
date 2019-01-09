@@ -27,7 +27,11 @@ By comparison, the stress tends to reach *a uniform value* at **section c–c**,
 
 <center>2. Eleastic Deformation of an Axially Loaded Member</center>
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_36.JPG)
 
+<center>Fig. 4.3. General Situation of Elastic Deformation</center>
+
+Think about the general situation of elastic deformation.
 
 $$\sigma=\frac{N(x)}{A(x)} \text{ and }\epsilon=\frac{d\delta}{dx}$$
 
@@ -47,9 +51,9 @@ When the material is elongated, sign is (+), otherwise (-). This is *the sign co
 
   ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_35.JPG)
 
-  <center>Fig. 4.3. The condition which the principle of superposition is not applied</center>
+  <center>Fig. 4.4. The condition which the principle of superposition is not applied</center>
 
-2. The loading must not significantly change the original geometry or configuration of the member. If significant changes do occur, the direction and location of the applied forces and their moment arms will change. For example, consider the slender rod shown in [Fig. 4.3.], which is subjected to the load $\mathbf{P}$. In [Fig. 4.3.], $\mathbf{P}$ is replaced by two of its components, $\mathbf{P} = \mathbf{P_1} + \mathbf{P_2}$. If $\mathbf{P}$ causes the rod to deflect a large amount, as shown, the moment of this load about its support, $Pd$, will not equal the sum of the moments of its component loads, $Pd \neq P_1d_1 + P_2d_2$, because $d_1 \neq d_2 \neq d$.
+2. The loading must not significantly change the original geometry or configuration of the member. If significant changes do occur, the direction and location of the applied forces and their moment arms will change. For example, consider the slender rod shown in [Fig. 4.4.], which is subjected to the load $\mathbf{P}$. In [Fig. 4.4.], $\mathbf{P}$ is replaced by two of its components, $\mathbf{P} = \mathbf{P_1} + \mathbf{P_2}$. If $\mathbf{P}$ causes the rod to deflect a large amount, as shown, the moment of this load about its support, $Pd$, will not equal the sum of the moments of its component loads, $Pd \neq P_1d_1 + P_2d_2$, because $d_1 \neq d_2 \neq d$.
 
 <br>
 
