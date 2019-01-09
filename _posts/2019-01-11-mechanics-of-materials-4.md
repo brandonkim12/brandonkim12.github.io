@@ -82,7 +82,7 @@ This method of solution, which can make us solve statically indeterminate proble
 
 **Compatibility.**
 
-* Choose one of the supports as redundant and write the equation of compatibility. To do this, the known displacement at the redundant support, which is usually zero, is equated to the displacement at the support caused only by the external loads acting on the member plus (vectorially) the displacement at this support caused only by the redundant reaction acting on the member
+* Choose one of the supports as redundant and write the equation of compatibility. To do this, **the known displacement at the redundant support, which is usually zero, is equated to the displacement at the support** caused *only by the external loads acting on the member* plus (vectorially) *the displacement at this support caused* only by the redundant reaction acting on the member
 
 **Load–Displacement.**
 
