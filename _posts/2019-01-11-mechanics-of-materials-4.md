@@ -31,7 +31,13 @@ By comparison, the stress tends to reach *a uniform value* at **section c–c**,
 
 <center>Fig. 4.3. General Situation of Elastic Deformation</center>
 
-Think about the general situation of elastic deformation. What we want to know is $\delta$, the infinitesimal length changed by $P_1$ and $P_2$. 
+Think about the general situation of elastic deformation. What we want to know is $\delta$, the infinitesimal length changed by $P_1$ and $P_2$. But wait, how can we find $P_1$ and $P_2$? To make this difficulty up, we get a infinitesimal element.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_37.JPG)
+
+<center>Fig. 4.4. Infinitesimal Element to Calculate the δ Out</center>
+
+The resultant internal axial force will be a function of x since the external distributed loading will cause it to vary along the length of the bar. Now we take $P_1$ and $P_2$ place with $N(x)$, and then from this we can start.
 
 $$\sigma=\frac{N(x)}{A(x)} \text{ and }\epsilon=\frac{d\delta}{dx}$$
 
@@ -51,15 +57,15 @@ When the material is elongated, sign is (+), otherwise (-). This is *the sign co
 
   ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_35.JPG)
 
-  <center>Fig. 4.4. The condition which the principle of superposition is not applied</center>
+  <center>Fig. 4.5. The condition which the principle of superposition is not applied</center>
 
-2. The loading must not significantly change the original geometry or configuration of the member. If significant changes do occur, the direction and location of the applied forces and their moment arms will change. For example, consider the slender rod shown in [Fig. 4.4.], which is subjected to the load $\mathbf{P}$. In [Fig. 4.4.], $\mathbf{P}$ is replaced by two of its components, $\mathbf{P} = \mathbf{P_1} + \mathbf{P_2}$. If $\mathbf{P}$ causes the rod to deflect a large amount, as shown, the moment of this load about its support, $Pd$, will not equal the sum of the moments of its component loads, $Pd \neq P_1d_1 + P_2d_2$, because $d_1 \neq d_2 \neq d$.
+2. The loading must not significantly change the original geometry or configuration of the member. If significant changes do occur, the direction and location of the applied forces and their moment arms will change. For example, consider the slender rod shown in [Fig. 4.5.], which is subjected to the load $\mathbf{P}$. In [Fig. 4.5.], $\mathbf{P}$ is replaced by two of its components, $\mathbf{P} = \mathbf{P_1} + \mathbf{P_2}$. If $\mathbf{P}$ causes the rod to deflect a large amount, as shown, the moment of this load about its support, $Pd$, will not equal the sum of the moments of its component loads, $Pd \neq P_1d_1 + P_2d_2$, because $d_1 \neq d_2 \neq d$.
 
 <br>
 
 <center>3. Statically Indeterminate Axially Loaded Members</center>
 
-
+Remember the statics class? At that time, we took the redundant force off to find out the force acting on the certain support. Now we have to take advantage of the redundant forces to find out what the deformation of the material actually is *when the equations of equilibrium are not sufficient to determine all the reactions on a member.* In this time, commonly **the compatibility conditions specify the displacement constraints that occur at the supports or other points on a member.** Consider a example to explain the case we have to apply the compatibility to statically indeterminate problem.
 
 
 
