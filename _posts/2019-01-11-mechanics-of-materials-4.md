@@ -72,11 +72,11 @@ Remember the statics class? At that time, we took the redundant force off to fin
 
 <center>4.6. Statically Indeterminate Problem - Example</center>
 
-How to find the force acting on A and B when 500N is acting on C downward? We take the information from picture that $\delta _{A/B} = 0$ and $F_A + F_B = 500[N]$, so let's get start with this. using a load–displacement relationship, which depends on the material behavior, we can find out the internal force in segment $AC$ is $+F_A$, and in segment $CB$ it is $-F_B$. Again, $\delta_{A/B} = 0$, which means that
+How to find the force acting on A and B when 500N is acting on C downward? We take the information from picture that $$\delta _{A/B} = 0$$ and $$F_A + F_B = 500[N]$$, so let's get start with this. using a load–displacement relationship, which depends on the material behavior, we can find out the internal force in segment $AC$ is $+F_A$, and in segment $CB$ it is $-F_B$. Again, $\delta_{A/B} = 0$, which means that
 
 $$\frac{F_A (2\text{m})}{AE}-\frac{F_B (\text{3m})}{AE}= 0$$
 
-By this, we can get $F_A = 300N\text{ and }F_B = 200N$.text
+By this, we can get $F_A = 300N\text{ and }F_B = 200N$.
 
 This method of solution, which can make us solve statically indeterminate problems by writing the compatibility equation using the principle of superposition, is often referred to as the ***flexibility*** or ***force method of analysis***. The procedure for the analysis includes these kind of steps:
 
