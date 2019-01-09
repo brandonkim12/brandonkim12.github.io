@@ -106,13 +106,11 @@ $$\text{Where }\begin{cases} \alpha: & \text{a property of the material,} \\ &  
 
 * Stress Concentrations: As we've seen on the [Fig. 4.1.], [Fig. 4.7.] states the concentration effect for the local region such as hole, crack, etc.. Consider, for example, the bar in [Fig. 4.7.a], which is subjected to an axial force N. 
   Here the once horizontal and vertical grid lines deflect into an irregular pattern around the hole centered in the bar. The maximum normal stress in the bar occurs on section a–a, since it is located at the bar’s smallest cross-sectional area. 
-  Provided the material behaves in a linear elastic manner, the stress distribution acting on this section can be determined either from a mathematical analysis, using the theory of elasticity, or experimentally by measuring the strain normal to section a–a and then calculating the stress using Hooke’s law, $$\sigma = E\epsilon​$$. 
+  Provided the material behaves in a linear elastic manner, the stress distribution acting on this section can be determined either from a mathematical analysis, using the theory of elasticity, or experimentally by measuring the strain normal to section a–a and then calculating the stress using Hooke’s law, $$\sigma = E\epsilon$$. 
 
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_39.JPG)
 
-
-![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_39.JPG)
-
-<center>4.7. The Diagram for The Stress Concentration: Normal Bar </center>
+<center>4.7. The Diagram for The Stress Concentration: Normal Bar </center>If instead the bar has a reduction in its cross section, using shoulder fillets as in [Fig. 4.8.a], then at the smallest cross-sectional area, section a–a, the stress distribution will look like that shown in [Fig. 4.8.b].
 
 If instead the bar has a reduction in its cross section, using shoulder fillets as in [Fig. 4.8.a], then at the smallest cross-sectional area, section a–a, the stress distribution will look like that shown in [Fig. 4.8.b].
 
@@ -136,7 +134,14 @@ In engineering practice, above integral is hard to be defined and calculated. In
 
 Using this table, we get the upper limit for the engineering design for each cases, $\sigma_{\text{max}}=K \sigma_{\text{avg}}$. 
 
-* Inelastic Axial Deformation: 
+* Inelastic Axial Deformation: If the loading on a bar made of ductile material
+  causes the material to yield, then the stress distribution that is produced can be determined from the strain distribution and the stress–strain diagram. **Assuming the material is perfectly plastic,** *yielding will cause the stress distribution at the cross section of a hole or transition to even out and become uniform.* At the complete plastic deformation phase, the *plastic load* $N_p$ is
+  $$N_p = \int_A \sigma_Y dA = \sigma_Y A$$
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_43.JPG)
+
+  <center>4.11. The Time when The Plastic Deformation Occurs</center>
+
+* Residual Stress: 
 
 <br>
 
