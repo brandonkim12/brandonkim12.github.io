@@ -27,6 +27,8 @@ By comparison, the stress tends to reach *a uniform value* at **section c–c**,
 
 <center>2. Eleastic Deformation of an Axially Loaded Member</center>
 
+
+
 $$\sigma=\frac{N(x)}{A(x)} \text{ and }\epsilon=\frac{d\delta}{dx}$$
 
 When the stress doesn't exceed the elastic limit, we can apply the Hooke's law: $\sigma = E(x) \epsilon$, and by this we can obtain
