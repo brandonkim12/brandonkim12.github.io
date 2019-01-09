@@ -31,7 +31,7 @@ By comparison, the stress tends to reach *a uniform value* at **section c–c**,
 
 <center>Fig. 4.3. General Situation of Elastic Deformation</center>
 
-Think about the general situation of elastic deformation.
+Think about the general situation of elastic deformation. What we want to know is $\delta$, the infinitesimal length changed by $P_1$ and $P_2$. 
 
 $$\sigma=\frac{N(x)}{A(x)} \text{ and }\epsilon=\frac{d\delta}{dx}$$
 
