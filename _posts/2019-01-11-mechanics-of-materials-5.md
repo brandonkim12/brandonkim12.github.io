@@ -10,7 +10,11 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 
 <center>1. Torsional Deformation of a Circular Shaft</center>
 
-Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $T$ and $T'$.
+Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $T$ and $T'$.We pass a section perpendicular to the axis of the shaft through some arbitrary point $C$ [Fig. 5.1.].
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_45.JPG)
+
+<center>Fig. 5.1. Shaft subject to torques and a section plane at C</center>
 
 
 
