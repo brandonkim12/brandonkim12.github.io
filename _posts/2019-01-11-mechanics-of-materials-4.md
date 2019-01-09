@@ -84,12 +84,14 @@ This method of solution, which can make us solve statically indeterminate proble
 * Choose one of the supports as redundant and write the equation of compatibility. To do this, the known displacement at the redundant support, which is usually zero, is equated to the displacement at the support caused only by the external loads acting on the member plus (vectorially) the displacement at this support caused only by the redundant reaction acting on the member
 
 **Load–Displacement.**
-• Express the external load and redundant displacements in terms of the loadings by using a load–displacement relationship, such as $\delta = \frac{NL}{AE}$. 
 
-• Once established, the compatibility equation can then be solved for the magnitude of the redundant force. 
+* Express the external load and redundant displacements in terms of the loadings by using a load–displacement relationship, such as $\delta = \frac{NL}{AE}$. 
+
+* Once established, the compatibility equation can then be solved for the magnitude of the redundant force. 
 
 **Equilibrium.**
-• Draw a free-body diagram and write the appropriate equations of equilibrium for the member using the calculated result for the redundant. Solve these equations for the other reactions.
+
+* Draw a free-body diagram and write the appropriate equations of equilibrium for the member using the calculated result for the redundant. Solve these equations for the other reactions.
 
 <br>
 
