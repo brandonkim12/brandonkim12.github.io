@@ -62,7 +62,7 @@ In [Fig. 5.4.], we get the equations that
 
 $$\rho d \phi=dx\gamma \rightarrow \gamma=\rho \frac{d \phi}{dx} \tag{5.2.}​$$
 
-Since $dx​$ and $$d\phi​$$ are the same for all elements, then $d\phi/dx​$ is constant over the cross section, and (Eq. 5–1) states that the magnitude of the shear strain varies only with its radial distance r from the axis of the shaft. Since $d\phi/dx = \gamma/\rho = \gamma_{\text{max}}/c​$, then
+Since $dx$ and $$d\phi$$ are the same for all elements, then $d\phi/dx$ is constant over the cross section, and (5.1) states that the magnitude of the shear strain varies only with its radial distance r from the axis of the shaft. Since $d\phi/dx = \gamma/\rho = \gamma_{\text{max}}/c$, then
 
 $$\gamma = \frac{\rho}{c}\gamma_{\text{max}} \tag{5.3.}​$$
 
