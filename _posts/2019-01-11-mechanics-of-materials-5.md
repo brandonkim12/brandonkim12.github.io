@@ -28,7 +28,7 @@ The free-body diagram of portion $BC​$ of the shaft must include the elementar
 
 
 
-$$\int \rho dF = T$$
+$$\int \rho dF = T​$$
 
 Since $ dF = \tau dA$, where $\tau$ is the shear stress on the element of area $dA$, we can write
 
@@ -153,29 +153,18 @@ Similarly with the axial load case,
 $$\phi=\sum \frac{TL}{JG} \tag{5.11}$$
 
 The angle of twist of one end of a shaft or tube with respect to the other end can be determined using the following procedure. 
-Internal Torque.
-• The internal torque is found at a point on the axis of the shaft
-by using the method of sections and the equation of moment
-equilibrium, applied along the shaft’s axis.
-• If the torque varies along the shaft’s length, a section should be
-made at the arbitrary position x along the shaft and the internal
-torque represented as a function of x, i.e., T(x).
-• If several constant external torques act on the shaft between
-its ends, the internal torque in each segment of the shaft,
-between any two external torques, must be determined.
-Angle of Twist.
-• When the circular cross-sectional area of the shaft varies along
-the shaft’s axis, the polar moment of inertia must be expressed
-as a function of its position x along the axis, J(x).
-• If the polar moment of inertia or the internal torque
-suddenly changes between the ends of the shaft, then
-f = 1 1T(x)>J(x)G(x)2 dx or f = TL>JG must be applied to
-each segment for which J, G, and T are continuous or constant.
-When the internal torque in each segment is determined, be
-sure to use a consistent sign convention for the shaft or its
-segments, such as the one shown in Fig. 5–15. Also make sure
-that a consistent set of units is used when substituting numerical
-data into the equations.
+
+**Internal Torque.**
+
+* The *internal* torque is found at a point on the axis of the shaft by using the method of sections and the equation of moment equilibrium, applied along the shaft’s axis.
+* If the torque varies along the shaft’s length, a section should be made at the arbitrary position x along the shaft and the *internal* torque represented as a function of $x$, i.e., $T(x)$.
+* If several constant external torques act on the shaft between its ends, the internal torque in each *segment* of the shaft, between any two external torques, must be determined.
+
+**Angle of Twist.**
+
+* When the circular cross-sectional area of the shaft varies along the shaft’s axis, the polar moment of inertia must be expressed as a function of its position x along the axis, $J(x)$.
+* If the polar moment of inertia or the internal torque suddenly changes between the ends of the shaft, then $\phi = \int(T(x)/J(x)G(x)) dx$ or $\phi = TL/JG$ must be applied to each segment for which $J$, $G$, and $T$ are continuous or constant. 
+* When the internal torque in each segment is determined, be sure to use a consistent sign convention for the shaft or its segments, such as the one shown in Fig. 5–15. Also make sure that a consistent set of units is used when substituting numerical data into the equations.
 
 
 
