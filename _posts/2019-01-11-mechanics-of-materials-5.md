@@ -94,9 +94,21 @@ On the other hand, the faces of element b, which form arbitrary angles with the 
 
 <center>Fig. 5.6. Circular shaft with stress elements at different orientations.</center>
 
-Consider the stresses and resulting forces on faces that are at $45^{\circ}$ to the axis of the shaft. The free-body diagrams of the two triangular elements are shown in [Fig. 5.7.] From [Fig. 5.7.a], the stresses exerted on the faces $BC$ and $BD$ are the shearing stresses $\tau_{\text{max}}=\frac{Tc}{J}$. The magnitude of the corresponding shear force is $\tau_{\text{max}}A_0$, where $A_0$ is the area of the face. Observing that the components along DC of the two shear forces are equal and opposite, the force F exerted on DC must be perpendicular to that face and is a tensile force. Its magnitude is
+Consider the stresses and resulting forces on faces that are at $45^{\circ}​$ to the axis of the shaft. The free-body diagrams of the two triangular elements are shown in [Fig. 5.7.]
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_53.JPG)
 
+<center>Fig. 5.7. Forces on faces at 45º to shaft axis</center>
+
+From [Fig. 5.7.a], the stresses exerted on the faces $BC​$ and $BD​$ are the shearing stresses $\tau_{\text{max}}=\frac{Tc}{J}​$. The magnitude of the corresponding shear force is $\tau_{\text{max}}A_0​$, where $A_0​$ is the area of the face. Observing that the components along $DC​$ of the two shear forces are equal and opposite, the force $F​$ exerted on $DC​$ must be perpendicular to that face and is a tensile force. Its magnitude is
+
+$$F=2(\tau_{\text{max}}A_0)\cos45^{\circ}=\tau_{\text{max}}A_0\sqrt{2}\tag{5.8.}​$$
+
+The corresponding stress is obtained by dividing the force F by the area A of face $DC​$. Observing that $A = A_0\sqrt{2}​$,
+
+$$\sigma=\frac{F}{A}=\frac{\tau_{\text{max}}A_0\sqrt{2}}{A_0\sqrt{2}}=\tau_{\text{max}}\tag{5.9.}$$
+
+As we can see in [Fig. 5.6.], **stress on 'a' and 'b'  surface is the same, and therefore Torque $T$ is all the same.**
 
 <center> 2. Shear Stress Distribution.  </center>
 
