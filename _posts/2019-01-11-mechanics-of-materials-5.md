@@ -96,7 +96,7 @@ If an element of material on the cross section of the shaft or tube is isolated,
 
 <center>Fig. 5.7. Description of Stress Distribution </center>
 
-It is interesting to note that **because of this axial distribution of shear stress, shafts made of wood tend to split along the axial plane when subjected to excessive torque, Fig. 5–8. **
+It is interesting to note that **because of this axial distribution of shear stress, shafts made of wood tend to split along the axial plane when subjected to excessive torque**, Fig. 5–8. 
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_51.JPG)
 
