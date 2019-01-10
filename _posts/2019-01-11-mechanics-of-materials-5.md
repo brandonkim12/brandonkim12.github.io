@@ -84,23 +84,33 @@ and
 
 $$\tau=\frac{T\rho}{J} \tag{5.7.}$$
 
+Now consider two elements a and b located on the surface of a circular shaft subjected to torsion (Fig. 3.17). Since the faces of element a are respectively parallel and perpendicular to the axis of the shaft, the only stresses on the element are the shearing stresses
+
+$$\tau_{\text{max}}=\frac{Tc}{J}​$$
+
+On the other hand, the faces of element b, which form arbitrary angles with the axis of the shaft, are subjected to a combination of normal and shearing stresses. 
+
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_52.JPG)
 
 <center>Fig. 5.6. Circular shaft with stress elements at different orientations.</center>
 
+Consider the stresses and resulting forces on faces that are at $45^{\circ}$ to the axis of the shaft. The free-body diagrams of the two triangular elements are shown in [Fig. 5.7.] From [Fig. 5.7.a], the stresses exerted on the faces $BC$ and $BD$ are the shearing stresses $\tau_{\text{max}}=\frac{Tc}{J}$. The magnitude of the corresponding shear force is $\tau_{\text{max}}A_0$, where $A_0$ is the area of the face. Observing that the components along DC of the two shear forces are equal and opposite, the force F exerted on DC must be perpendicular to that face and is a tensile force. Its magnitude is
+
+
+
 <center> 2. Shear Stress Distribution.  </center>
 
-If an element of material on the cross section of the shaft or tube is isolated, then due to the complementary property of shear, equal shear stresses must also act on four of its adjacent faces, as shown in [Fig. 5.7.a.]. As a result, the internal torque T develops a linear distribution of shear stress along each radial line in the plane of the cross-sectional area, and also an associated shear-stress distribution is developed along an axial plane, [Fig. 5.7.b.]
+If an element of material on the cross section of the shaft or tube is isolated, then due to the complementary property of shear, equal shear stresses must also act on four of its adjacent faces, as shown in [Fig. 5.8.a.]. As a result, the internal torque T develops a linear distribution of shear stress along each radial line in the plane of the cross-sectional area, and also an associated shear-stress distribution is developed along an axial plane, [Fig. 5.8.b.]
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_50.JPG)
 
-<center>Fig. 5.7. Description of Stress Distribution </center>
+<center>Fig. 5.8. Description of Stress Distribution </center>
 
-It is interesting to note that **because of this axial distribution of shear stress, shafts made of wood tend to split along the axial plane when subjected to excessive torque**, Fig. 5–8. 
+It is interesting to note that **because of this axial distribution of shear stress, shafts made of wood tend to split along the axial plane when subjected to excessive torque**, Fig. 5–9. 
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_51.JPG)
 
-<center>Fig. 5.8. Surficial Failure of Wood - Maximum Shear</center>
+<center>Fig. 5.9. Surficial Failure of Wood - Maximum Shear</center>
 
 This is because wood is an anisotropic material, whereby its shear resistance parallel to its grains or fibers, directed along the axis of the shaft, is much less than its resistance perpendicular to the fibers within the plane of the cross section.
 
