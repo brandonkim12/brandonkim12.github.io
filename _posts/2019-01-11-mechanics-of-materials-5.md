@@ -82,7 +82,11 @@ $$\text{where}\begin{cases}\tau_{\text{max}} =& \text{the maximum shear stress i
 
 and
 
-$$\tau=\frac{T\rho}{J} \tag{5.7.}​$$
+$$\tau=\frac{T\rho}{J} \tag{5.7.}$$
+
+
+
+
 
 <center> 2. Shear Stress Distribution.  </center>
 
