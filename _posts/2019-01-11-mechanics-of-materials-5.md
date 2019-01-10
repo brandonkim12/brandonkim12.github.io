@@ -163,10 +163,45 @@ The angle of twist of one end of a shaft or tube with respect to the other end c
 **Angle of Twist.**
 
 * When the circular cross-sectional area of the shaft varies along the shaft’s axis, the polar moment of inertia must be expressed as a function of its position x along the axis, $J(x)$.
+
 * If the polar moment of inertia or the internal torque suddenly changes between the ends of the shaft, then $\phi = \int(T(x)/J(x)G(x)) dx$ or $\phi = TL/JG$ must be applied to each segment for which $J$, $G$, and $T$ are continuous or constant. 
-* When the internal torque in each segment is determined, be sure to use a consistent sign convention for the shaft or its segments, such as the one shown in Fig. 5–15. Also make sure that a consistent set of units is used when substituting numerical data into the equations.
+
+* When the internal torque in each segment is determined, be sure to use a consistent sign convention for the shaft or its segments, such as the one shown in [Fig. 5.10.] Also make sure that a consistent set of units is used when substituting numerical data into the equations.
+
+  ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_54.JPG)
 
 
+
+<center>Fig. 5.10. Sign Convention for The Twist Angle</center>
+
+<br>
+
+<center>4. Statically Indeterminate Torque-Loaded Members</center>
+
+This is also similar to the case for the statically indeterminate members with the axial load. The unknown torques in statically indeterminate shafts are determined by satisfying equilibrium, compatibility, and load–displacement requirements for the shaft.
+
+**Equilibrium.**
+
+* Draw a free-body diagram of the shaft in order to identify all the external torques that act on it. Then write the equation of moment equilibrium about the axis of the shaft.
+
+**Compatibility.**
+
+* Write the compatibility equation. Give consideration as to how the supports constrain the shaft when it is twisted. 
+
+**Load–Displacement.**
+
+* Express the angles of twist in the compatibility condition in terms of the torques, using a load– displacement relation, such as $\phi = TL/JG$.
+  • Solve the equations for the unknown reactive torques. If any of the magnitudes have a negative numerical value, it indicates that this torque acts in the opposite sense of direction to that shown on the free-body diagram.
+
+<br>
+
+<center>5. Solid Noncircular Shafts, Thin-walled Tubes, Stress Concentration, and Inelastic Torsion</center>
+
+* Solid Noncircular Shafts
+
+Shafts that have a noncircular cross section are not axisymmetric, and so their cross sections will bulge or warp when the shaft is twisted. Evidence of this can be seen from the way grid lines deform on a shaft  having a square cross section, Fig. 5–23. Because of this deformation, the torsional analysis of noncircular shafts becomes considerably more complicated and will not be discussed in this text. <u>*Using a mathematical analysis based on the theory of elasticity, however, the shear-stress distribution within a shaft of square cross section has been determined.*</u> 
+
+Using the theory of elasticity, Table 5–1 provides the results of the analysis for square cross sections, along with those for shafts having triangular and elliptical cross sections. In all cases, the maximum shear stress occurs at a point on the edge of the cross section that is closest to the center axis of the shaft. Also given are formulas for the angle of twist of each shaft.
 
 
 
