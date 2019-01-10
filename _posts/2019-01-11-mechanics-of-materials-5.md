@@ -215,19 +215,28 @@ In the preceding section we saw that the determination of stresses in noncircula
 
 <center>Fig. 5.11. Thin-walled hollow shaft subject to torsional loading.</center>
 
-While the thickness $t$ of the wall may vary within a transverse section, it is assumed that it remains small compared to the other dimensions of the member.Now detach the colored portion of wall $AB$ bounded by two transverse planes at a distance $\Delta x$ from each other and by two longitudinal planes perpendicular to the wall. Since the portion $AB$ is in equilibrium, the sum of the forces exerted on it in the longitudinal $x$ direction must be zero (Fig. 3.48). The only forces involved in this direction are the shearing forces $F_A$ and $F_B$ exerted on the ends of portion $AB$. Therefore,
+While the thickness $t​$ of the wall may vary within a transverse section, it is assumed that it remains small compared to the other dimensions of the member.Now detach the colored portion of wall $AB​$ bounded by two transverse planes at a distance $\Delta x​$ from each other and by two longitudinal planes perpendicular to the wall. Since the portion $AB​$ is in equilibrium, the sum of the forces exerted on it in the longitudinal $x​$ direction must be zero (Fig. 3.48).
+
+ The only forces involved in this direction are the shearing forces $F_A$ and $F_B$ exerted on the ends of portion $AB$. Therefore,
 
 $$\begin{matrix}\sum F_x=0; & F_A - F_B = 0 \end{matrix} \tag{5.12.}$$
 
-Now express $F_A$ as the product of the longitudinal shearing stress $\tau_A$ on the small face at A and of the area $\tau_A \Delta x$ of that face:
+Now express $F_A$ as the product of the longitudinal shearing stress $\tau_A$ on the small face at A and of the area $t_A \Delta x​$ of that face:
 
 $$F_A=\tau_A (t_A \Delta x)$$
 
+While the shearing stress is independent of the $x​$ coordinate of the point considered, it may vary across the wall. Thus, $\tau_A​$ represents the average value of the stress computed across the wall. Expressing $F_B​$ in a similar way and substituting for $F_A​$ and $F_B​$ into (5.12), write
 
+$$\begin{matrix}\tau_A (t_A \Delta x) = \tau_B(t_B \Delta x) = 0\\\tau_A t_A = \tau_B t_B\end{matrix} \tag{5.13.}$$
+
+Since $A​$ and $B​$ were chosen arbitrarily, Eq. (5.13) shows that the product $\tau t​$ of the longitudinal shearing stress $\tau​$ and the wall thickness $t​$ is constant throughout the member. Denoting this product by $q\text{(shear flow)}​$[^++],  we have
+
+$$q = \tau t = \text{constant}\tag{5.14.}​$$
 
 
 
 [^+]: The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
+[^++]: The terminology “flow” is used since q is analogous to water flowing through a channel of rectangular cross section having a constant depth and variable width.
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.5
