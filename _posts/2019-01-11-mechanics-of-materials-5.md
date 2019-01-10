@@ -209,9 +209,25 @@ Using the theory of elasticity, Table 5–1 provides the results of the analysis
 
 * Thin-Walled Tubes Having Closed Cross Section
 
-  
+In the preceding section we saw that the determination of stresses in noncircular members generally requires the use of advanced mathematical methods. In thin-walled hollow noncircular shafts, a good approximation of the distribution of stresses in the shaft can be obtained by a simple computation. Consider a hollow cylindrical member of *noncircular* section subjected to a torsional loading [Fig. 5.11][^+].
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_56.JPG)
+
+<center>Fig. 5.11. Thin-walled hollow shaft subject to torsional loading.</center>
+
+While the thickness $t$ of the wall may vary within a transverse section, it is assumed that it remains small compared to the other dimensions of the member.Now detach the colored portion of wall $AB$ bounded by two transverse planes at a distance $\Delta x$ from each other and by two longitudinal planes perpendicular to the wall. Since the portion $AB$ is in equilibrium, the sum of the forces exerted on it in the longitudinal $x$ direction must be zero (Fig. 3.48). The only forces involved in this direction are the shearing forces $F_A$ and $F_B$ exerted on the ends of portion $AB$. Therefore,
+
+$$\begin{matrix}\sum F_x=0; & F_A - F_B = 0 \end{matrix} \tag{5.12.}$$
+
+Now express $F_A$ as the product of the longitudinal shearing stress $\tau_A$ on the small face at A and of the area $\tau_A \Delta x$ of that face:
+
+$$F_A=\tau_A (t_A \Delta x)$$
 
 
+
+
+
+[^+]: The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.5
