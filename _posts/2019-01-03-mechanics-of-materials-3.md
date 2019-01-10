@@ -89,7 +89,7 @@ For practical purposes, when creep becomes important, a member is usually design
 
 A typical $\sigma - n\text{(cycle number)}$ curve for steel is shown in [Fig. 3.9.] If the applied maximum stress is high, relatively few cycles are required to cause rupture. As the magnitude of the maximum stress is reduced, the number of cycles required to cause rupture increases, until the endurance limit is reached. The endurance limit is the stress for which failure does not occur, even for an indefinitely large number of loading cycles. For a low-carbon steel, such as structural steel, the endurance limit is about one-half of the ultimate strength of the steel.
 
-For nonferrous metals, such as aluminum and copper, a typical $\sigma - n$ curve [Fig. 3.9] shows that the stress at failure continues to decrease as the number of loading cycles is increased. For such metals, *the fatigue limit* is the stress corresponding to failure after a specified number of loading cycles.
+For nonferrous metals, such as aluminum and copper, a typical $\sigma - n​$ curve [Fig. 3.9] shows that the stress at failure continues to decrease as the number of loading cycles is increased. For such metals, *the fatigue limit* is the stress corresponding to failure after a specified number of loading cycles.
 
 <br>
 
