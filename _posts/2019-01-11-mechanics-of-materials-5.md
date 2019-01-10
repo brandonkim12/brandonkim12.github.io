@@ -203,6 +203,14 @@ Shafts that have a noncircular cross section are not axisymmetric, and so their 
 
 Using the theory of elasticity, Table 5–1 provides the results of the analysis for square cross sections, along with those for shafts having triangular and elliptical cross sections. In all cases, the maximum shear stress occurs at a point on the edge of the cross section that is closest to the center axis of the shaft. Also given are formulas for the angle of twist of each shaft.
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_55.JPG)
+
+<center>Table. 5.1. Maximum Shear and Angle of Twists for Each Shape</center>
+
+* Thin-Walled Tubes Having Closed Cross Section
+
+  
+
 
 
 * References
