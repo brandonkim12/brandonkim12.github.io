@@ -8,9 +8,9 @@ categories:
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
 ---
 
-<center>1. Torsional Deformation of a Circular Shaft</center>
+<center>1. Torsional Deformation of a Circular Shaft and Torsion Formula</center>
 
-Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $\mathbf{T}$ and $\mathbf{T'}$.We pass a section perpendicular to the axis of the shaft through some arbitrary point $C$ [Fig. 5.1.].
+Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $\mathbf{T}$ and $\mathbf{T'}$.We pass a section perpendicular to the axis of the shaft through some arbitrary point $C​$ [Fig. 5.1.].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_45.JPG)
 
@@ -34,7 +34,11 @@ $$\int \rho(\tau dA) = T \tag{5.1.}$$
 
 At first, we have to study how the torsional deformation affects the form of shaft. 
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_47.JPG)
 
+<center>Fig. 5.3. Description of Torsional Deformation</center>
+
+At [Fig. 5.3.], We find that when the torque is applied, the longitudinal grid lines originally marked on the shaft tend to distort into a helix, [Fig. 5.3.], that intersects the circles at equal angles. Also, all the cross sections of the shaft will remain flat—that is, they do not warp or bulge in or out—and radial lines remain straight and rotate during this deformation. Provided the angle of twist is small, then the length of the shaft and its radius will remain practically unchanged.
 
 $$\tau = G\gamma \\ \gamma = \frac{\rho}{c}\gamma_{\text{max}}$$
 
