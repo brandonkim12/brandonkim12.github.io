@@ -84,6 +84,14 @@ and
 
 $$\tau=\frac{T\rho}{J} \tag{5.7.}​$$
 
+<center> 2. Shear Stress Distribution.  </center>
+
+If an element of material on the cross section of the shaft or tube is isolated, then due to the complementary property of shear, equal shear stresses must also act on four of its adjacent faces, as shown in Fig. 5–6a.
+
+ As a result, the internal torque T develops a linear distribution of shear stress along each radial line in the plane of the cross-sectional area, and also an associated shear-stress distribution is developed along an axial plane, Fig. 5–6b.
+
+ It is interesting to note that because of this axial distribution of shear stress, shafts made of wood tend to split along the axial plane when subjected to excessive torque, Fig. 5–7. This is because wood is an anisotropic material, whereby its shear resistance parallel to its grains or fibers, directed along the axis of the shaft, is much less than its resistance perpendicular to the fibers within the plane of the cross section.
+
 
 
 * References
