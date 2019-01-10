@@ -26,7 +26,13 @@ The free-body diagram of portion $BC$ of the shaft must include the elementary s
 
 
 
-$$\int \rho dF = T \\ \int \rho (\tau dA) = T \\ \tau=\frac{\rho}{c}\tau_{\text{max}} \\ \int \rho(\frac{\rho}{c} \tau_{\text{max}} dA) = T \\ \underset{\text{polar moment of inertia}}{\frac{\tau_{\text{max}}}{c}\underline{\int \rho^2 dA}} = T$$
+$$\int \rho dF = T \\ \int \rho(\frac{\rho}{c} \tau_{\text{max}} dA) = T \\ \underset{\text{polar moment of inertia}}{\frac{\tau_{\text{max}}}{c}\underline{\int \rho^2 dA}} = T$$
+
+Since $ dF = \tau dA$, where $\tau$ is the shear stress on the element of area $dA$, we can write
+
+$$\int \rho(\tau dA) = T \tag{5.1.}$$
+
+At first, we have to study how the torsional deformation affects the form of shaft. 
 
 
 
