@@ -219,9 +219,9 @@ While the thickness $t​$ of the wall may vary within a transverse section, it 
 
  The only forces involved in this direction are the shearing forces $F_A$ and $F_B$ exerted on the ends of portion $AB$. Therefore,
 
-$$\begin{matrix}\sum F_x=0; & F_A - F_B = 0 \end{matrix} \tag{5.12.}$$
+$$\begin{matrix}\sum F_x=0; & F_A - F_B = 0 \end{matrix} \tag{5.12.}​$$
 
-Now express $F_A$ as the product of the longitudinal shearing stress $\tau_A$ on the small face at A and of the area $t_A \Delta x​$ of that face:
+Now express $F_A​$ as the product of the longitudinal shearing stress $\tau_A​$ on the small face at A and of the area $t_A \Delta x​$ of that face:
 
 $$F_A=\tau_A (t_A \Delta x)$$
 
@@ -229,7 +229,7 @@ While the shearing stress is independent of the $x​$ coordinate of the point c
 
 $$\begin{matrix}\tau_A (t_A \Delta x) = \tau_B(t_B \Delta x) = 0\\\tau_A t_A = \tau_B t_B\end{matrix} \tag{5.13.}$$
 
-Since $A​$ and $B​$ were chosen arbitrarily, Eq. (5.13) shows that **the product** $\tau t​$ **of the longitudinal shearing stress $\tau​$ and the wall thickness $t​$ is constant throughout the member.** Denoting this product by $q\text{(shear flow)}​$[^++],  we have
+Since $A$ and $B$ were chosen arbitrarily, Eq. (5.13) shows that **the product** $\tau t$ **of the longitudinal shearing stress $\tau$ and the wall thickness $t$ is constant throughout the member.** Denoting this product by $q\text{(shear flow)}$[^++],  we have
 
 $$q = \tau t = \text{constant}\tag{5.14.}​$$
 
@@ -275,7 +275,7 @@ Since the integral around the wall section of the left-hand member of Eq. (5.17.
 
 $$T=\oint dM_O = \oint q(2d\mathfrak{A})​$$
 
-The shear flow $q$ being a constant, write
+The shear flow $q​$ being a constant, write
 
 $$T = 2q\mathfrak{A}\tag{5.18.}$$
 
@@ -285,13 +285,19 @@ where $\mathfrak{A}​$ is the area bounded by the center line of the wall cross
 
 <center>Fig. 5.16. Area for shear flow.</center>
 
-The shearing stress $\tau$ at any given point of the wall can be expressed in terms of the torque $T$ if $q$ is substituted from Eq. (5.14) into Eq. (5.18). Solving for $\tau$:
+The shearing stress $\tau​$ at any given point of the wall can be expressed in terms of the torque $T​$ if $q​$ is substituted from Eq. (5.14) into Eq. (5.18). Solving for $\tau​$:
 
 $$\tau = \frac{T}{2t\mathfrak{A}} \tag{5.19.}$$
 
 where t is the wall thickness at the point considered and A the area bounded by the center line. Recall that t represents the average value of the shearing stress across the wall. However, for elastic deformations, the distribution of stresses across the wall can be assumed to be uniform, and thus Eq. (5.19.) yields the actual shearing stress at a given point of the wall.
 
-The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L$ and modulus of rigidity $G$ is
+The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L​$ and modulus of rigidity $G​$ is
+
+$$\phi = \frac{TL}{4\mathfrak{A}^2G}\oint\frac{ds}{t}\tag{5.20.}$$
+
+where the integral is computed **along the center line of the wall section**.
+
+
 
 
 
