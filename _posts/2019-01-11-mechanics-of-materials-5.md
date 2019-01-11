@@ -235,11 +235,19 @@ $$q = \tau t = \text{constant}\tag{5.14.}​$$
 
 Now detach a small element from the wall portion $AB$ (Fig. 5.12.).
 
-![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_57.JPG)
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_58.JPG)
 
 <center>Fig. 5.12. Small stress element from segment</center>
 
-Since the outer and inner faces are part of the free surface of the hollow member, the stresses are equal to zero. [] the stress components indicated on the other faces by dashed arrows are also zero, while those represented by solid arrows are equal. Thus, the shearing stress at any point of a transverse section of the hollow member is parallel to the wall surface (Fig. 5.13.), and its average value computed across the wall satisfies Eq. (5.14.).
+Since the outer and inner faces are part of the free surface of the hollow member, the stresses are equal to zero. the stress components indicated on the other faces by dashed arrows are also zero, while those represented by solid arrows are equal. Thus, the shearing stress at any point of a transverse section of the hollow member is parallel to the wall surface (Fig. 5.13.), and its average value computed across the wall satisfies Eq. (5.14.).
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_59.JPG)
+
+<center>Fig. 5.13. Direction of shearing stress on cross section</center>
+
+At this point, an analogy can be made between the distribution of the shearing stresses $t$ in the transverse section of a thin-walled hollow shaft and the distributions of the velocities $v$ in water flowing through a closed channel of unit depth and variable width. While the velocity $v$ of the water varies from point to point on account of the variation in the width $t$ of the channel, the rate of flow, $q = vt$, remains constant throughout the channel, just as $\tau t$ in Eq. (5.14). Because of this, the product $q = \tau t$ is called the shear flow in the wall of the hollow shaft.
+
+
 
 
 
