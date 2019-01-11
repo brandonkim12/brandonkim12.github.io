@@ -261,7 +261,23 @@ The moment $dM_O$ of this force about an arbitrary point $O$ within the cavity o
 
 $$dM_O = p\, dF = p(q\,ds) = q(p\,ds)\tag{5.16.}​$$
 
+But the product $p\,ds​$ is equal to twice the area $d\mathfrak{A}​$ of the colored triangle in [Fig. 5.15.].
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_61.JPG)
+
+<center>Fig. 5.15. Infinitesimal area used in finding the resultant torque.</center>
+
+Thus,
+
+$$dM_O = q(2d\mathfrak{A}) \tag{5.17.}$$
+
+Since the integral around the wall section of the left-hand member of Eq. (5.17.) represents the sum of the moments of all the elementary shearing forces exerted on the wall section and this sum is equal to the torque T applied to the hollow member,
+
+$$T=\oint dM_O = \oint q(2d\mathfrak{A})​$$
+
+The shear flow $q$ being a constant, write
+
+$$T = 2q\mathfrak{A}\tag{5.18.}$$
 
 
 
