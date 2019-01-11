@@ -297,7 +297,9 @@ $$\phi = \frac{TL}{4\mathfrak{A}^2G}\oint\frac{ds}{t}\tag{5.20.}$$
 
 where the integral is computed **along the center line of the wall section**.
 
+* Stress Concentration
 
+The torsion formula, $\tau_{\text{max}} = Tc/J$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
 
 
 
