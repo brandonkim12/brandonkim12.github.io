@@ -201,7 +201,7 @@ This is also similar to the case for the statically indeterminate members with t
 
 Shafts that have a noncircular cross section are not axisymmetric, and so their cross sections will bulge or warp when the shaft is twisted. Evidence of this can be seen from the way grid lines deform on a shaft  having a square cross section, Fig. 5–23. Because of this deformation, the torsional analysis of noncircular shafts becomes considerably more complicated and will not be discussed in this text. <u>*Using a mathematical analysis based on the theory of elasticity, however, the shear-stress distribution within a shaft of square cross section has been determined.*</u> 
 
-Using the theory of elasticity, Table 5–1 provides the results of the analysis for square cross sections, along with those for shafts having triangular and elliptical cross sections. In all cases, the maximum shear stress occurs at a point on the edge of the cross section that is closest to the center axis of the shaft. Also given are formulas for the angle of twist of each shaft.
+Using the theory of elasticity, **Table 5–1 provides the results of the analysis for square cross sections, along with those for shafts having triangular and elliptical cross sections.** In all cases, the maximum shear stress occurs at a point on the edge of the cross section that is closest to the center axis of the shaft. **Also given are formulas for the angle of twist of each shaft.**
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_55.JPG)
 
@@ -209,7 +209,7 @@ Using the theory of elasticity, Table 5–1 provides the results of the analysis
 
 * Thin-Walled Tubes Having Closed Cross Section
 
-In the preceding section we saw that the determination of stresses in noncircular members generally requires the use of advanced mathematical methods. In thin-walled hollow noncircular shafts, a good approximation of the distribution of stresses in the shaft can be obtained by a simple computation. Consider a hollow cylindrical member of *noncircular* section subjected to a torsional loading [Fig. 5.11][^+].
+In the preceding section we saw that the determination of stresses in noncircular members generally requires the use of advanced mathematical methods. **In thin-walled hollow noncircular shafts, a good approximation of the distribution of stresses in the shaft can be obtained by a simple computation. **Consider a hollow cylindrical member of *noncircular* section subjected to a torsional loading [Fig. 5.11][^+].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_56.JPG)
 
@@ -229,9 +229,17 @@ While the shearing stress is independent of the $x​$ coordinate of the point c
 
 $$\begin{matrix}\tau_A (t_A \Delta x) = \tau_B(t_B \Delta x) = 0\\\tau_A t_A = \tau_B t_B\end{matrix} \tag{5.13.}$$
 
-Since $A​$ and $B​$ were chosen arbitrarily, Eq. (5.13) shows that the product $\tau t​$ of the longitudinal shearing stress $\tau​$ and the wall thickness $t​$ is constant throughout the member. Denoting this product by $q\text{(shear flow)}​$[^++],  we have
+Since $A$ and $B$ were chosen arbitrarily, Eq. (5.13) shows that **the product** $\tau t$ **of the longitudinal shearing stress $\tau$ and the wall thickness $t$ is constant throughout the member.** Denoting this product by $q\text{(shear flow)}$[^++],  we have
 
 $$q = \tau t = \text{constant}\tag{5.14.}​$$
+
+Now detach a small element from the wall portion $AB$ (Fig. 5.12.).
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_57.JPG)
+
+<center>Fig. 5.12. Small stress element from segment</center>
+
+Since the outer and inner faces are part of the free surface of the hollow member, the stresses are equal to zero. [] the stress components indicated on the other faces by dashed arrows are also zero, while those represented by solid arrows are equal. Thus, the shearing stress at any point of a transverse section of the hollow member is parallel to the wall surface (Fig. 5.13.), and its average value computed across the wall satisfies Eq. (5.14.).
 
 
 
