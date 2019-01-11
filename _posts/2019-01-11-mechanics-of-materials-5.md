@@ -279,6 +279,8 @@ The shear flow $q$ being a constant, write
 
 $$T = 2q\mathfrak{A}\tag{5.18.}$$
 
+where $\mathfrak{A}$ is the area bounded by the center line of the wall cross section (Fig. 5.16.).
+
 
 
 [^+]: The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
