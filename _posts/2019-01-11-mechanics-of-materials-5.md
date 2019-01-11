@@ -279,7 +279,19 @@ The shear flow $q$ being a constant, write
 
 $$T = 2q\mathfrak{A}\tag{5.18.}$$
 
-where $\mathfrak{A}$ is the area bounded by the center line of the wall cross section (Fig. 5.16.).
+where $\mathfrak{A}​$ is the area bounded by the center line of the wall cross section (Fig. 5.16.).
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_62.JPG)
+
+<center>Fig. 5.16. Area for shear flow.</center>
+
+The shearing stress $\tau$ at any given point of the wall can be expressed in terms of the torque $T$ if $q$ is substituted from Eq. (5.14) into Eq. (5.18). Solving for $\tau$:
+
+$$\tau = \frac{T}{2t\mathfrak{A}} \tag{5.19.}$$
+
+where t is the wall thickness at the point considered and A the area bounded by the center line. Recall that t represents the average value of the shearing stress across the wall. However, for elastic deformations, the distribution of stresses across the wall can be assumed to be uniform, and thus Eq. (5.19.) yields the actual shearing stress at a given point of the wall.
+
+The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L$ and modulus of rigidity $G$ is
 
 
 
