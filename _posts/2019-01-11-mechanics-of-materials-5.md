@@ -313,7 +313,10 @@ $$\tau_{\text{max}} = K\frac{Tc}{J}\tag{5.21.}$$
 
 * Plastic Deformations in Circular Shafts
 
-If the torsional loadings applied to the shaft are excessive, then the material may yield, and, consequently, <u>a “plastic analysis” must be used</u> **to determine the shear-stress distribution and the angle of twist*.
+If the torsional loadings applied to the shaft are excessive, then the material may yield, and, consequently, <u>a “plastic analysis” must be used</u> **to determine the shear-stress distribution and the angle of twist*. the
+shear strains that develop in a circular shaft will vary linearly, from zero at the center of the shaft to a maximum at its outer boundary,
+
+
 
 
 
