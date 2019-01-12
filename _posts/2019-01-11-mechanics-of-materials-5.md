@@ -291,7 +291,7 @@ $$\tau = \frac{T}{2t\mathfrak{A}} \tag{5.19.}$$
 
 where t is the wall thickness at the point considered and A the area bounded by the center line. Recall that t represents the average value of the shearing stress across the wall. However, for elastic deformations, the distribution of stresses across the wall can be assumed to be uniform, and thus Eq. (5.19.) yields the actual shearing stress at a given point of the wall.
 
-The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L​$ and modulus of rigidity $G​$ is
+The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L$ and modulus of rigidity $G$ is
 
 $$\phi = \frac{TL}{4\mathfrak{A}^2G}\oint\frac{ds}{t}\tag{5.20.}$$
 
@@ -300,6 +300,8 @@ where the integral is computed **along the center line of the wall section**.
 * Stress Concentration
 
 The torsion formula, $\tau_{\text{max}} = Tc/J$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
+
+
 
 
 
