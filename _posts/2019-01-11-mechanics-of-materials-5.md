@@ -82,7 +82,7 @@ $$\text{where}\begin{cases}\tau_{\text{max}} =& \text{the maximum shear stress i
 
 and
 
-$$\tau=\frac{T\rho}{J} \tag{5.7.}$$
+$$\tau=\frac{T\rho}{J} \tag{5.7.}​$$
 
 Now consider two elements a and b located on the surface of a circular shaft subjected to torsion (Fig. 3.17). Since the faces of element a are respectively parallel and perpendicular to the axis of the shaft, the only stresses on the element are the shearing stresses
 
@@ -150,7 +150,7 @@ $$d\phi=\frac{T(x)}{J(x)G(x)}dx \\ \phi=\int_0^L \frac{T(x)}{J(x)G(x)}dx \tag{5.
 
 Similarly with the axial load case,
 
-$$\phi=\sum \frac{TL}{JG} \tag{5.11}$$
+$$\phi=\sum \frac{TL}{JG} \tag{5.11}​$$
 
 The angle of twist of one end of a shaft or tube with respect to the other end can be determined using the following procedure. 
 
@@ -299,11 +299,27 @@ where the integral is computed **along the center line of the wall section**.
 
 * Stress Concentration
 
-The torsion formula, $\tau_{\text{max}} = Tc/J​$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
+The torsion formula, $\tau_{\text{max}} = Tc/J$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
+
+When the stress concentration occurs, the maximum shear at certain region is like below:
 
 $$\tau_{\text{max}}=K \frac{Tc}{J} \tag{5.21.}$$
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_63.JPG)
 
+<center>Fig. 5.17. K value according to the r/d ratio</center>
+
+* Plastic Deformations in Circular Shafts
+
+Recall that
+
+$$\tau=\frac{T\rho}{J} \tag{5.7.}$$
+
+and
+
+$$\phi=\sum \frac{TL}{JG} \tag{5.11}​$$
+
+Equations (5.7) and (5.11) for the stress distribution and the angle of twist for a circular shaft subjected to a torque $T​$ assume that Hooke’s law applied throughout the shaft.
 
 
 
