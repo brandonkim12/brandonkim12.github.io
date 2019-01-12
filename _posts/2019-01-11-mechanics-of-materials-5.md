@@ -311,10 +311,31 @@ $$\tau_{\text{max}} = K\frac{Tc}{J}\tag{5.21.}$$
 
 
 
-* Plastic Deformations in Circular Shafts
+* Plastic Deformations in Circular Shafts Made of an Elastoplastic Material
 
-If the torsional loadings applied to the shaft are excessive, then the material may yield, and, consequently, <u>a “plastic analysis” must be used</u> **to determine the shear-stress distribution and the angle of twist*. the
-shear strains that develop in a circular shaft will vary linearly, from zero at the center of the shaft to a maximum at its outer boundary,
+If the torsional loadings applied to the shaft are excessive, then the material may yield, and, consequently, <u>a “plastic analysis” must be used</u> *to determine the shear-stress distribution and the angle of twist*. <u>the shear strains that develop in a circular shaft will vary linearly,</u> from zero at the center of the shaft to a maximum at its outer boundary. This is referred to **"idealized case of a solid circular shaft made of an elastoplastic material".** Since the shear stress $\tau​$ acting on an element of area $dA​$, [Fig. 5.18.] produces a force of $dF = \tau dA​$, then the torque about the axis of the shaft is $dT = \rho dF = \rho(\tau dA)​$. 
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_65.JPG)
+
+<center>Fig. 5.18. Diagram To Define The Stress Distribution on The Elasto-Plastic Shaft</center>
+
+For the entire shaft we require
+
+$$T = \int_A \rho \tau dA \tag{5.22.}$$
+
+If the area $dA$ over which $\tau$ acts is defined as a differential ring having an area of $dA = 2\pi \rho d\rho$, Fig. 5.19, then the above equation can be written as
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_66.JPG)
+
+<center>Fig. 5.18. Diagram For the Formula (5.22.)</center>
+
+$$T = 2\pi \int_0^c \tau \rho^2 d\rho$$
+
+We will now apply this equation to a shaft that is subjected to two types of torque.
+
+* **Elastic-Plastic Torque.**
+
+Let us consider the material in the shaft to exhibit an elastic perfectly plastic behavior, as shown in Fig. 5–33a.
 
 
 
