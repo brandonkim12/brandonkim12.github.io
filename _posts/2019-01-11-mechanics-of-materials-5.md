@@ -327,7 +327,7 @@ If the area $dA$ over which $\tau$ acts is defined as a differential ring having
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_66.JPG)
 
-<center>Fig. 5.18. Diagram For the Formula (5.22.)</center>
+<center>Fig. 5.19. Diagram For the Formula (5.22.)</center>
 
 $$T = 2\pi \int_0^c \tau \rho^2 d\rho$$
 
@@ -335,7 +335,15 @@ We will now apply this equation to a shaft that is subjected to two types of tor
 
 * **Elastic-Plastic Torque.**
 
-Let us consider the material in the shaft to exhibit an elastic perfectly plastic behavior, as shown in Fig. 5–33a.
+Let us consider the material in the shaft to exhibit an elastic perfectly plastic behavior, as shown in [Fig. 5.20.].
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_67.JPG)
+
+<center>5.20 Stress-Strain Diagram for the Elasto-Plastic</center>
+
+Recall that 
+
+$$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}$$
 
 
 
