@@ -285,7 +285,7 @@ where $\mathfrak{A}​$ is the area bounded by the center line of the wall cross
 
 <center>Fig. 5.16. Area for shear flow.</center>
 
-The shearing stress $\tau​$ at any given point of the wall can be expressed in terms of the torque $T​$ if $q​$ is substituted from Eq. (5.14) into Eq. (5.18). Solving for $\tau​$:
+The shearing stress $\tau$ at any given point of the wall can be expressed in terms of the torque $T$ if $q$ is substituted from Eq. (5.14) into Eq. (5.18). Solving for $\tau$:
 
 $$\tau = \frac{T}{2t\mathfrak{A}} \tag{5.19.}$$
 
@@ -293,15 +293,27 @@ where t is the wall thickness at the point considered and A the area bounded by 
 
 The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L​$ and modulus of rigidity $G​$ is
 
-$$\phi = \frac{TL}{4\mathfrak{A}^2G}\oint\frac{ds}{t}\tag{5.20.}$$
+$$\phi = \frac{TL}{4\mathfrak{A}^2G}\oint\frac{ds}{t}\tag{5.20.}​$$
 
 where the integral is computed **along the center line of the wall section**.
 
 * Stress Concentration
 
-The torsion formula, $\tau_{\text{max}} = Tc/J$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
+The torsion formula, $\tau_{\text{max}} = Tc/J​$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_63.JPG)
+
+<center>Fig. 5.17. K value for the r/d ratio</center>
+
+Similar to the case of axial load, $K = \frac{\tau_{\text{_max}}}{\tau_{\text{_avg}}}$. Then, 
+
+$$\tau_{\text{max}} = K\frac{Tc}{J}\tag{5.21.}$$
 
 
+
+* Plastic Deformations in Circular Shafts
+
+If the torsional loadings applied to the shaft are excessive, then the material may yield, and, consequently, <u>a “plastic analysis” must be used</u> **to determine the shear-stress distribution and the angle of twist**.
 
 
 
