@@ -279,7 +279,7 @@ The shear flow $q​$ being a constant, write
 
 $$T = 2q\mathfrak{A}\tag{5.18.}$$
 
-where $\mathfrak{A}​$ is the area bounded by the center line of the wall cross section (Fig. 5.16.).
+where $\mathfrak{A}$ is the area bounded by the center line of the wall cross section (Fig. 5.16.).
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_62.JPG)
 
@@ -301,7 +301,7 @@ where the integral is computed **along the center line of the wall section**.
 
 The torsion formula, $\tau_{\text{max}} = Tc/J​$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
 
-
+$$\tau_{\text{max}}=K \frac{Tc}{J} \tag{5.21.}$$
 
 
 
