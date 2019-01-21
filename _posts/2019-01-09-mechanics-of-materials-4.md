@@ -133,11 +133,12 @@ In engineering practice, above integral is hard to be defined and calculated. In
 
 <center>4.10. The Graph of Stress Concentration Factor K - Normal Bar</center>
 
-Using this table, we get the upper limit for the engineering design for each cases, $\sigma_{\text{max}}=K \sigma_{\text{avg}}$. 
+Using this table, we get the upper limit for the engineering design for each cases, $$\sigma_{\text{max}}=K \sigma_{\text{avg}}$$ 
 
 * Inelastic Axial Deformation: If the loading on a bar made of ductile material
-  causes the material to yield, then the stress distribution that is produced can be determined from the strain distribution and the stress–strain diagram. **Assuming the material is perfectly plastic,** *yielding will cause the stress distribution at the cross section of a hole or transition to even out and become uniform.* At the complete plastic deformation phase, the *plastic load* $N_p$ is
-  $$N_p = \int_A \sigma_Y dA = \sigma_Y A​$$.
+  causes the material to yield, then the stress distribution that is produced can be determined from the strain distribution and the stress–strain diagram. **Assuming the material is perfectly plastic,** *yielding will cause the stress distribution at the cross section of a hole or transition to even out and become uniform.* At the complete plastic deformation phase, the *plastic load* $N_p$ is 
+
+  $$N_p = \int_A \sigma_Y dA = \sigma_Y A$$
   ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_43.JPG)
 
   <center>4.11. The Time when The Plastic Deformation Occurs</center>
@@ -153,9 +154,9 @@ Using this table, we get the upper limit for the engineering design for each cas
 
   <center>4.12. The Stress-Strain Diagram when The Material Undergoes The Residual Stress</center>
 
-  If an axial load produces a stress $\sigma_Y$ in the material and a corresponding strain $\epsilon_C$, then when the load is removed, the material will respond elastically and follow the line $CD$ in order to recover some of the strain. A recovery to zero stress at point $O'$ will be possible if the member is statically determinate, since then the support reactions for the member will be zero when the load is removed. 
+  If an axial load produces a stress $\sigma_Y$ in the material and a corresponding strain $\epsilon_C$, then when the load is removed, the material will respond elastically and follow the line $CD$ in order to recover some of the strain. A recovery to zero stress at point $O'​$ will be possible if the member is statically determinate, since then the support reactions for the member will be zero when the load is removed. 
 
-  **Under these circumstances the member will be permanently deformed so that the permanent set or strain in the member is** $PO'$. *If the member is statically indeterminate*, however, **removal of the external load will cause the support forces to respond to the elastic recovery CD.** Since these forces will constrain the member from full recovery, they will induce residual stresses in the member. 
+  **Under these circumstances the member will be permanently deformed so that the permanent set or strain in the member is** $PO'​$. *If the member is statically indeterminate*, however, **removal of the external load will cause the support forces to respond to the elastic recovery CD.** Since these forces will constrain the member from full recovery, they will induce residual stresses in the member. 
 
   To solve this kind of problems, the complete cycle of loading and then unloading of the member can be considered as the superposition of a positive load (loading) on a negative load (unloading).
 
