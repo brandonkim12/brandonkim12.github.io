@@ -18,7 +18,7 @@ Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $\m
 
 <center>Fig. 5.1. Shaft subject to torques and a section plane at C</center>
 
-The free-body diagram of portion $BC$ of the shaft must include the elementary shearing forces $d\mathbf{F}$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC$ exerts on $BC$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}​$ [Fig. 5.2.b].
+The free-body diagram of portion $BC$ of the shaft must include the elementary shearing forces $d\mathbf{F}$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC$ exerts on $BC$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}$ [Fig. 5.2.b].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_46.JPG)
 
@@ -353,7 +353,7 @@ Similar to the case of axial load, the shear stress increases linearly in radial
 
 <center>5.21 Shear Distribution for Elasto-plastic Shaft a) Elastic b) Impending Yield c) Partially Yielded d) Fully Yielded</center>
 
-In [Fig 5.21. b)], which means that the shear arrives at the yielding stress. In this stage,  Torque is to be stagnated at
+In [Fig 5.21. b)], which means that the shear arrives at the yielding stress. In this stage,  Torque is to be stagnated in
 
 $$T_Y = \frac{J}{c}\tau_Y \tag{5.23}$$
 
