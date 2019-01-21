@@ -160,8 +160,6 @@ Using this table, we get the upper limit for the engineering design for each cas
 
   To solve this kind of problems, the complete cycle of loading and then unloading of the member can be considered as the superposition of a positive load (loading) on a negative load (unloading).
 
-
-
 <br>
 
 Now we've seen how to solve the problem when the axial load alone is exerted on the member. We have to see the 'Torsion', 'Bending', 'Transverse Shear' more, and finally we have to combine them all. Although there are a lot of things to have to be studied, applying the old saying: 'divide and conquer', and we can get this all out.

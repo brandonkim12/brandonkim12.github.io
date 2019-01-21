@@ -349,8 +349,6 @@ Similar to the case of axial load, the shear stress increases linearly in radial
 
 
 
-
-
 [^+]:  The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
 [^++]: The terminology “flow” is used since q is analogous to water flowing through a channel of rectangular cross section having a constant depth and variable width.
 
