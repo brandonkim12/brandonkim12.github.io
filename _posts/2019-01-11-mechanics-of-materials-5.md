@@ -18,7 +18,7 @@ Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $\m
 
 <center>Fig. 5.1. Shaft subject to torques and a section plane at C</center>
 
-The free-body diagram of portion $BC$ of the shaft must include the elementary shearing forces $d\mathbf{F}$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC$ exerts on $BC$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}$ [Fig. 5.2.b].
+The free-body diagram of portion $BC$ of the shaft must include the elementary shearing forces $d\mathbf{F}$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC$ exerts on $BC$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}​$ [Fig. 5.2.b].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_46.JPG)
 
@@ -333,7 +333,7 @@ $$T = 2\pi \int_0^c \tau \rho^2 d\rho$$
 
 We will now apply this equation to a shaft that is subjected to two types of torque.
 
-* **Elastic-Plastic Torque.**
+* **Elasto-Plastic Torque.**
 
 Let us consider the material in the shaft to exhibit an elastic perfectly plastic behavior, as shown in [Fig. 5.20.]. 
 
@@ -345,7 +345,17 @@ Recall that
 
 $$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}$$
 
-Similar to the case of axial load, the shear stress increases linearly in radial direction. 
+Similar to the case of axial load, the shear stress increases linearly in radial direction until the shear reaches the yielding shear stress.
+
+
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_68.JPG)
+
+<center>5.21 Shear Distribution for Elasto-plastic Shaft a) Elastic b) Impending Yield c) Partially Yielded d) Fully Yielded</center>
+
+In [Fig 5.21. b)], which means that the shear arrives at the yielding stress. In this stage,  Torque is to be stagnated at
+
+$$T_Y = \frac{J}{c}\tau_Y \tag{5.23}$$
 
 
 
