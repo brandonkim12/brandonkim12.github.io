@@ -335,7 +335,7 @@ We will now apply this equation to a shaft that is subjected to two types of tor
 
 * **Elastic-Plastic Torque.**
 
-Let us consider the material in the shaft to exhibit an elastic perfectly plastic behavior, as shown in [Fig. 5.20.].
+Let us consider the material in the shaft to exhibit an elastic perfectly plastic behavior, as shown in [Fig. 5.20.]. 
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_67.JPG)
 
@@ -345,7 +345,7 @@ Recall that
 
 $$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}$$
 
-
+Similar to the case of axial load, the shear stress increases linearly in radial direction. 
 
 
 
