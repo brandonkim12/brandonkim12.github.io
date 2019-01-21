@@ -337,7 +337,7 @@ We will now apply this equation to a shaft that is subjected to two types of tor
 
 Let us consider the material in the shaft to exhibit an elastic perfectly plastic behavior, as shown in [Fig. 5.20.].
 
-
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_67.JPG)
 
 <center>5.20 Stress-Strain Diagram for the Elasto-Plastic</center>
 
@@ -349,10 +349,10 @@ $$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}$$
 
 
 
+
+
 [^+]:  The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
 [^++]: The terminology “flow” is used since q is analogous to water flowing through a channel of rectangular cross section having a constant depth and variable width.
 
-* References
-  * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.5
-  * Ferdinand P. Beer, Mechanics of Materials, 7th ed., ch.4
+
 

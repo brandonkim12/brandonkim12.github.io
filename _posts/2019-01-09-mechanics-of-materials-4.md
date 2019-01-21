@@ -137,10 +137,14 @@ Using this table, we get the upper limit for the engineering design for each cas
 
 * Inelastic Axial Deformation: If the loading on a bar made of ductile material
   causes the material to yield, then the stress distribution that is produced can be determined from the strain distribution and the stress–strain diagram. **Assuming the material is perfectly plastic,** *yielding will cause the stress distribution at the cross section of a hole or transition to even out and become uniform.* At the complete plastic deformation phase, the *plastic load* $N_p$ is
-  $$N_p = \int_A \sigma_Y dA = \sigma_Y A$$.
+  $$N_p = \int_A \sigma_Y dA = \sigma_Y A​$$.
   ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_43.JPG)
 
   <center>4.11. The Time when The Plastic Deformation Occurs</center>
+
+  Firstly, $\sigma_1$ reaches to the yielding normal stress of certain material, $\sigma_Y​$, which is same to the [Fig.4.11.]'s left diagram. Then stress distribution goes to the middle of [Fig.4.11.]. As we can see, the maximum value of the stress distribution cannot exceed the yielding stress of the material. Finally, all continuous value of stress distribution arrive at the yielding stress.
+
+  
 
 * Residual Stress: 
 
@@ -154,6 +158,8 @@ Using this table, we get the upper limit for the engineering design for each cas
   **Under these circumstances the member will be permanently deformed so that the permanent set or strain in the member is** $PO'$. *If the member is statically indeterminate*, however, **removal of the external load will cause the support forces to respond to the elastic recovery CD.** Since these forces will constrain the member from full recovery, they will induce residual stresses in the member. 
 
   To solve this kind of problems, the complete cycle of loading and then unloading of the member can be considered as the superposition of a positive load (loading) on a negative load (unloading).
+
+
 
 <br>
 
