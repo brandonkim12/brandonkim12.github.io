@@ -360,7 +360,7 @@ For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}​$, so we have
 
 $$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.24.}$$
 
-As $T​$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y​$, and by this the shear stress is expressed as 
+As $T$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y$, and by this the shear stress is expressed as 
 
 $$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.25.}​$$
 
@@ -404,13 +404,18 @@ To drill into the transition process in the elastoplastic material, let us see a
 
 <u>Note that (5.34.) can be used only for values of $\phi$ larger than</u> $\phi_Y$. For $\phi<\phi_Y$, the relation between ​$T$ and ​$\phi$ is linear and given by (5.11.). Combining both equations, the plot of ​$T$ against ​$\phi$ is as represented in [Fig. 5.22.] <u>As ​$\phi$ increases indefinitely,</u> ​$T$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y$, ​$T$ is within about 3% of ​$T_p$, and for ​$\phi = 3 \phi_Y$, it is within about 1%.
 
-Since the plot of $T$ against $\phi$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau$ in that portion. Thus, (5.1.) reduces to
+Since the plot of $T$ against $\phi$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau​$ in that portion. Thus, (5.1.) reduces to
 
 $$T=\rho A \tau​$$
 
+where $\rho$ is the average radius of the tube and $A$ is its cross-sectional area. The shearing stress is  proportional to the torque, and $\tau$ easily can be computed from the corresponding values of $T$. The corresponding shearing strain $\gamma$ can be obtained from (5.29.) and from the values of $\phi$ and $L$ measured on the tubular portion of the specimen.
 
+<br>
 
+<center>6. Residual Stresses in Circular Shafts</center>
 
+we saw that a plastic region will develop in a shaft subjected to a large enough torque, and that the shearing stress $\tau$ at any given point in the plastic region may be obtained from the shearing-stress-
+strain diagram of Fig. 3.30.
 
 
 
