@@ -361,13 +361,13 @@ For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}​$, so we have
 
 $$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.24.}$$
 
-As $T$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation. - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y$, and by this the shear stress is expressed as 
+As $T​$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation. - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y​$, and by this the shear stress is expressed as 
 
 $$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.25.}​$$
 
 As (5.25.) is applied to the (5.22.), we get the torque as
 
-$$ \begin{align} T= & \int_0^{\rho_Y}\rho \frac{\tau_Y}{\rho_Y}\rho (2\pi \rho d\rho) + \int_{\rho_Y}^c \rho \tau_Y (2\pi\rho)d\rho \\ & = \frac{}{}\end{align}​$$
+$$ \begin{align} T= & \int_0^{\rho_Y}\rho \frac{\tau_Y}{\rho_Y}\rho (2\pi \rho d\rho) + \int_{\rho_Y}^c \rho \tau_Y (2\pi\rho)d\rho \\ & = \frac{\pi}{2}\tau_Y \rho_Y^3 + \frac{2}{3}\pi(c^3 - \rho_Y^3) \\ & = \frac{2}{3}\pi\tau_Yc^3(1-\frac{1}{4}\frac{\rho_Y^3}{c^3})\end{align}\tag{5.26.} $$
 
 
 
