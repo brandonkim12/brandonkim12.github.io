@@ -17,7 +17,7 @@ Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $\m
 
 <center>Fig. 5.1. Shaft subject to torques and a section plane at C</center>
 
-The free-body diagram of portion $BC$ of the shaft must include the elementary shearing forces $d\mathbf{F}$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC$ exerts on $BC$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}$ [Fig. 5.2.b].
+The free-body diagram of portion $BC​$ of the shaft must include the elementary shearing forces $d\mathbf{F}​$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC​$ exerts on $BC​$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}​$ [Fig. 5.2.b].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_46.JPG)
 
@@ -338,7 +338,7 @@ Let us consider the material in the shaft to exhibit an elastic perfectly plasti
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_67.JPG)
 
-<center>5.20 Stress-Strain Diagram for the Elasto-Plastic</center>
+<center>Fig. 5.20 Stress-Strain Diagram for the Elasto-Plastic</center>
 
 Recall that 
 
@@ -350,7 +350,7 @@ Similar to the case of axial load, the shear stress increases linearly in radial
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_68.JPG)
 
-<center>5.21 Shear Distribution for Elasto-plastic Shaft a) Elastic b) Impending Yield c) Partially Yielded d) Fully Yielded</center>
+<center>Fig. 5.21. Shear Distribution for Elasto-plastic Shaft a) Elastic b) Impending Yield c) Partially Yielded d) Fully Yielded</center>
 
 In [Fig 5.21. b)], which means that the shear arrives at the yielding stress. In this stage,  Torque is to be stagnated in
 
@@ -382,7 +382,7 @@ $$L \gamma = \rho \phi \tag{5.29.}​$$
 
 $$L \gamma_{max} = c \phi \tag{5.30.}$$
 
-remains valid and can be used to express the radius $$\rho_Y​$$ of the elastic core in terms of the angle of twist $\phi​$. If $\phi​$ is large enough to cause a plastic deformation, the radius $$\rho_Y​$$ of the elastic core is obtained by making $\gamma​$ equal to the yield strain $\gamma_Y​$ in (5.29.) and solving for the corresponding value $\rho_Y​$ of the distance $\rho$.
+remains valid and can be used to express the radius $$\rho_Y​$$ of the elastic core in terms of the angle of twist $\phi​$. If $\phi​$ is large enough to cause a plastic deformation, the radius $$\rho_Y​$$ of the elastic core is obtained by making $\gamma​$ equal to the yield strain $\gamma_Y​$ in (5.29.) and solving for the corresponding value $\rho_Y​$ of the distance $\rho​$.
 
 $$\rho_Y = \frac{L \gamma_Y}{\phi} \tag{5.31.}​$$ 
 
@@ -399,6 +399,16 @@ $$T=\frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) \tag{5.34.}​$$
 To drill into the transition process in the elastoplastic material, let us see a figure.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_69.JPG)
+
+<center>FIg. 5.22 Load-Displacement Relation for elastoplastic material.</center>
+
+<u>Note that (5.34.) can be used only for values of $\phi$ larger than</u> $\phi_Y$. For $\phi<\phi_Y$, the relation between ​$T$ and ​$\phi$ is linear and given by (5.11.). Combining both equations, the plot of ​$T$ against ​$\phi$ is as represented in [Fig. 5.22.] <u>As ​$\phi$ increases indefinitely,</u> ​$T$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y$, ​$T$ is within about 3% of ​$T_p$, and for ​$\phi = 3 \phi_Y$, it is within about 1%.
+
+Since the plot of T against f for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.‡ Indeed, the shearing stress will have a constant value $\tau$ in that portion. Thus, (5.1.) reduces to
+
+$$T=\rho A \tau$$
+
+
 
 
 
