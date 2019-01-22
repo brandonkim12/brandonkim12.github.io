@@ -360,7 +360,7 @@ For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}​$, so we have
 
 $$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.24.}$$
 
-As $T​$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation. - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y​$, and by this the shear stress is expressed as 
+As $T$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y$, and by this the shear stress is expressed as 
 
 $$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.25.}​$$
 
@@ -372,9 +372,33 @@ As seeing through the perspective of the yielding torque, we get another formula
 
 $$ T = \frac{4}{3}T_Y(1-\frac{1}{4} \frac{\rho_Y^3}{c^3}) \tag{5.27.} $$
 
-If the plastic deformation is completed, which means that $\rho_Y = 0$, we get the plastic deformation torque
+If the plastic deformation is completed, which means that $\rho_Y = 0$, we get the plastic torque $T_p$ as
 
-$$T_p = \frac{4}{3}T_Y \tag{5.28.}$$
+$$T_p = \frac{4}{3}T_Y \tag{5.28.}​$$
+
+Note that (5.28.) is valid *only for a solid circular shaft made of an elastoplastic material.* Since **the distribution of strain across the section remains linear after the onset of yield**, following equations
+
+$$L \gamma = \rho \phi \tag{5.29.}​$$
+
+$$L \gamma_{max} = c \phi \tag{5.30.}$$
+
+remains valid and can be used to express the radius $$\rho_Y​$$ of the elastic core in terms of the angle of twist $\phi​$. If $\phi​$ is large enough to cause a plastic deformation, the radius $$\rho_Y​$$ of the elastic core is obtained by making $\gamma​$ equal to the yield strain $\gamma_Y​$ in (5.29.) and solving for the corresponding value $\rho_Y​$ of the distance $\rho$.
+
+$$\rho_Y = \frac{L \gamma_Y}{\phi} \tag{5.31.}​$$ 
+
+$$c = \frac{L \gamma_Y}{\phi_Y} \tag{5.32.}$$ 
+
+where $\phi_Y$: the angle of twist at the onset of yield *(In other words, the verge of yielding deformation)*. Dividing (5.31.) by (5.32.), we can get
+
+$$\frac{\rho_Y}{c} = \frac{\phi_Y}{\phi} \tag{5.33.}$$
+
+If we carry the expression obtained for $\frac{\rho_Y}{c}$ into (5.27.), the torque $T$ as a function of the angle of twist $\phi$ is
+
+$$T=\frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) \tag{5.34.}$$
+
+To drill into the transition process in the elastoplastic material, let us see a figure.
+
+
 
 
 
