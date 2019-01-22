@@ -408,14 +408,22 @@ Since the plot of $T$ against $\phi$ for an idealized elastoplastic material [Fi
 
 $$T=\rho A \tau​$$
 
-where $\rho$ is the average radius of the tube and $A$ is its cross-sectional area. The shearing stress is  proportional to the torque, and $\tau$ easily can be computed from the corresponding values of $T$. The corresponding shearing strain $\gamma$ can be obtained from (5.29.) and from the values of $\phi$ and $L$ measured on the tubular portion of the specimen.
+where $\rho$ is the average radius of the tube and $A$ is its cross-sectional area. The shearing stress is  proportional to the torque, and $\tau$ easily can be computed from the corresponding values of $T$. The corresponding shearing strain $\gamma$ can be obtained from (5.29.) and from the values of $\phi$ and $L​$ measured on the tubular portion of the specimen.
 
 <br>
 
+
+
 <center>6. Residual Stresses in Circular Shafts</center>
 
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_70.JPG)
+
+<center>FIg. 5.23. Nonlinear shearing-stress-strain diagram.</center>
+
 we saw that a plastic region will develop in a shaft subjected to a large enough torque, and that the shearing stress $\tau$ at any given point in the plastic region may be obtained from the shearing-stress-
-strain diagram of Fig. 3.30.
+strain diagram of [Fig. 5.23.]
+
+
 
 
 
