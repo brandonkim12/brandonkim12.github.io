@@ -17,7 +17,7 @@ Consider a shaft $AB$ subjected at $A$ and $B$ to equal and opposite torques $\m
 
 <center>Fig. 5.1. Shaft subject to torques and a section plane at C</center>
 
-The free-body diagram of portion $BC​$ of the shaft must include the elementary shearing forces $d\mathbf{F}​$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC​$ exerts on $BC​$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}​$ [Fig. 5.2.b].
+The free-body diagram of portion $BC$ of the shaft must include the elementary shearing forces $d\mathbf{F}$, which are perpendicular to the radius of the shaft. These arise from the torque that portion $AC$ exerts on $BC$ as the shaft is twisted [Fig. 5.2.a]. The conditions of equilibrium for BC require that the system of these forces be equivalent to an internal torque T, as well as equal and opposite to $\mathbf{T'}$ [Fig. 5.2.b].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_46.JPG)
 
@@ -208,7 +208,7 @@ Using the theory of elasticity, **Table 5–1 provides the results of the analys
 
 * Thin-Walled Tubes Having Closed Cross Section
 
-In the preceding section we saw that the determination of stresses in noncircular members generally requires the use of advanced mathematical methods. **In thin-walled hollow noncircular shafts, a good approximation of the distribution of stresses in the shaft can be obtained by a simple computation. **Consider a hollow cylindrical member of *noncircular* section subjected to a torsional loading [Fig. 5.11][^+].
+In the preceding section we saw that the determination of stresses in noncircular members generally requires the use of advanced mathematical methods. **In thin-walled hollow noncircular shafts, a good approximation of the distribution of stresses in the shaft can be obtained by a simple computation. **Consider a hollow cylindrical member of *noncircular* section subjected to a torsional loading [Fig. 5.11][^1].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_56.JPG)
 
@@ -228,7 +228,7 @@ While the shearing stress is independent of the $x​$ coordinate of the point c
 
 $$\begin{matrix}\tau_A (t_A \Delta x) = \tau_B(t_B \Delta x) = 0\\\tau_A t_A = \tau_B t_B\end{matrix} \tag{5.13.}$$
 
-Since $A$ and $B$ were chosen arbitrarily, Eq. (5.13) shows that **the product** $\tau t$ **of the longitudinal shearing stress $\tau$ and the wall thickness $t$ is constant throughout the member.** Denoting this product by $q\text{(shear flow)}$[^++],  we have
+Since $A$ and $B$ were chosen arbitrarily, Eq. (5.13) shows that **the product** $\tau t$ **of the longitudinal shearing stress $\tau$ and the wall thickness $t$ is constant throughout the member.** Denoting this product by $q\text{(shear flow)}$[^2],  we have
 
 $$q = \tau t = \text{constant}\tag{5.14.}​$$
 
@@ -360,7 +360,7 @@ For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}​$, so we have
 
 $$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.24.}$$
 
-As $T$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y$, and by this the shear stress is expressed as 
+As $T​$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y​$, and by this the shear stress is expressed as 
 
 $$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.25.}​$$
 
@@ -404,18 +404,18 @@ To drill into the transition process in the elastoplastic material, let us see a
 
 <u>Note that (5.34.) can be used only for values of $\phi$ larger than</u> $\phi_Y$. For $\phi<\phi_Y$, the relation between ​$T$ and ​$\phi$ is linear and given by (5.11.). Combining both equations, the plot of ​$T$ against ​$\phi$ is as represented in [Fig. 5.22.] <u>As ​$\phi$ increases indefinitely,</u> ​$T$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y$, ​$T$ is within about 3% of ​$T_p$, and for ​$\phi = 3 \phi_Y$, it is within about 1%.
 
-Since the plot of T against f for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.‡ Indeed, the shearing stress will have a constant value $\tau$ in that portion. Thus, (5.1.) reduces to
+Since the plot of $T$ against $\phi$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau$ in that portion. Thus, (5.1.) reduces to
 
-$$T=\rho A \tau$$
-
-
+$$T=\rho A \tau​$$
 
 
 
 
 
-[^+]:  The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
-[^++]: The terminology “flow” is used since q is analogous to water flowing through a channel of rectangular cross section having a constant depth and variable width.
 
 
+[^1]:  The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
+[^2]: The terminology “flow” is used since q is analogous to water flowing through a channel of rectangular cross section having a constant depth and variable width.
+
+[^3]: In order to minimize the possibility of failure by buckling, the specimen should be made so that the length of the tubular portion is no longer than its diameter.
 
