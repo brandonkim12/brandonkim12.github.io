@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: 5) Torsinoal Load
 date:  2019-01-11 23:30:00 +0900
@@ -367,7 +366,11 @@ $$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.25.}​$$
 
 As (5.25.) is applied to the (5.22.), we get the torque as
 
-$$ \begin{align} T= & \int_0^{\rho_Y}\rho \frac{\tau_Y}{\rho_Y}\rho (2\pi \rho d\rho) + \int_{\rho_Y}^c \rho \tau_Y (2\pi\rho)d\rho \\ & = \frac{\pi}{2}\tau_Y \rho_Y^3 + \frac{2}{3}\pi(c^3 - \rho_Y^3) \\ & = \frac{2}{3}\pi\tau_Yc^3(1-\frac{1}{4}\frac{\rho_Y^3}{c^3})\end{align}\tag{5.26.} $$
+$$ \begin{align} T= & \int_0^{\rho_Y}\rho \frac{\tau_Y}{\rho_Y}\rho (2\pi \rho d\rho) + \int_{\rho_Y}^c \rho \tau_Y (2\pi\rho)d\rho \\ & = \frac{\pi}{2}\tau_Y \rho_Y^3 + \frac{2}{3}\pi(c^3 - \rho_Y^3) \\ & = \frac{2}{3}\pi\tau_Yc^3(1-\frac{1}{4}\frac{\rho_Y^3}{c^3})\end{align}\tag{5.26.} ​$$
+
+As seeing through the perspective of the yielding torque, we get another formula:
+
+$$ T = \frac{4}{3}T_Y(1-\frac{1}{4} \frac{\rho_Y^3}{c^3}) \tag{5.27.} $$
 
 
 
