@@ -394,9 +394,11 @@ $$\frac{\rho_Y}{c} = \frac{\phi_Y}{\phi} \tag{5.33.}$$
 
 If we carry the expression obtained for $\frac{\rho_Y}{c}$ into (5.27.), the torque $T$ as a function of the angle of twist $\phi$ is
 
-$$T=\frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) \tag{5.34.}$$
+$$T=\frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) \tag{5.34.}​$$
 
 To drill into the transition process in the elastoplastic material, let us see a figure.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_69.JPG)
 
 
 
