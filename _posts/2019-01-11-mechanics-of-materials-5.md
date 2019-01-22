@@ -321,7 +321,7 @@ If the torsional loadings applied to the shaft are excessive, then the material 
 
 For the entire shaft we require
 
-$$T = \int_A \rho \tau dA \tag{5.22.}$$
+$$T = \int_A \rho \tau dA \tag{5.22.}​$$
 
 If the area $dA$ over which $\tau$ acts is defined as a differential ring having an area of $dA = 2\pi \rho d\rho$, Fig. 5.19, then the above equation can be written as
 
@@ -355,7 +355,19 @@ Similar to the case of axial load, the shear stress increases linearly in radial
 
 In [Fig 5.21. b)], which means that the shear arrives at the yielding stress. In this stage,  Torque is to be stagnated in
 
-$$T_Y = \frac{J}{c}\tau_Y \tag{5.23}$$
+$$T_Y = \frac{J}{c}\tau_Y \tag{5.23.}$$
+
+For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}​$, so we have 
+
+$$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.24.}$$
+
+As $T$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation. - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y$, and by this the shear stress is expressed as 
+
+$$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.25.}​$$
+
+As (5.25.) is applied to the (5.22.), we get the torque as
+
+$$ \begin{align} T= & \int_0^{\rho_Y}\rho \frac{\tau_Y}{\rho_Y}\rho (2\pi \rho d\rho) + \int_{\rho_Y}^c \rho \tau_Y (2\pi\rho)d\rho \\ & = \frac{}{}\end{align}​$$
 
 
 
