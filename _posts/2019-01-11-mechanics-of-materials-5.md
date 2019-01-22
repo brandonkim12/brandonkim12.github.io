@@ -372,6 +372,10 @@ As seeing through the perspective of the yielding torque, we get another formula
 
 $$ T = \frac{4}{3}T_Y(1-\frac{1}{4} \frac{\rho_Y^3}{c^3}) \tag{5.27.} $$
 
+If the plastic deformation is completed, which means that $\rho_Y = 0$, we get the plastic deformation torque
+
+$$T_p = \frac{4}{3}T_Y \tag{5.28.}$$
+
 
 
 [^+]:  The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
