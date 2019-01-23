@@ -358,9 +358,9 @@ $$T_Y = \frac{J}{c}\tau_Y \tag{5.23.}$$
 
 For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}​$, so we have 
 
-$$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.24.}$$
+$$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.24.}​$$
 
-As $T$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y$, and by this the shear stress is expressed as 
+As $T​$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y​$, and by this the shear stress is expressed as 
 
 $$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.25.}​$$
 
@@ -372,7 +372,7 @@ As seeing through the perspective of the yielding torque, we get another formula
 
 $$ T = \frac{4}{3}T_Y(1-\frac{1}{4} \frac{\rho_Y^3}{c^3}) \tag{5.27.} $$
 
-If the plastic deformation is completed, which means that $\rho_Y = 0$, we get the plastic torque $T_p$ as
+If the plastic deformation is completed, which means that $\rho_Y = 0​$, we get the plastic torque $T_p​$ as
 
 $$T_p = \frac{4}{3}T_Y \tag{5.28.}​$$
 
@@ -392,7 +392,7 @@ where $\phi_Y$: the angle of twist at the onset of yield *(In other words, the v
 
 $$\frac{\rho_Y}{c} = \frac{\phi_Y}{\phi} \tag{5.33.}$$
 
-If we carry the expression obtained for $\frac{\rho_Y}{c}$ into (5.27.), the torque $T$ as a function of the angle of twist $\phi$ is
+If we carry the expression obtained for $\frac{\rho_Y}{c}​$ into (5.27.), the torque $T​$ as a function of the angle of twist $\phi​$ is
 
 $$T=\frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) \tag{5.34.}​$$
 
@@ -401,6 +401,10 @@ To drill into the transition process in the elastoplastic material, let us see a
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_69.JPG)
 
 <center>FIg. 5.22 Load-Displacement Relation for elastoplastic material.</center>
+
+So, the overall formula of elasto-plastic torque according to the angle of twist is expressed by
+
+$$T = \begin{cases}\frac{T_Y}{\phi_Y}\phi & \phi\leq \phi_Y \\ \frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) & \phi > \phi_Y \end{cases} \tag{5.35.}$$
 
 <u>Note that (5.34.) can be used only for values of $\phi$ larger than</u> $\phi_Y$. For $\phi<\phi_Y$, the relation between ​$T$ and ​$\phi$ is linear and given by (5.11.). Combining both equations, the plot of ​$T$ against ​$\phi$ is as represented in [Fig. 5.22.] <u>As ​$\phi$ increases indefinitely,</u> ​$T$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y$, ​$T$ is within about 3% of ​$T_p$, and for ​$\phi = 3 \phi_Y$, it is within about 1%.
 
