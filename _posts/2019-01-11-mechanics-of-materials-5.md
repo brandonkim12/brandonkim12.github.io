@@ -372,7 +372,7 @@ As seeing through the perspective of the yielding torque, we get another formula
 
 $$ T = \frac{4}{3}T_Y(1-\frac{1}{4} \frac{\rho_Y^3}{c^3}) \tag{5.27.} $$
 
-If the plastic deformation is completed, which means that $\rho_Y = 0​$, we get the plastic torque $T_p​$ as
+If the plastic deformation is completed, which means that $\rho_Y = 0$, we get the plastic torque $T_p$ as
 
 $$T_p = \frac{4}{3}T_Y \tag{5.28.}​$$
 
@@ -388,7 +388,7 @@ $$\rho_Y = \frac{L \gamma_Y}{\phi} \tag{5.31.}​$$
 
 $$c = \frac{L \gamma_Y}{\phi_Y} \tag{5.32.}$$ 
 
-where $\phi_Y$: the angle of twist at the onset of yield *(In other words, the verge of yielding deformation)*. Dividing (5.31.) by (5.32.), we can get
+where $\phi_Y​$: the angle of twist at the onset of yield *(In other words, the verge of yielding deformation)*. Dividing (5.31.) by (5.32.), we can get
 
 $$\frac{\rho_Y}{c} = \frac{\phi_Y}{\phi} \tag{5.33.}$$
 
@@ -402,13 +402,13 @@ To drill into the transition process in the elastoplastic material, let us see a
 
 <center>FIg. 5.22 Load-Displacement Relation for elastoplastic material.</center>
 
-So, the overall formula of elasto-plastic torque according to the angle of twist is expressed by
+So, the overall formula of elastoplastic torque according to the angle of twist is expressed by
 
 $$T = \begin{cases}\frac{T_Y}{\phi_Y}\phi & \phi\leq \phi_Y \\ \frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) & \phi > \phi_Y \end{cases} \tag{5.35.}$$
 
-<u>Note that (5.34.) can be used only for values of $\phi$ larger than</u> $\phi_Y$. For $\phi<\phi_Y$, the relation between ​$T$ and ​$\phi$ is linear and given by (5.11.). Combining both equations, the plot of ​$T$ against ​$\phi$ is as represented in [Fig. 5.22.] <u>As ​$\phi$ increases indefinitely,</u> ​$T$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y$, ​$T$ is within about 3% of ​$T_p$, and for ​$\phi = 3 \phi_Y$, it is within about 1%.
+<u>Note that (5.34.) can be used only for values of $\phi​$ larger than</u> $\phi_Y​$. For $\phi<\phi_Y​$, the relation between ​$T​$ and ​$\phi​$ is linear and given by (5.11.). Combining both equations, the plot of ​$T​$ against ​$\phi​$ is as represented in [Fig. 5.22.] <u>As ​$\phi​$ increases indefinitely,</u> ​$T​$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y​$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p​$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y​$, ​$T​$ is within about 3% of ​$T_p​$, and for ​$\phi = 3 \phi_Y​$, it is within about 1%.
 
-Since the plot of $T$ against $\phi$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau​$ in that portion. Thus, (5.1.) reduces to
+Since the plot of $T​$ against $\phi​$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau​$ in that portion. Thus, (5.1.) reduces to
 
 $$T=\rho A \tau​$$
 
