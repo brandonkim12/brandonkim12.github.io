@@ -168,4 +168,4 @@ Now we've seen how to solve the problem when the axial load alone is exerted on 
 
 * References
   * R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.4
-  * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.3
+  * Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.2
