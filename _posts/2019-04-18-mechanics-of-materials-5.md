@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 5) Torsinoal Load
-date:  2019-01-11 23:30:00 +0900
+date:  2019-04-18 23:00:00 +0900
 categories:
 - Engineering - Mechanics of Materials
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
@@ -449,7 +449,7 @@ where $\phi$ corresponds to the loading phase and can be obtained from T by solv
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_73.JPG)
 
-
+<center>Fig. 5.26. Torque-angle of twist response for loading past yield, followed by unloading.</center>
 
 
 
