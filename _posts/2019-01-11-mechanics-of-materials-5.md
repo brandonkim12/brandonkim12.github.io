@@ -99,7 +99,7 @@ Consider the stresses and resulting forces on faces that are at $45^{\circ}​$ 
 
 <center>Fig. 5.7. Forces on faces at 45º to shaft axis</center>
 
-From [Fig. 5.7.a], the stresses exerted on the faces $BC​$ and $BD​$ are the shearing stresses $\tau_{\text{max}}=\frac{Tc}{J}​$. The magnitude of the corresponding shear force is $\tau_{\text{max}}A_0​$, where $A_0​$ is the area of the face. Observing that the components along $DC​$ of the two shear forces are equal and opposite, the force $F​$ exerted on $DC​$ must be perpendicular to that face and is a tensile force. Its magnitude is
+From [Fig. 5.7.a], the stresses exerted on the faces $BC$ and $BD$ are the shearing stresses $\tau_{\text{max}}=\frac{Tc}{J}$. The magnitude of the corresponding shear force is $\tau_{\text{max}}A_0$, where $A_0$ is the area of the face. Observing that the components along $DC$ of the two shear forces are equal and opposite, the force $F$ exerted on $DC​$ must be perpendicular to that face and is a tensile force. Its magnitude is
 
 $$F=2(\tau_{\text{max}}A_0)\cos45^{\circ}=\tau_{\text{max}}A_0\sqrt{2}\tag{5.8.}​$$
 
@@ -149,7 +149,7 @@ $$d\phi=\frac{T(x)}{J(x)G(x)}dx \\ \phi=\int_0^L \frac{T(x)}{J(x)G(x)}dx \tag{5.
 
 Similarly with the axial load case,
 
-$$\phi=\sum \frac{TL}{JG} \tag{5.11}$$
+$$\phi=\sum \frac{TL}{JG} \tag{5.11}​$$
 
 The angle of twist of one end of a shaft or tube with respect to the other end can be determined using the following procedure. 
 
@@ -408,7 +408,7 @@ $$T = \begin{cases}\frac{T_Y}{\phi_Y}\phi & \phi\leq \phi_Y \\ \frac{4}{3}T_Y(1-
 
 <u>Note that (5.34.) can be used only for values of $\phi​$ larger than</u> $\phi_Y​$. For $\phi<\phi_Y​$, the relation between ​$T​$ and ​$\phi​$ is linear and given by (5.11.). Combining both equations, the plot of ​$T​$ against ​$\phi​$ is as represented in [Fig. 5.22.] <u>As ​$\phi​$ increases indefinitely,</u> ​$T​$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y​$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p​$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y​$, ​$T​$ is within about 3% of ​$T_p​$, and for ​$\phi = 3 \phi_Y​$, it is within about 1%.
 
-Since the plot of $T​$ against $\phi​$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau​$ in that portion. Thus, (5.1.) reduces to
+Since the plot of $T$ against $\phi$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau$ in that portion. Thus, (5.1.) reduces to
 
 $$T=\rho A \tau​$$
 
@@ -434,6 +434,10 @@ strain diagram of [Fig. 5.23.] If the torque is removed, the resulting reduction
 <center>FIg. 5.24. Shear stress-strain diagram for loading past yield, followed by unloading until compressive yield occurs.</center>
 
 As you will see further in this section, the final value of the stress will not, in general, be zero. <u>There will be a residual stress at most points, and that stress may be either positive or negative</u>. We note that, as was the case for the normal stress, the shearing stress will keep decreasing until it has reached a value equal to its maximum value at $C​$ minus twice the yield strength of the material.
+
+Consider [Fig. 5.20] again to see more things. Similar to the case of the axial load, there occurs the plastic angle of twist deformation. Assuming that the relationship between t and g at any point of the shaft remains linear as long as the stress does not decrease by more than $2\tau_Y​$, we can use (5.11.) to obtain the angle through which the shaft untwists as the torque decreases back to zero.
+
+
 
 
 
