@@ -445,7 +445,9 @@ Note that the angle of twist does not return to zero after the torque has been r
 
 $$\phi_p\,=\,\phi - \phi' \tag{5.36.}$$
 
-where $\phi$ corresponds to the loading phase and can be obtained from T by solving (5.35.) with $\phi'​$ corresponding to the unloading phase obtained from (5.11.).
+where $\phi$ corresponds to the loading phase and can be obtained from T by solving (5.35.) with $\phi'$ corresponding to the unloading phase obtained from (5.11.). [Fig. 5.26] represents overall stress distribution of elastoplastic material due to residual stress for unloading.
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_73.JPG)
 
 
 
