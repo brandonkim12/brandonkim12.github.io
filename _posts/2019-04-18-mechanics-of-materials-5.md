@@ -484,7 +484,7 @@ This also provides the minimum allowable parameter $\frac{J}{c}$. When SI units 
 
 
 
-For utmost long time, we've seen about the torsion. In most case we can find the similarity in angle of twist, statically indeterminate shafts, stress concentration, residual stress and plastic deformation of shaft. seeing from similarities to specific differences, one can will have been getting used to find the axial load and torsional load out for a given situation.
+For utmost long time, we've seen about the torsion. In most case we can find the similarity in angle of twist, statically indeterminate shafts, stress concentration, residual stress and plastic deformation of shaft. seeing from similarities to specific differences, one can will have been getting used to find the axial load and torsional load out for a given situation by the end of this lecture.
 
 
 
