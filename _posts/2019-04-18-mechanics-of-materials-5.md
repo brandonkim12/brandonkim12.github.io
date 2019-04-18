@@ -488,6 +488,13 @@ For utmost long time, we've seen about the torsion. In most case we can find the
 
 
 
+References
+
+- R.C. Hibbeler, "Mechanics of materials",  Pearson, 10th ed., ch.5
+- Ferdinand P. Beer, Mechanics of Materials, 5th ed., ch.3
+
+
+
 [^1]:  The wall of the member must enclose a single cavity and must not be slit open. In other words, the member should be topologically equivalent to a hollow circular shaft.
 [^2]: The terminology “flow” is used since q is analogous to water flowing through a channel of rectangular cross section having a constant depth and variable width.
 
