@@ -400,11 +400,11 @@ To drill into the transition process in the elastoplastic material, let us see a
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_69.JPG)
 
-<center>FIg. 5.22 Load-Displacement Relation for elastoplastic material.</center>
+<center>Fig. 5.22 Load-Displacement Relation for elastoplastic material.</center>
 
 So, the overall formula of elastoplastic torque according to the angle of twist is expressed by
 
-$$T = \begin{cases}\frac{T_Y}{\phi_Y}\phi & \phi\leq \phi_Y \\ \frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) & \phi > \phi_Y \end{cases} \tag{5.35.}$$
+$$T = \begin{cases}\frac{T_Y}{\phi_Y}\phi & \phi\leq \phi_Y \\ \frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) & \phi > \phi_Y \end{cases} \tag{5.35.}​$$
 
 <u>Note that (5.34.) can be used only for values of $\phi​$ larger than</u> $\phi_Y​$. For $\phi<\phi_Y​$, the relation between ​$T​$ and ​$\phi​$ is linear and given by (5.11.). Combining both equations, the plot of ​$T​$ against ​$\phi​$ is as represented in [Fig. 5.22.] <u>As ​$\phi​$ increases indefinitely,</u> ​$T​$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y​$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p​$ cannot actually be reached, (5.34.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y​$, ​$T​$ is within about 3% of ​$T_p​$, and for ​$\phi = 3 \phi_Y​$, it is within about 1%.
 
@@ -422,7 +422,7 @@ where $\rho$ is the average radius of the tube and $A$ is its cross-sectional ar
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_70.JPG)
 
-<center>FIg. 5.23. Nonlinear shearing-stress-strain diagram.</center>
+<center>Fig. 5.23. Nonlinear shearing-stress-strain diagram.</center>
 
 we saw that a plastic region will develop in a shaft subjected to a large enough torque, and that the shearing stress $\tau$ at any given point in the plastic region may be obtained from the shearing-stress-
 strain diagram of [Fig. 5.23.] If the torque is removed, the resulting reduction of stress and strain at the point considered will take place along a straight line [Fig. 5.24.]. 
@@ -431,11 +431,21 @@ strain diagram of [Fig. 5.23.] If the torque is removed, the resulting reduction
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_71.JPG)
 
-<center>FIg. 5.24. Shear stress-strain diagram for loading past yield, followed by unloading until compressive yield occurs.</center>
+<center>Fig. 5.24. Shear stress-strain diagram for loading past yield, followed by unloading until compressive yield occurs.</center>
 
 As you will see further in this section, the final value of the stress will not, in general, be zero. <u>There will be a residual stress at most points, and that stress may be either positive or negative</u>. We note that, as was the case for the normal stress, the shearing stress will keep decreasing until it has reached a value equal to its maximum value at $C​$ minus twice the yield strength of the material.
 
-Consider [Fig. 5.20] again to see more things. Similar to the case of the axial load, there occurs the plastic angle of twist deformation. Assuming that the relationship between t and g at any point of the shaft remains linear as long as the stress does not decrease by more than $2\tau_Y​$, we can use (5.11.) to obtain the angle through which the shaft untwists as the torque decreases back to zero.
+Consider [Fig. 5.20] again to see more things. Similar to the case of the axial load, there occurs the plastic angle of twist deformation. Assuming that the relationship between t and g at any point of the shaft remains linear as long as the stress does not decrease by more than $2\tau_Y​$, we can use (5.11.) to obtain the angle through which the shaft untwists as the torque decreases back to zero.As a result, the unloading of the shaft is represented by a straight line on the T-f diagram [Fig. 5.25.].
+
+![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_72.JPG)
+
+<center>Fig. 5.25. Torque-angle of twist response for loading past yield, followed by unloading.</center>
+
+Note that the angle of twist does not return to zero after the torque has been removed. Indeed, the loading and unloading of the shaft result in a permanent deformation characterized by
+
+$$\phi_p\,=\,\phi - \phi' \tag{5.36.}$$
+
+where $\phi$ corresponds to the loading phase and can be obtained from T by solving (5.35.) with $\phi'​$ corresponding to the unloading phase obtained from (5.11.).
 
 
 
