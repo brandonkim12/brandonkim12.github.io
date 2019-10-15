@@ -176,7 +176,7 @@ $$(\frac{\partial \phi}{\partial x}-\frac{dx}{2}\frac{\partial^2 \phi}{\partial 
 
 $$d\sigma_y\,=\,-dxdy\hat{z} $$
 
-$$\Uparrow\,\,(dy\,\,direction)\,:\,\nabla\phi_y\,=\,$$</p>
+$$\Uparrow\,\,(dy\,\,direction)\,:\,\nabla\phi_y\,=\,$$
 
 $$(\frac{\partial \phi}{\partial x}+\frac{dx}{2}\frac{\partial^2 \phi}{\partial x^2})\hat{x}+(\frac{\partial \phi}{\partial y}+\frac{dy}{2}\frac{\partial^2 \phi}{\partial y^2})\hat{y}+(\frac{\partial \phi}{\partial z}+\frac{dz}{2}\frac{\partial^2 \phi}{\partial z^2})\hat{z},$$
 
