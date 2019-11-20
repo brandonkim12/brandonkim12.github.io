@@ -18,11 +18,7 @@ To localize the position, the information of surrounding is essential. However, 
 
 <center>[Fig 1. The essential SLAM problem. A simultaneous estimate of both robot and landmark locations is required. The true locations are never known or measured directly. Observations are made between true robot and landmark locations.]</center>
 
-
-
-
 <center>2. Formulation and Structure of the SLAM Problem</center>
-
 SLAM is a process by which a mobile robot can build a map of an environment and at the same time use this map to deduce its location. In SLAM, both the trajectory of the platform and the location of all landmarks are estimated online without the need for any a priori knowledge of location.
 
 - Preliminaries
@@ -46,3 +42,11 @@ $\textbf{m} = ({\textbf{m}_1 , \textbf{m}_2, \dots , \textbf{m}_n}):$  the set o
 
 $$\textbf{Z}_{0:k} = ({\textbf{z}_1 , \textbf{z}_2, \dots , \textbf{z}_k}) = ({\textbf{Z}_{0:k-1},\textbf{z}_k }):$$ the set of all landmark observations.
 
+
+
+<center>3. Probabilistic SLAM and Its Structure</center>
+In probabilistic form, the simultaneous localization and map building (SLAM) problem requires that the probability distribution
+
+$$P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k}, \textbf{U}_{0:k}, \textbf{x}_0) \tag{1}$$
+
+be computed for all times $k$.
