@@ -32,11 +32,11 @@ are multiple landmark observations at any one time or when the specific landmark
 
 In addition, the following sets are also defined:
 
-$\textbf{X}_{0:k} = ({\textbf{x}_0 , \textbf{x}_1, \dots , \textbf{x}_k}) = ({\textbf{X}_{0:k-1},\textbf{x}_k }):$ the history of robot/vehicle locations
+$$\textbf{X}_{0:k} = ({\textbf{x}_0 , \textbf{x}_1, \dots , \textbf{x}_k}) = ({\textbf{X}_{0:k-1},\textbf{x}_k }):$$ the history of robot/vehicle locations
 
-$\textbf{U}_{0:k} = ({\textbf{u}_1 , \textbf{u}_2, \dots , \textbf{u}_k}) = ({\textbf{X}_{0:k-1},\textbf{x}_k }):$ the history of control input
+$$\textbf{U}_{0:k} = ({\textbf{u}_1 , \textbf{u}_2, \dots , \textbf{u}_k}) = ({\textbf{X}_{0:k-1},\textbf{x}_k }): $$ the history of control input
 
 $\textbf{m} = ({\textbf{m}_1 , \textbf{m}_2, \dots , \textbf{m}_n}):$  the set of all landmarks
 
-$\textbf{Z}_{0:k} = ({\textbf{z}_1 , \textbf{z}_2, \dots , \textbf{z}_k}) = ({\textbf{Z}_{0:k-1},\textbf{z}_k }):$ the set of all landmark observations.
+$$\textbf{Z}_{0:k} = ({\textbf{z}_1 , \textbf{z}_2, \dots , \textbf{z}_k}) = ({\textbf{Z}_{0:k-1},\textbf{z}_k }):$$ the set of all landmark observations.
 
