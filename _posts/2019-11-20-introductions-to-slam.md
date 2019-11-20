@@ -17,6 +17,8 @@ To localize the position, the information of surrounding is essential. However, 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/robotics/fig_1.jpg)
 
 <center>[Fig 1. The essential SLAM problem. A simultaneous estimate of both robot and landmark locations is required. The true locations are never known or measured directly. Observations are made between true robot and landmark locations.]</center>
+<center>2. Formulation and Structure of the SLAM Problem</center>
+
 SLAM is a process by which a mobile robot can build a map of an environment and at the same time use this map to deduce its location. In SLAM, both the trajectory of the platform and the location of all landmarks are estimated online without the need for any a priori knowledge of location.
 
 - Preliminaries
