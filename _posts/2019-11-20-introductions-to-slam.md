@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1) Introduction to SLAM
-date:  2019-11-20 23:00:00 +0900
+date:  2019-11-21 07:30:00 +0900
 categories:
 - Engineering - SLAM
 feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.1893187554092594&type=3&theater
@@ -17,7 +17,6 @@ To localize the position, the information of surrounding is essential. However, 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/robotics/fig_1.jpg)
 
 <center>[Fig 1. The essential SLAM problem. A simultaneous estimate of both robot and landmark locations is required. The true locations are never known or measured directly. Observations are made between true robot and landmark locations.]</center>
-
 <center>2. Formulation and Structure of the SLAM Problem</center>
 SLAM is a process by which a mobile robot can build a map of an environment and at the same time use this map to deduce its location. In SLAM, both the trajectory of the platform and the location of all landmarks are estimated online without the need for any a priori knowledge of location.
 
@@ -49,4 +48,6 @@ In probabilistic form, the simultaneous localization and map building (SLAM) pro
 
 $$P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k}, \textbf{U}_{0:k}, \textbf{x}_0) \tag{1}$$
 
-be computed for all times $k$.
+be computed for all times $k$. $P$ describes the joint posterior density of the landmark locations and vehicle state (at time k) given the recorded observations and control inputs up to and including time k together with the initial state of the vehicle.  Researcher or user of the probabilistic SLAM would think like that: **a recursive solution to the SLAM problem is desirable.** 
+
+$$\begin{cases}The\ observation\ model: & P(\textbf{z}_k|\textbf{x}_k,\ \textbf{m}) & (2) \\ The\ motion\ model: & P(\textbf{x}_k|\textbf{x}_{k-1},\ \textbf{u}_k) & (3) \end{cases}$$
