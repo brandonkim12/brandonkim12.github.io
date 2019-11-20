@@ -28,15 +28,21 @@ SLAM is a process by which a mobile robot can build a map of an environment and 
 - Preliminaries
 
 $\textbf{x}_k:$ the state vector describing the location and orientation of the vehicle
+
 $\textbf{u}_k:$ the control vector, applied at time $k−1$ to drive the vehicle to a state $\textbf{x}_k$ at time $k$
+
 $\textbf{m}_i:$ a vector describing the location of the $i$th landmark whose true location is assumed time invariant
+
 $\textbf{z}_{ik}:$ an observation taken from the vehicle of the location of the ith landmark at time $k$. When there
 are multiple landmark observations at any one time or when the specific landmark is not relevant to the discussion, the observation will be written simply as $\textbf{z}_k$ .
 
 In addition, the following sets are also defined:
 
 $$\textbf{X}_{0:k} = ({\textbf{x}_0 , \textbf{x}_1, \dots , \textbf{x}_k}) = ({\textbf{X}_{0:k-1},\textbf{x}_k }):$$ the history of robot/vehicle locations
+
 $$\textbf{U}_{0:k} = ({\textbf{u}_1 , \textbf{u}_2, \dots , \textbf{u}_k}) = ({\textbf{X}_{0:k-1},\textbf{x}_k }): $$ the history of control input
+
 $\textbf{m} = ({\textbf{m}_1 , \textbf{m}_2, \dots , \textbf{m}_n}):$  the set of all landmarks
+
 $$\textbf{Z}_{0:k} = ({\textbf{z}_1 , \textbf{z}_2, \dots , \textbf{z}_k}) = ({\textbf{Z}_{0:k-1},\textbf{z}_k }):$$ the set of all landmark observations.
 
