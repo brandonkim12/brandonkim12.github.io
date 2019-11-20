@@ -52,7 +52,7 @@ be computed for all times $k$. $P$ describes the joint posterior density of the 
 
 $$\begin{cases}The\ observation\ model: & P(\textbf{z}_k|\textbf{x}_k,\ \textbf{m}) & (2) \\ The\ motion\ model: & P(\textbf{x}_k|\textbf{x}_{k-1},\ \textbf{u}_k) & (3) \end{cases}$$
 
-For the observation model, it is reasonable to assume that once the vehicle location and map are defined, observations are conditionally independent given the map and the current vehicle state, meanwhile the state transition is assumed to be a Markov process in which the next state $\textbf{x}_k $ depends only on the immediately preceding state $\textbf{x}_{k−1} $ and the applied control $\textbf{u}_k $ and is independent of both the observations and the map. So now what we would do next? There are two steps researcher or user can do.
+For the observation model, it is reasonable to assume that once the vehicle location and map are defined, observations are conditionally independent given the map and the current vehicle state, meanwhile the state transition is assumed to be a Markov process in which the next state $\textbf{x}_{k} $ depends only on the immediately preceding state $\textbf{x}_{k−1} $ and the applied control $\textbf{u}_{k} $ and is independent of both the observations and the map. So now what we would do next? There are two steps researcher or user can do.
 
 $$\begin{matrix}\textbf{Time-update}: \\ P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k}, \textbf{U}_{0:k}, \textbf{x}_0)\ = \ \int P(\textbf{x}_{k}|\textbf{x}_{k-1}, \ \textbf{u}_k) \ \times \ P(\textbf{x}_{k-1}, \textbf{m}|\textbf{Z}_{0:k-1}, \textbf{U}_{0:k-1}, \textbf{x}_0) \ d\textbf{x}_{k-1}  \tag{4} \end{matrix} $$
 
