@@ -28,7 +28,7 @@ $\textbf{u}_k:$ the control vector, applied at time $k−1$ to drive the vehicle
 $\textbf{m}_i:$ a vector describing the location of the $i$th landmark whose true location is assumed time invariant
 
 $\textbf{z}_{ik}:$ an observation taken from the vehicle of the location of the ith landmark at time $k$. When there
-are multiple landmark observations at any one time or when the specific landmark is not relevant to the discussion, the observation will be written simply as $\bold{z}_k$ .
+are multiple landmark observations at any one time or when the specific landmark is not relevant to the discussion, the observation will be written simply as $\textbf{z}_k$ .
 
 In addition, the following sets are also defined:
 
