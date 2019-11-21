@@ -21,7 +21,9 @@ aside: true
 
 - Shell theory.
 - Tensor analysis and calculus.
-- ODE/PDE
+- Differential Geometry.
+- ODE/PDE.
+- SLAM(Simultaneous Localization And Mapping).
 
 ### Full CV is in below link.
 
