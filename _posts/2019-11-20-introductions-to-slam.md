@@ -72,13 +72,7 @@ In next article, we're now about to see what is markov process, the history of S
 2.  http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/ (2019.11.23)
 3.  https://www.cs.cmu.edu/~motionplanning/lecture/Chap9-Bayesian-Mapping_howie.pdf 
 
-
+$$\matrix{P(a|b) & = \frac{(b|a) \ p(a)}{p(b)} \\ p(x,y)  & = p(x|y) \cdot \ p(y) \\ & = p(y|x) \cdot \ p(x) \\ p(a|b,c) & = \frac{p(b|a,c) \ p(a|c)}{p(b|c)}}$$
 
 [^1]: Note that 
-
-
-
-
-
-$$\matrix{P(a|b) & = \frac{(b|a) \ p(a)}{p(b)} \\ p(x,y)  & = p(x|y) \cdot \ p(y) \\ & = p(y|x) \cdot \ p(x) \\ p(a|b,c) & = \frac{p(b|a,c) \ p(a|c)}{p(b|c)}}$$
 
