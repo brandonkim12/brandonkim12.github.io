@@ -74,5 +74,11 @@ In next article, we're now about to see what is markov process, the history of S
 
 
 
-[^1]: Note that $$\matrix{P(a|b) & = \frac{(b|a) \ p(a)}{p(b)} \\ p(x,y)  & = p(x|y) \cdot \ p(y) \\ & = p(y|x) \cdot \ p(x) \\ p(a|b,c) & = \frac{p(b|a,c) \ p(a|c)}{p(b|c)}}$$
+[^1]: Note that 
+
+
+
+
+
+$$\matrix{P(a|b) & = \frac{(b|a) \ p(a)}{p(b)} \\ p(x,y)  & = p(x|y) \cdot \ p(y) \\ & = p(y|x) \cdot \ p(x) \\ p(a|b,c) & = \frac{p(b|a,c) \ p(a|c)}{p(b|c)}}$$
 
