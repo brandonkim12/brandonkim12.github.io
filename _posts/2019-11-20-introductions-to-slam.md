@@ -60,7 +60,7 @@ $$\begin{matrix}\textbf{Time-update(prediction)}: \\ P(\textbf{x}_k, \textbf{m}|
 
 $$\begin{matrix}\textbf{Measurement-update(correction)}: \\ P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k}, \textbf{U}_{0:k}, \textbf{x}_0)\ = \ \frac{\underset{observation \ model}{\underline{P(\textbf{z}_k | \textbf{x}_k, \ \textbf{m})}} P(\textbf{x}_k, \ \textbf{m}|\textbf{Z}_{0:k-1}, \ \textbf{U}_{0:k}, \ \textbf{x}_0)}{P(\textbf{z}_k | \textbf{Z}_{0:k-1}, \ \textbf{U}_{0:k})}  \tag{5} \end{matrix} $$
 
-Equations (4) and (5) provide a recursive procedure for calculating the joint posterior $$P(\textbf{x}_k,\textbf{m}|\textbf{Z}_{0:k},\textbf{U}_{0:k}, \textbf{x}_0) $$ for the robot state $$\textbf{x}_k$$ and map m at a time k based on all observations $$\textbf{Z}_{0:k}$$ and all control inputs $$\textbf{U}_{0:k}$$ up to and including time $$k$$. The recursion is a function of a vehicle model $$P(\textbf{x}_{k}|\textbf{x}_{k−1}, \textbf{u}_{k})$$ and an observation model $$P(\textbf{z}_{k}|\textbf{x}_{k},\textbf{m})$$.
+Equations (4) and (5) provide a recursive procedure for calculating the joint posterior $$P(\textbf{x}_k,\textbf{m}|\textbf{Z}_{0:k},\textbf{U}_{0:k}, \textbf{x}_0)$$ for the robot state $$\textbf{x}_k$$ and map m at a time k based on all observations $$\textbf{Z}_{0:k}$$ and all control inputs $$\textbf{U}_{0:k}$$ up to and including time $$k$$. The recursion is a function of a vehicle model $$P(\textbf{x}_{k}|\textbf{x}_{k−1}, \textbf{u}_{k})$$ and an observation model $$P(\textbf{z}_{k}|\textbf{x}_{k},\textbf{m})$$.
 
 In next article, we're now about to see what is markov process, the history of SLAM, and re-visit Probabilistic SLAM with these materials.
 
@@ -74,6 +74,5 @@ In next article, we're now about to see what is markov process, the history of S
 
 
 
-[^1]: Note that
+[^1]: Note that $$\matrix{P(a|b) & = \frac{(b|a) \ p(a)}{p(b)} \\ p(x,y)  & = p(x|y) \cdot \ p(y) \\ & = p(y|x) \cdot \ p(x) \\ p(a|b,c) & = \frac{p(b|a,c) \ p(a|c)}{p(b|c)}}$$
 
-$$\matrix{P(a|b) & = \frac{(b|a) \ p(a)}{p(b)} \\ p(x,y)  & = p(x|y) \cdot \ p(y) \\ & = p(y|x) \cdot \ p(x) \\ p(a|b,c) & = \frac{p(b|a,c) \ p(a|c)}{p(b|c)}}$$
