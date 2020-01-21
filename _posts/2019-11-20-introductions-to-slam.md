@@ -10,7 +10,7 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 <center>1. What is SLAM?</center>
 In robotics, SLAM(Simultaneous Localization And Mapping) means the process where a mobile robot 
 1) builds a map of an unknown environment 
-2) while at the same time being localizaed relative to this map. 
+2) while at the same time being localized relative to this map. 
 
 To localize the position, the information of surrounding is essential. However, to make a map around robot obtained by itself, there should be a knowledge about the accurate location. Therefore these problems are indispensable. SLAM performs simultaneously both mapping and position estimation to solve this kind of a problem.
 
