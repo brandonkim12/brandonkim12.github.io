@@ -8,3 +8,9 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 layout: page
 ---
 Stuffs for everyone to improve themselves in mechanical or electrical fields are here.
+
+- Mathematics
+- Mechanics
+- Hydraulics and pneumatics
+- Electronics
+- Electrical control theory
