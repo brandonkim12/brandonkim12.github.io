@@ -14,3 +14,8 @@ Stuffs for everyone to improve themselves in mechanical or electrical fields are
 - Hydraulics and pneumatics
 - Electronics
 - Electrical control theory
+
+Also some kind of philosophical, religious thinking will be uploaded.
+
+- Christianity
+- Philosophy - especially Emmanuel Kant
