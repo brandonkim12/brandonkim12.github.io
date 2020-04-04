@@ -19,3 +19,4 @@ Also some kind of philosophical, religious thinking will be uploaded.
 
 - Christianity
 - Philosophy - especially about Emmanuel Kant
+- Other readings
