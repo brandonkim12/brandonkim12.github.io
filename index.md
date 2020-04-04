@@ -8,6 +8,10 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 ---
 
 Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+layout: page
+---
+
+Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
 
 {% include button.html text="Fork it" icon="github" link="https://github.com/daviddarnes/alembic" color="#0366d6" %} {% include button.html text="Tweet it" icon="twitter" link="https://twitter.com/intent/tweet/?url=https://alembic.darn.es&text=Alembic%20-%20A%20Jekyll%20boilerplate%20theme&via=DavidDarnes" color="#0d94e7" %} {% include button.html text="Install Alembic ⚗️" link="https://github.com/daviddarnes/alembic#installation" %} {% include button.html text="Tip me $5 💸" link="https://www.paypal.me/daviddarnes/5usd" color="#333333" %}
 
@@ -25,7 +29,7 @@ Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather
 - Post category support in the form of a single post index page grouped by category
 - Built in live search using JavaScript
 - **Contact form** built in using [Formspree](https://formspree.io/)
-- Designed with **[Siteleaf](http://www.siteleaf.com/)** in mind
+- Designed with **[Siteleaf](https://www.siteleaf.com/)** in mind
 - Has 9 of the most popular networks as performant sharing buttons
 - Has documentation
 
@@ -36,11 +40,11 @@ Here are a few examples of Alembic out in the wild being used in a variety of wa
 - [bitpodcast.com](https://bitpodcast.com/)
 - [joelcagedesign.com](https://joelcagedesign.com/)
 - [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](http://case2111.github.io/)
-- [www.10people.co.uk](http://www.10people.co.uk/)
-- [hrkeni.me](http://hrkeni.me/)
+- [case2111.github.io](https://case2111.github.io/)
+- [www.10people.co.uk](https://www.10people.co.uk/)
+- [hrkeni.me](https://hrkeni.me/)
 - [ccs17.bsc.es](https://ccs17.bsc.es/)
-- [karateca.org](http://www.karateca.org/)
+- [karateca.org](https://www.karateca.org/)
 
 ## Installation
 
