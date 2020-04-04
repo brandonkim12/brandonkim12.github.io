@@ -18,4 +18,4 @@ Stuffs for everyone to improve themselves in mechanical or electrical fields are
 Also some kind of philosophical, religious thinking will be uploaded.
 
 - Christianity
-- Philosophy - especially Emmanuel Kant
+- Philosophy - especially about Emmanuel Kant
