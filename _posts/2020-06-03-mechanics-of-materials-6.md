@@ -15,7 +15,7 @@ Bending is somewhat longitudinal phenomenon. In that point one can get a longitu
 
 <center>Fig. 6.1. General situation of bending - support and some type of forces are exerted on member</center>
 
-First of all, we have to mention the importance of beam. Beam exists almost everywhere in real world. For example, They are used to support the floor of a building, the deck of a bridge, or the wing of an aircraft. Also, the axle of an automobile, the boom of a crane, even many of the bones of the body act as beams.
+First of all, we have to mention the importance of beam. Beams exist almost everywhere in real world. For example, They are used to support the floor of a building, the deck of a bridge, or the wing of an aircraft. Also, the axle of an automobile, the boom of a crane, even many of the bones of the body act as beams.
 
 In [Fig. 6.1.], one can have question: "Okay, I know the importance of beam, and some definitions about beam and bending. Then, how can I dive into the real analysis of bending?" It'll be shown from now on.
 
