@@ -27,7 +27,7 @@ The free-body diagram of portion $BC$ of the shaft must include the elementary s
 
 
 
-$$\int \rho dF = T​$$
+$$\int \rho dF = T$$
 
 Since $ dF = \tau dA$, where $\tau$ is the shear stress on the element of area $dA$, we can write
 
@@ -59,25 +59,25 @@ In order to understand how this distortion strains the material, we will now iso
 
 In [Fig. 5.4.], we get the equations that 
 
-$$\rho d \phi=dx\gamma \rightarrow \gamma=\rho \frac{d \phi}{dx} \tag{5.2.}​$$
+$$\rho d \phi=dx\gamma \rightarrow \gamma=\rho \frac{d \phi}{dx} \tag{5.2.}$$
 
-Since $dx​$ and $$d\phi​$$ are the same for all elements, then $d\phi/dx​$ is constant over the cross section, and (5.1) states that the magnitude of the shear strain varies only with its radial distance r from the axis of the shaft. Since $d\phi/dx = \gamma/\rho = \gamma_{\text{max}}/c​$, then
+Since $dx$ and $$d\phi$$ are the same for all elements, then $d\phi/dx$ is constant over the cross section, and (5.1) states that the magnitude of the shear strain varies only with its radial distance r from the axis of the shaft. Since $d\phi/dx = \gamma/\rho = \gamma_{\text{max}}/c$, then
 
-$$\gamma = \frac{\rho}{c}\gamma_{\text{max}} \tag{5.3.}​$$
+$$\gamma = \frac{\rho}{c}\gamma_{\text{max}} \tag{5.3.}$$
 
-Since $\tau = G\gamma​$, we get
+Since $\tau = G\gamma$, we get
 
-$\tau=(\frac{\rho}{c})\tau_{\text{max}} \tag{5.4.}​$
+$\tau=(\frac{\rho}{c})\tau_{\text{max}} \tag{5.4.}$
 
 Combining (5.3.) and (5.4.), we get
 
-$$\int \rho(\frac{\rho}{c} \tau_{\text{max}} dA) = T \\ \underset{\text{polar moment of inertia}}{\frac{\tau_{\text{max}}}{c}\underline{\int \rho^2 dA}} = T \tag{5.5.}​$$
+$$\int \rho(\frac{\rho}{c} \tau_{\text{max}} dA) = T \\ \underset{\text{polar moment of inertia}}{\frac{\tau_{\text{max}}}{c}\underline{\int \rho^2 dA}} = T \tag{5.5.}$$
 
-Replacing the $\int \rho^2 dA​$ with $J​$, we get
+Replacing the $\int \rho^2 dA$ with $J$, we get
 
-$$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}​$$
+$$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}$$
 
-$$\text{where}\begin{cases}\tau_{\text{max}} =& \text{the maximum shear stress in the shaft,} \\ & \text{which occurs at its outer surface} \\ T = & \text{the resultant internal torque} \\  & \text{acting at the cross section.} \\  & \text{value is determined from} \\ & \text{the method of sections and} \\ & \text{the equation of moment equilibrium} \\ & \text{applied about the shaft’s} \\ & \text{longitudinal axis} \\ J = & \text{the polar moment of inertia} \\ & \text{of the cross-sectional area} \\ c = & \text{the outer radius of the shaft} \end{cases}​$$
+$$\text{where}\begin{cases}\tau_{\text{max}} =& \text{the maximum shear stress in the shaft,} \\ & \text{which occurs at its outer surface} \\ T = & \text{the resultant internal torque} \\  & \text{acting at the cross section.} \\  & \text{value is determined from} \\ & \text{the method of sections and} \\ & \text{the equation of moment equilibrium} \\ & \text{applied about the shaft’s} \\ & \text{longitudinal axis} \\ J = & \text{the polar moment of inertia} \\ & \text{of the cross-sectional area} \\ c = & \text{the outer radius of the shaft} \end{cases}$$
 
 and
 
@@ -89,7 +89,7 @@ $$\begin{align}J =  \int_A \rho^2 dA = \int_0^c \rho^2 (2\pi \rho d\rho) \\ = 2\
 
 Now consider two elements a and b located on the surface of a circular shaft subjected to torsion (Fig. 3.17). Since the faces of element a are respectively parallel and perpendicular to the axis of the shaft, the only stresses on the element are the shearing stresses
 
-$$\tau_{\text{max}}=\frac{Tc}{J}​$$
+$$\tau_{\text{max}}=\frac{Tc}{J}$$
 
 On the other hand, the faces of element b, which form arbitrary angles with the axis of the shaft, are subjected to a combination of normal and shearing stresses. 
 
@@ -97,17 +97,17 @@ On the other hand, the faces of element b, which form arbitrary angles with the 
 
 <center>Fig. 5.6. Circular shaft with stress elements at different orientations.</center>
 
-Consider the stresses and resulting forces on faces that are at $45^{\circ}​$ to the axis of the shaft. The free-body diagrams of the two triangular elements are shown in [Fig. 5.7.]
+Consider the stresses and resulting forces on faces that are at $45^{\circ}$ to the axis of the shaft. The free-body diagrams of the two triangular elements are shown in [Fig. 5.7.]
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_53.JPG)
 
 <center>Fig. 5.7. Forces on faces at 45º to shaft axis</center>
 
-From [Fig. 5.7.a], the stresses exerted on the faces $BC​$ and $BD​$ are the shearing stresses $\tau_{\text{max}}=\frac{Tc}{J}​$. The magnitude of the corresponding shear force is $\tau_{\text{max}}A_0​$, where $A_0​$ is the area of the face. Observing that the components along $DC​$ of the two shear forces are equal and opposite, the force $F​$ exerted on $DC​$ must be perpendicular to that face and is a tensile force. Its magnitude is
+From [Fig. 5.7.a], the stresses exerted on the faces $BC$ and $BD$ are the shearing stresses $\tau_{\text{max}}=\frac{Tc}{J}$. The magnitude of the corresponding shear force is $\tau_{\text{max}}A_0$, where $A_0$ is the area of the face. Observing that the components along $DC$ of the two shear forces are equal and opposite, the force $F$ exerted on $DC$ must be perpendicular to that face and is a tensile force. Its magnitude is
 
-$$F=2(\tau_{\text{max}}A_0)\cos45^{\circ}=\tau_{\text{max}}A_0\sqrt{2}\tag{5.9.}​$$
+$$F=2(\tau_{\text{max}}A_0)\cos45^{\circ}=\tau_{\text{max}}A_0\sqrt{2}\tag{5.9.}$$
 
-The corresponding stress is obtained by dividing the force F by the area A of face $DC​$. Observing that $A = A_0\sqrt{2}​$,
+The corresponding stress is obtained by dividing the force F by the area A of face $DC$. Observing that $A = A_0\sqrt{2}$,
 
 $$\sigma=\frac{F}{A}=\frac{\tau_{\text{max}}A_0\sqrt{2}}{A_0\sqrt{2}}=\tau_{\text{max}}\tag{5.10.}$$
 
@@ -141,11 +141,11 @@ $$\rho d \phi=dx\gamma \rightarrow \gamma=\rho \frac{d \phi}{dx} \tag{5.2.}$$
 
 and
 
-$$\gamma = \frac{\rho}{c}\gamma_{\text{max}} \tag{5.3.}​$$
+$$\gamma = \frac{\rho}{c}\gamma_{\text{max}} \tag{5.3.}$$
 
 and last,
 
-$$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}​$$
+$$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}$$
 
 Combining these formulas,
 
@@ -193,7 +193,7 @@ This is also similar to the case for the statically indeterminate members with t
 
 **Load–Displacement.**
 
-* Express the angles of twist in the compatibility condition in terms of the torques, using a load– displacement relation, such as $\phi = TL/JG​$.
+* Express the angles of twist in the compatibility condition in terms of the torques, using a load– displacement relation, such as $\phi = TL/JG$.
   • Solve the equations for the unknown reactive torques. If any of the magnitudes have a negative numerical value, it indicates that this torque acts in the opposite sense of direction to that shown on the free-body diagram.
 
 <br>
@@ -218,17 +218,17 @@ In the preceding section we saw that the determination of stresses in noncircula
 
 <center>Fig. 5.11. Thin-walled hollow shaft subject to torsional loading.</center>
 
-While the thickness $t​$ of the wall may vary within a transverse section, it is assumed that it remains small compared to the other dimensions of the member.Now detach the colored portion of wall $AB​$ bounded by two transverse planes at a distance $\Delta x​$ from each other and by two longitudinal planes perpendicular to the wall. Since the portion $AB​$ is in equilibrium, the sum of the forces exerted on it in the longitudinal $x​$ direction must be zero (Fig. 3.48).
+While the thickness $t$ of the wall may vary within a transverse section, it is assumed that it remains small compared to the other dimensions of the member.Now detach the colored portion of wall $AB$ bounded by two transverse planes at a distance $\Delta x$ from each other and by two longitudinal planes perpendicular to the wall. Since the portion $AB$ is in equilibrium, the sum of the forces exerted on it in the longitudinal $x$ direction must be zero (Fig. 3.48).
 
- The only forces involved in this direction are the shearing forces $F_A​$ and $F_B​$ exerted on the ends of portion $AB​$. Therefore,
+ The only forces involved in this direction are the shearing forces $F_A$ and $F_B$ exerted on the ends of portion $AB$. Therefore,
 
 $$\begin{matrix}\sum F_x=0; & F_A - F_B = 0 \end{matrix} \tag{5.13.}$$
 
-Now express $F_A​$ as the product of the longitudinal shearing stress $\tau_A​$ on the small face at A and of the area $t_A \Delta x​$ of that face:
+Now express $F_A$ as the product of the longitudinal shearing stress $\tau_A$ on the small face at A and of the area $t_A \Delta x$ of that face:
 
 $$F_A=\tau_A (t_A \Delta x)$$
 
-While the shearing stress is independent of the $x​$ coordinate of the point considered, it may vary across the wall. Thus, $\tau_A​$ represents the average value of the stress computed across the wall. Expressing $F_B​$ in a similar way and substituting for $F_A​$ and $F_B​$ into (5.13), write
+While the shearing stress is independent of the $x$ coordinate of the point considered, it may vary across the wall. Thus, $\tau_A$ represents the average value of the stress computed across the wall. Expressing $F_B$ in a similar way and substituting for $F_A$ and $F_B$ into (5.13), write
 
 $$\begin{matrix}\tau_A (t_A \Delta x) = \tau_B(t_B \Delta x) = 0\\\tau_A t_A = \tau_B t_B\end{matrix} \tag{5.14.}$$
 
@@ -248,7 +248,7 @@ Now detach a small element from the wall portion $AB$ (Fig. 5.12.).
 
 <center>Fig. 5.13. Direction of shearing stress on cross section</center>
 
-At this point, *an analogy can be made between the distribution of the shearing stresses* $t​$ *in the transverse section of a thin-walled hollow shaft* and the distributions of the velocities $v​$ in water flowing through a closed channel of unit depth and variable width. While the velocity $v​$ of the water varies from point to point on account of the variation in the width $t​$ of the channel, the rate of flow, $q = vt​$, remains constant throughout the channel, just as $\tau t​$ in Eq. (5.15). Because of this, the product $q = \tau t​$ is called the shear flow in the wall of the hollow shaft.
+At this point, *an analogy can be made between the distribution of the shearing stresses* $t$ *in the transverse section of a thin-walled hollow shaft* and the distributions of the velocities $v$ in water flowing through a closed channel of unit depth and variable width. While the velocity $v$ of the water varies from point to point on account of the variation in the width $t$ of the channel, the rate of flow, $q = vt$, remains constant throughout the channel, just as $\tau t$ in Eq. (5.15). Because of this, the product $q = \tau t$ is called the shear flow in the wall of the hollow shaft.
 
 We will now derive a relation between the torque $T$ applied to a hollow member and the shear flow $q$ in its wall. Consider a small element of the wall section, of length $ds$ (Fig. 5.14).
 
@@ -258,13 +258,13 @@ We will now derive a relation between the torque $T$ applied to a hollow member 
 
 The area of the element is $dA = t ds$, and the magnitude of the shearing force $dF$ exerted on the element is
 
-$$dF = \tau dA = \tau(t\,ds)=(\tau t)ds = q\,ds \tag{5.16.}​$$
+$$dF = \tau dA = \tau(t\,ds)=(\tau t)ds = q\,ds \tag{5.16.}$$
 
-The moment $dM_O​$ of this force about an arbitrary point $O​$ within the cavity of the member can be obtained by multiplying $dF​$ by the perpendicular distance $p​$ from $O​$ to the line of action of $d\mathbf{F}​$.
+The moment $dM_O$ of this force about an arbitrary point $O$ within the cavity of the member can be obtained by multiplying $dF$ by the perpendicular distance $p$ from $O$ to the line of action of $d\mathbf{F}$.
 
 $$dM_O = p\, dF = p(q\,ds) = q(p\,ds)\tag{5.17.}$$
 
-But the product $p\,ds​$ is equal to twice the area $d\mathfrak{A}​$ of the colored triangle in [Fig. 5.15.].
+But the product $p\,ds$ is equal to twice the area $d\mathfrak{A}$ of the colored triangle in [Fig. 5.15.].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_61.JPG)
 
@@ -276,25 +276,25 @@ $$dM_O = q(2d\mathfrak{A}) \tag{5.18.}$$
 
 Since the integral around the wall section of the left-hand member of Eq. (5.18.) represents the sum of the moments of all the elementary shearing forces exerted on the wall section and this sum is equal to the torque T applied to the hollow member,
 
-$$T=\oint dM_O = \oint q(2d\mathfrak{A})​$$
+$$T=\oint dM_O = \oint q(2d\mathfrak{A})$$
 
-The shear flow $q​$ being a constant, write
+The shear flow $q$ being a constant, write
 
 $$T = 2q\mathfrak{A}\tag{5.19.}$$
 
-where $\mathfrak{A}​$ is the area bounded by the center line of the wall cross section (Fig. 5.16.).
+where $\mathfrak{A}$ is the area bounded by the center line of the wall cross section (Fig. 5.16.).
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_62.JPG)
 
 <center>Fig. 5.16. Area for shear flow.</center>
 
-The shearing stress $\tau​$ at any given point of the wall can be expressed in terms of the torque $T​$ if $q​$ is substituted from Eq. (5.15) into Eq. (5.19). Solving for $\tau​$:
+The shearing stress $\tau$ at any given point of the wall can be expressed in terms of the torque $T$ if $q$ is substituted from Eq. (5.15) into Eq. (5.19). Solving for $\tau$:
 
 $$\tau = \frac{T}{2t\mathfrak{A}} \tag{5.20.}$$
 
 where t is the wall thickness at the point considered and A the area bounded by the center line. Recall that t represents the average value of the shearing stress across the wall. However, for elastic deformations, the distribution of stresses across the wall can be assumed to be uniform, and thus Eq. (5.20.) yields the actual shearing stress at a given point of the wall.
 
-The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L​$ and modulus of rigidity $G​$ is
+The angle of twist of a thin-walled hollow shaft can be obtained also by using the method of energy. **Assuming an elastic deformation**, it is shown that the angle of twist of a thin-walled shaft of length $L$ and modulus of rigidity $G$ is
 
 $$\phi = \frac{TL}{4\mathfrak{A}^2G}\oint\frac{ds}{t}\tag{5.21.}$$
 
@@ -302,13 +302,13 @@ where the integral is computed **along the center line of the wall section**.
 
 * Stress Concentration
 
-The torsion formula, $\tau_{\text{max}} = Tc/J​$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
+The torsion formula, $\tau_{\text{max}} = Tc/J$, <u>cannot be applied to regions of a shaft having a sudden change in the cross section</u>, *because the shear-stress and shear-strain distributions in the shaft become complex*. Results can be obtained, however, by using experimental methods or possibly by a mathematical analysis based on the theory of elasticity.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_63.JPG)
 
 <center>Fig. 5.17. K value for the r/d ratio</center>
 
-Similar to the case of axial load, $K = \frac{\tau_{\text{_max}}}{\tau_{\text{_avg}}}​$. Then, 
+Similar to the case of axial load, $K = \frac{\tau_{\text{_max}}}{\tau_{\text{_avg}}}$. Then, 
 
 $$\tau_{\text{max}} = K\frac{Tc}{J}\tag{5.22.}$$
 
@@ -316,7 +316,7 @@ $$\tau_{\text{max}} = K\frac{Tc}{J}\tag{5.22.}$$
 
 * Plastic Deformations in Circular Shafts Made of an Elastoplastic Material
 
-If the torsional loadings applied to the shaft are excessive, then the material may yield, and, consequently, <u>a “plastic analysis” must be used</u> *to determine the shear-stress distribution and the angle of twist*. <u>the shear strains that develop in a circular shaft will vary linearly,</u> from zero at the center of the shaft to a maximum at its outer boundary. This is referred to **"idealized case of a solid circular shaft made of an elastoplastic material".** Since the shear stress $\tau​$ acting on an element of area $dA​$, [Fig. 5.18.] produces a force of $dF = \tau dA​$, then the torque about the axis of the shaft is $dT = \rho dF = \rho(\tau dA)​$. 
+If the torsional loadings applied to the shaft are excessive, then the material may yield, and, consequently, <u>a “plastic analysis” must be used</u> *to determine the shear-stress distribution and the angle of twist*. <u>the shear strains that develop in a circular shaft will vary linearly,</u> from zero at the center of the shaft to a maximum at its outer boundary. This is referred to **"idealized case of a solid circular shaft made of an elastoplastic material".** Since the shear stress $\tau$ acting on an element of area $dA$, [Fig. 5.18.] produces a force of $dF = \tau dA$, then the torque about the axis of the shaft is $dT = \rho dF = \rho(\tau dA)$. 
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_65.JPG)
 
@@ -346,7 +346,7 @@ Let us consider the material in the shaft to exhibit an elastic perfectly plasti
 
 Recall that 
 
-$$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}​$$
+$$\tau_{\text{max}}=\frac{Tc}{J} \tag{5.6.}$$
 
 Similar to the case of axial load, the shear stress increases linearly in radial direction until the shear reaches the yielding shear stress.
 
@@ -358,13 +358,13 @@ Similar to the case of axial load, the shear stress increases linearly in radial
 
 In [Fig 5.21. b)], which means that the shear arrives at the yielding stress. In this stage,  Torque is to be stagnated in
 
-$$T_Y = \frac{J}{c}\tau_Y \tag{5.24.}​$$
+$$T_Y = \frac{J}{c}\tau_Y \tag{5.24.}$$
 
-For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}​$, so we have 
+For a solid circular shaft, $\frac{J}{c} = \frac{\pi c^3}{2}$, so we have 
 
 $$T_Y = \frac{\pi c^3}{2}\tau_Y \tag{5.25.}$$
 
-As $T​$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y​$, and by this the shear stress is expressed as 
+As $T$ is increased, the plastic region is **propagated**, which leads to the increase of *slope* - ***No, it doesn't mean that the shear modulus increased. The shear stress reached at its elastic limitation.*** - *in the stress-strain diagram*. As in [Fig. 5.21. c)], the shear stress increases to the elastic limit within the elastic core of radius $\rho_Y$, and by this the shear stress is expressed as 
 
 $$\tau=\frac{\tau_Y}{\rho_Y}\rho \tag{5.26.}$$
 
@@ -376,7 +376,7 @@ As seeing through the perspective of the yielding torque, we get another formula
 
 $$ T = \frac{4}{3}T_Y(1-\frac{1}{4} \frac{\rho_Y^3}{c^3}) \tag{5.28.} $$
 
-If the plastic deformation is completed, which means that $\rho_Y = 0​$, we get the plastic torque $T_p​$ as
+If the plastic deformation is completed, which means that $\rho_Y = 0$, we get the plastic torque $T_p$ as
 
 $$T_p = \frac{4}{3}T_Y \tag{5.29.}$$
 
@@ -386,17 +386,17 @@ $$L \gamma = \rho \phi \tag{5.30.}$$
 
 $$L \gamma_{max} = c \phi \tag{5.31.}$$
 
-remains valid and can be used to express the radius $$\rho_Y​$$ of the elastic core in terms of the angle of twist $\phi​$. If $\phi​$ is large enough to cause a plastic deformation, the radius $$\rho_Y​$$ of the elastic core is obtained by making $\gamma​$ equal to the yield strain $\gamma_Y​$ in (5.30.) and solving for the corresponding value $\rho_Y​$ of the distance $\rho​$.
+remains valid and can be used to express the radius $$\rho_Y$$ of the elastic core in terms of the angle of twist $\phi$. If $\phi$ is large enough to cause a plastic deformation, the radius $$\rho_Y$$ of the elastic core is obtained by making $\gamma$ equal to the yield strain $\gamma_Y$ in (5.30.) and solving for the corresponding value $\rho_Y$ of the distance $\rho$.
 
 $$\rho_Y = \frac{L \gamma_Y}{\phi} \tag{5.32.}$$ 
 
 $$c = \frac{L \gamma_Y}{\phi_Y} \tag{5.33.}$$ 
 
-where $\phi_Y​$: the angle of twist at the onset of yield *(In other words, the verge of yielding deformation)*. Dividing (5.32.) by (5.33.), we can get
+where $\phi_Y$: the angle of twist at the onset of yield *(In other words, the verge of yielding deformation)*. Dividing (5.32.) by (5.33.), we can get
 
-$$\frac{\rho_Y}{c} = \frac{\phi_Y}{\phi} \tag{5.34.}​$$
+$$\frac{\rho_Y}{c} = \frac{\phi_Y}{\phi} \tag{5.34.}$$
 
-If we carry the expression obtained for $\frac{\rho_Y}{c}​$ into (5.28.), the torque $T​$ as a function of the angle of twist $\phi​$ is
+If we carry the expression obtained for $\frac{\rho_Y}{c}$ into (5.28.), the torque $T$ as a function of the angle of twist $\phi$ is
 
 $$T=\frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) \tag{5.35.}$$
 
@@ -410,11 +410,11 @@ So, the overall formula of elastoplastic torque according to the angle of twist 
 
 $$T = \begin{cases}\frac{T_Y}{\phi_Y}\phi & \phi\leq \phi_Y \\ \frac{4}{3}T_Y(1-\frac{1}{4}\frac{\phi_Y^3}{\phi^3}) & \phi > \phi_Y \end{cases} \tag{5.36.}$$
 
-<u>Note that (5.34.) can be used only for values of $\phi$ larger than</u> $\phi_Y$. For $\phi<\phi_Y$, the relation between ​$T$ and ​$\phi$ is linear and given by (5.12.). Combining both equations, the plot of ​$T$ against ​$\phi$ is as represented in [Fig. 5.22.] <u>As ​$\phi$ increases indefinitely,</u> ​$T$ <u>approaches the limiting value</u> ​$T_p=\frac{4}{3}T_Y$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value ​$T_p$ cannot actually be reached, (5.35.) indicates that it is rapidly approached as f increases. For ​$\phi = 2 \phi_Y$, ​$T$ is within about 3% of ​$T_p$, and for ​$\phi = 3 \phi_Y$, it is within about 1%.
+<u>Note that (5.34.) can be used only for values of $\phi$ larger than</u> $\phi_Y$. For $\phi<\phi_Y$, the relation between $T$ and $\phi$ is linear and given by (5.12.). Combining both equations, the plot of $T$ against $\phi$ is as represented in [Fig. 5.22.] <u>As $\phi$ increases indefinitely,</u> $T$ <u>approaches the limiting value</u> $T_p=\frac{4}{3}T_Y$ corresponding to the case of a fully developed plastic zone [Fig. 5.21.d)] While the value $T_p$ cannot actually be reached, (5.35.) indicates that it is rapidly approached as f increases. For $\phi = 2 \phi_Y$, $T$ is within about 3% of $T_p$, and for $\phi = 3 \phi_Y$, it is within about 1%.
 
-Since the plot of $T​$ against $\phi​$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau​$ in that portion. Thus, (5.1.) reduces to
+Since the plot of $T$ against $\phi$ for an idealized elastoplastic material [Fig. 5.22.] differs greatly from the shearing-stress-strain diagram [Fig. 5.20], it is clear that the shearing-stress-strain diagram of an actual material cannot be obtained directly from a torsion test carried out on a solid circular rod made of that material. However, a fairly accurate diagram can be obtained from a torsion test if a portion of the specimen consists of a thin circular tube.[^3] Indeed, the shearing stress will have a constant value $\tau$ in that portion. Thus, (5.1.) reduces to
 
-$$T=\rho A \tau​$$
+$$T=\rho A \tau$$
 
 where $\rho$ is the average radius of the tube and $A$ is its cross-sectional area. The shearing stress is  proportional to the torque, and $\tau$ easily can be computed from the corresponding values of $T$. The corresponding shearing strain $\gamma$ can be obtained from (5.31.) and from the values of $\phi$ and $L$ measured on the tubular portion of the specimen.
 
@@ -437,9 +437,9 @@ strain diagram of [Fig. 5.23.] If the torque is removed, the resulting reduction
 
 <center>Fig. 5.24. Shear stress-strain diagram for loading past yield, followed by unloading until compressive yield occurs.</center>
 
-As you will see further in this section, the final value of the stress will not, in general, be zero. <u>There will be a residual stress at most points, and that stress may be either positive or negative</u>. We note that, as was the case for the normal stress, the shearing stress will keep decreasing until it has reached a value equal to its maximum value at $C​$ minus twice the yield strength of the material.
+As you will see further in this section, the final value of the stress will not, in general, be zero. <u>There will be a residual stress at most points, and that stress may be either positive or negative</u>. We note that, as was the case for the normal stress, the shearing stress will keep decreasing until it has reached a value equal to its maximum value at $C$ minus twice the yield strength of the material.
 
-Consider [Fig. 5.20] again to see more things. Similar to the case of the axial load, there occurs the plastic angle of twist deformation. Assuming that the relationship between t and g at any point of the shaft remains linear as long as the stress does not decrease by more than $2\tau_Y​$, we can use (5.11.) to obtain the angle through which the shaft untwists as the torque decreases back to zero.As a result, the unloading of the shaft is represented by a straight line on the T-f diagram [Fig. 5.25.].
+Consider [Fig. 5.20] again to see more things. Similar to the case of the axial load, there occurs the plastic angle of twist deformation. Assuming that the relationship between t and g at any point of the shaft remains linear as long as the stress does not decrease by more than $2\tau_Y$, we can use (5.11.) to obtain the angle through which the shaft untwists as the torque decreases back to zero.As a result, the unloading of the shaft is represented by a straight line on the T-f diagram [Fig. 5.25.].
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_72.JPG)
 
@@ -449,7 +449,7 @@ Note that the angle of twist does not return to zero after the torque has been r
 
 $$\phi_p\,=\,\phi - \phi' \tag{5.37.}$$
 
-where $\phi​$ corresponds to the loading phase and can be obtained from T by solving (5.36.) with $\phi'​$ corresponding to the unloading phase obtained from (5.12.). [Fig. 5.26] represents overall stress distribution of elastoplastic material due to residual stress for unloading.
+where $\phi$ corresponds to the loading phase and can be obtained from T by solving (5.36.) with $\phi'$ corresponding to the unloading phase obtained from (5.12.). [Fig. 5.26] represents overall stress distribution of elastoplastic material due to residual stress for unloading.
 
 ![useful image](https://raw.githubusercontent.com/brandonkim12/brandonkim12.github.io/master/assets/mechanics_of_materials/fig_73.JPG)
 
@@ -467,16 +467,16 @@ To determine the torque exerted on the shaft, the power $P$ associated with the 
 
 $$P = T \omega \tag{5.38.}$$
 
-Where $\omega​$ is the angular velocity of the body in radians per second (rad/s). But $\omega = 2\pi f​$, where $f​$ is the frequency of the rotation, (i.e., the number of revolutions per second). The unit of frequency is $1 s^{-1}​$ and is called a hertz (Hz). Substituting for v into (5.38.),
+Where $\omega$ is the angular velocity of the body in radians per second (rad/s). But $\omega = 2\pi f$, where $f$ is the frequency of the rotation, (i.e., the number of revolutions per second). The unit of frequency is $1 s^{-1}$ and is called a hertz (Hz). Substituting for v into (5.38.),
 
 $$P = 2\pi f T \tag{5.39.}$$
 
-When SI units are used with $f​$ expressed in Hz and $T​$ in N·m, the power will be in N·m/s—that is, in watts (W). Solving (5.39.) for T, the torque exerted on a shaft transmitting the power $P​$ at a frequency of rotation
-$f​$ is
+When SI units are used with $f$ expressed in Hz and $T$ in N·m, the power will be in N·m/s—that is, in watts (W). Solving (5.39.) for T, the torque exerted on a shaft transmitting the power $P$ at a frequency of rotation
+$f$ is
 
 $$T = \frac{P}{2 \pi f} \tag{5.40.}$$
 
-After determining the torque $T​$ to be applied to the shaft and selecting the material to be used, the designer carries the values of $T​$ and the maximum allowable stress into (5.6.).
+After determining the torque $T$ to be applied to the shaft and selecting the material to be used, the designer carries the values of $T$ and the maximum allowable stress into (5.6.).
 
 $$\frac{J}{c} = \frac{T}{\tau_{max}} \tag{5.41.}$$
 
