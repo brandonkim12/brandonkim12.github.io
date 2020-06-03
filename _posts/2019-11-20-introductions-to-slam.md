@@ -10,7 +10,7 @@ feature_image: https://www.facebook.com/photo.php?fbid=1893189787425704&set=a.18
 <center>1. What is SLAM?</center>
 In robotics, SLAM(Simultaneous Localization And Mapping) means the process where a mobile robot 
 1) builds a map of an unknown environment 
-2) while at the same time being localizaed relative to this map. 
+2) while at the same time being localized relative to this map. 
 
 To localize the position, the information of surrounding is essential. However, to make a map around robot obtained by itself, there should be a knowledge about the accurate location. Therefore these problems are indispensable. SLAM performs simultaneously both mapping and position estimation to solve this kind of a problem.
 
@@ -48,15 +48,31 @@ In probabilistic form, the simultaneous localization and map building (SLAM) pro
 
 $$P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k}, \textbf{U}_{0:k}, \textbf{x}_0) \tag{1}$$
 
-be computed for all times $k$. $P$ describes the joint posterior density of the landmark locations and vehicle state (at time k) given the recorded observations and control inputs up to and including time k together with the initial state of the vehicle.  Researcher or user of the probabilistic SLAM would think like that: **a recursive solution to the SLAM problem is desirable.** 
+be computed for all times $k$.[^1] $P$ describes the joint posterior density of the landmark locations and vehicle state (at time k) given the recorded observations and control inputs up to and including time k together with the initial state of the vehicle.  Researcher or user of the probabilistic SLAM would think like that: **a recursive solution to the SLAM problem is desirable.** 
 
 $$\begin{cases}The\ observation\ model: & P(\textbf{z}_k|\textbf{x}_k,\ \textbf{m}) & (2) \\ The\ motion\ model: & P(\textbf{x}_k|\textbf{x}_{k-1},\ \textbf{u}_k) & (3) \end{cases}$$
 
 For the observation model, it is reasonable to assume that once the vehicle location and map are defined, observations are conditionally independent given the map and the current vehicle state, meanwhile the state transition is assumed to be a Markov process in which the next state $$\textbf{x}_{k}$$ depends only on the immediately preceding state $$\textbf{x}_{k−1}$$ and the applied control $$\textbf{u}_{k}$$ and is independent of both the observations and the map. So now what we would do next? There are two steps researcher or user can do.
 
-$$\begin{matrix}\textbf{Time-update(prediction)}: \\ P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k}, \textbf{U}_{0:k}, \textbf{x}_0)\ = \ \int \underset{motion \ model}{\underline{P(\textbf{x}_{k}|\textbf{x}_{k-1}, \ \textbf{u}_k)}} \ \times \ P(\textbf{x}_{k-1}, \textbf{m}|\textbf{Z}_{0:k-1}, \textbf{U}_{0:k-1}, \textbf{x}_0) \ d\textbf{x}_{k-1}  \tag{4} \end{matrix} $$
+$$\begin{matrix}\textbf{Time-update(prediction)}: \\ P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k-1}, \textbf{U}_{0:k}, \textbf{x}_0)\ = \ \int \underset{motion \ model}{\underline{P(\textbf{x}_{k}|\textbf{x}_{k-1}, \ \textbf{u}_k)}} \ \times \ P(\textbf{x}_{k-1}, \textbf{m}|\textbf{Z}_{0:k-1}, \textbf{U}_{0:k-1}, \textbf{x}_0) \ d\textbf{x}_{k-1}  \tag{4} \end{matrix} $$
 
 
 
 $$\begin{matrix}\textbf{Measurement-update(correction)}: \\ P(\textbf{x}_k, \textbf{m}|\textbf{Z}_{0:k}, \textbf{U}_{0:k}, \textbf{x}_0)\ = \ \frac{\underset{observation \ model}{\underline{P(\textbf{z}_k | \textbf{x}_k, \ \textbf{m})}} P(\textbf{x}_k, \ \textbf{m}|\textbf{Z}_{0:k-1}, \ \textbf{U}_{0:k}, \ \textbf{x}_0)}{P(\textbf{z}_k | \textbf{Z}_{0:k-1}, \ \textbf{U}_{0:k})}  \tag{5} \end{matrix} $$
+
+
+
+In next article, we're now about to see what is markov process, the history of SLAM, and re-visit Probabilistic SLAM with these materials.
+
+
+
+* References
+
+1. Hugh Durrant-Whyte, Tim Bailey, IEEE Robotics & Automation Magazine, June 2006, Simultaneous Localization and Mapping: Part 1
+2.  http://jinyongjeong.github.io/2017/02/13/lec01_SLAM_bayes_filter/ (2019.11.23)
+3.  https://www.cs.cmu.edu/~motionplanning/lecture/Chap9-Bayesian-Mapping_howie.pdf 
+
+$$\matrix{P(a|b) & = \frac{(b|a) \ p(a)}{p(b)} \\ p(x,y)  & = p(x|y) \cdot \ p(y) \\ & = p(y|x) \cdot \ p(x) \\ p(a|b,c) & = \frac{p(b|a,c) \ p(a|c)}{p(b|c)}}$$
+
+[^1]: Note that 
 

@@ -12,7 +12,7 @@ aside: true
 ### Majored in ME & ECE
 
 - Fabricating Simulation
-- Improvement of Cosmetic Industrial Process
+- Pneumatic/hydraulic-powered machine for cosmetics
 - Constructing a pattern of engineering design
 - Actual Fabricating according to the fabrication theoretical basis
 - Cosmetic Product Manufacture
